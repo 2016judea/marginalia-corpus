@@ -7,7 +7,7 @@ measured figures came out materially different from the stated ones.
 
 ---
 
-## In (four sources, ingested and building)
+## In (five sources, ingested and building)
 
 ### 1. Melville's Marginalia Online — `ingest/melville_monline.py`
 
@@ -145,6 +145,58 @@ the annotated copy linked from each row.
 
 ---
 
+### 5. Nietzsche — `ingest/nietzsche.py` — NO MARKS, and that is the finding
+
+*Measured:* 1,081 references over **60 authors named**, across seven German
+public-domain works from Project Gutenberg. **Zero volumes, zero marks.**
+
+He is the best-documented annotator in the whole survey and the least
+reachable. Each of these was established by fetching, 2026-08-27:
+
+| what | result |
+|---|---|
+| Nietzsche Source module list | **exactly three** — eKGWB (Colli-Montinari text), DFGA (facsimiles of the *archive*), Studia Nietzscheana. The announced digital edition of the **library is not published**. Confirmed by rendering the AngularJS nav; the served HTML is a 1.3 KB shell, so a curl-and-read survey concludes wrongly either way. |
+| DFGA scope | **manuscripts, not books.** Its search table columns are `td-mette`, `td-kwg`, `td-kwg-ix`, `td-writer` — Mette catalogue numbers and KGW sigla. |
+| the 18,000 annotated pages | **facsimile only.** No transcription layer exists to ingest. |
+| Weimar (`haab-digital.klassik-stiftung.de`) | **blocks automated access outright** — Anubis proof-of-work — and it gates `/viewer/oai?verb=Identify` too, which is the *sanctioned* harvesting route. A deliberate operator decision; respected. Do not solve the PoW with a headless browser. |
+| K10plus provenance search | `pica.vbs`, `pica.prv`, `pica.vor` all return no such index. A former-owner route may exist under a different index name; unfinished. |
+| Studia Nietzscheana | 2014–2018 volumes exist and the article lists are Solr-driven JS. Its per-book commentaries do carry "une documentation détaillée des traces de lecture et des annotations" — **real transcribed Lesespuren, small n**, and the one gated route worth finishing. POST to `/SN/search`. |
+| the transcriptions themselves | Campioni, D'Iorio, Fornari, Fronterotta & Orsucci, *Nietzsches persönliche Bibliothek* (de Gruyter, 2003): **~2,200 titles with a complete index of reading traces.** In copyright, in print, purchasable. The Coleridge problem, and the only gate that matters. |
+
+So he enters through the one class that is free, complete and redistributable:
+naming another author in his own prose. Seven works — *Geburt der Tragödie*
+(1872), *Menschliches* (1878), *Zarathustra* (1885), *Jenseits* (1886),
+*Götzen-Dämmerung* (1888), *Ecce homo* (1888), and the posthumous *Wille zur
+Macht* compilation, flagged as such because its selection and title are
+Elisabeth Förster-Nietzsche's, not his.
+
+**Closed gazetteer, never open-ended NER.** 66 declared authors in
+`ingest/nietzsche_gazetteer.json`; every hit's sentence is written to
+`_data/nietzsche_audit.json`. Three deliberate consequences:
+
+1. **Zero is a real answer**, so three impossible controls are in the list
+   (Melville, Whitman, Derrida). A hit fails the build.
+2. **Recall is bounded by the list** — this is not a claim to have found
+   everyone he cites.
+3. **Ambiguous surnames are gated.** Every raw match on "Lange" across the seven
+   texts is the German adjective (*Lange schlief Zarathustra*, *Langes Leben*,
+   *alles Lange*); ungated, Friedrich Albert Lange ranks 28th on twelve false
+   hits. "Strauss" catches a bouquet and an ostrich. Those need a first name
+   within 60 characters.
+
+The output validates against the books: *Geburt der Tragödie* → Euripides 59,
+Socrates 58, Aeschylus 17. *Ecce homo* → Wagner 64. **Zarathustra names nobody
+at all** — it is written as scripture, not argument — and is recorded as
+`works_naming_nobody` rather than dropped, because an absent row reads as "not
+processed".
+
+Rights: public domain (d. 1900); Gutenberg's licence attaches to their marked-up
+files, which are stripped. **This is NOT the Colli-Montinari eKGWB**, which is de
+Gruyter copyright published online by permission and must never be redistributed
+from here.
+
+---
+
 ## Gated (measured or read, not ingested — ranked by what they'd add)
 
 | Source | Reader | Scale *(stated)* | What blocks it |
@@ -153,7 +205,8 @@ the annotated copy linked from each row.
 | **Charles Darwin's Library** (BHL + Cambridge) | Darwin | **730 annotated books** of 1,480, fully-indexed transcriptions (Di Gregorio & Gill) | **One free API key away, and the keyless routes are exhausted:** `api3` returns an empty body without a key; OAI-PMH (`/oai?verb=Identify`) works but serves bibliographic metadata only; the open `/data/TSV/` directory carries title/item/part/page/creator/subject and **no marginalia table** (checked 2026-08-27, dump dated 2026-08-01). Science rather than prose — but ~4× everything currently here. |
 | **Corpus des notes marginales de Voltaire** | Voltaire | 9 printed volumes, TEI digitisation under way at Oxford | Openness unstated. Ask the Voltaire Foundation. |
 | **Reading Experience Database (UK RED)** | ~many | ~30,000 recorded reading experiences, 1450–1945, graded by evidence type | Open University site 403s a plain fetch. Not marginalia — but it is the only source that would populate **T3 at scale**, across hundreds of readers instead of one. |
-| **Nietzsche's personal library** (Klassik Stiftung Weimar / Nietzsche Source) | Nietzsche | **430,000 pages digitised, ~18,000 carrying annotations** — freely accessible | **Facsimile only.** The DFGA is image reproduction; there is no transcription layer to ingest. Same category as Milton's Folio: hand-location territory, ~1 mark per 5 pages of eyeballing. The ANR/DFG commentary project (`item.ens.fr/bibnietzsche`) is prose scholarship, not data. |
+| **Nietzsche's *Lesespuren*** — the transcriptions | Nietzsche | **~2,200 titles, complete index of reading traces** | A **book**, not a website: *Nietzsches persönliche Bibliothek* (de Gruyter 2003). Purchasable. See section 5 — everything else about Nietzsche is settled and this is the only thing left. |
+| **Studia Nietzscheana** per-book commentaries | Nietzsche | 2014–2018, small n | Real transcribed Lesespuren inside journal articles. Article lists are Solr-driven JS; POST to `/SN/search`. Unfinished, and the cheapest remaining Nietzsche win. |
 | **Newton Project** | Newton | Annotated books alongside the manuscripts | Site responds 200; `/his-library` is 404. Annotated-book coverage vs manuscript coverage unmeasured. |
 | **John Adams Library** (Boston Public Library) | Adams | ~3,500 volumes, heavily annotated, digitised on archive.org | BPL's own landing page is 404 as of 2026-08-27. Transcriptions likely absent — facsimile only. |
 
@@ -181,8 +234,8 @@ survey, which reached the same wall:
 ## The shape of the ceiling
 
 Structured, transcribed, machine-readable marginalia exists for **a handful of
-readers, deeply** — not for many readers, thinly. Six readers, four centuries,
-313 source authors. Nobody else in American literature has what Melville has.
+readers, deeply** — not for many readers, thinly. Seven readers, four centuries,
+313 source authors, and 46 authors reached by more than one of them. Nobody else in American literature has what Melville has.
 That is a fact about the field's funding, not about the evidence: the marks
 exist in the world — Nietzsche's 18,000 annotated pages are photographed and
 sitting there — they just haven't been transcribed.

@@ -124,6 +124,7 @@ def main():
     redges = defaultdict(lambda: dict(kinds=defaultdict(int), targets=set(),
                                       ids=set(), works=set(), datasets=set()))
     unresolved = defaultdict(int)
+    self_refs = defaultdict(int)
     for r in refs:
         # A reference resolves to an AUTHOR when the source supplies one
         # (a cited work). A <person> tag names a person who may or may not be
@@ -133,6 +134,11 @@ def main():
         tgt = (r.get("target_author") or "").strip()
         if not tgt:
             unresolved[f'{r["source_dataset"]}:{r["kind"]}'] += 1
+            continue
+        if tgt == readers[r["reader_id"]]["name"]:
+            # Dee cites his own printed books in his own margins, and Derrida
+            # quotes himself. Self-reference is not influence.
+            self_refs[r["reader_id"]] += 1
             continue
         e = redges[(r["reader_id"], tgt)]
         e["kinds"][r["kind"]] += 1
@@ -171,6 +177,19 @@ def main():
         datasets=sorted(e["datasets"]),
     ) for (rid, tgt), e in sorted(redges.items(), key=lambda kv: -sum(kv[1]["kinds"].values()))]
 
+    # ---- authors reached by more than one reader ----
+    # The point of a multi-reader corpus. Homer is marked or named by five of
+    # the seven; Shakespeare by Melville and Nietzsche four centuries apart.
+    # Marks and references are listed per reader and never added together.
+    reach = defaultdict(lambda: defaultdict(dict))
+    for e in rows:
+        reach[e["source_author"]][e["reader"]]["marks"] = e["n_marks"]
+    for e in rrows:
+        reach[e["target_author"]][e["reader"]]["references"] = e["n_references"]
+    shared = [dict(author=a, n_readers=len(rs), readers=dict(sorted(rs.items())))
+              for a, rs in sorted(reach.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+              if len(rs) > 1]
+
     payload = dict(
         note=("Directed edges from PHYSICAL evidence of reading. Tiers are "
               "separate measurements; do not sum them. See build_edges.py."),
@@ -183,12 +202,18 @@ def main():
                         "tiers -- never sum the two."),
         n_reference_edges=len(rrows),
         n_references_without_an_author=dict(unresolved),
+        n_self_references_excluded=dict(self_refs),
         reference_edges=rrows,
         named_person_note=("People named inside a marginal note who are not attached "
                            "to a cited work. NOT authors -- Hannibal and Socrates are "
                            "here too. Never merge into reference_edges."),
         n_named_person_edges=len(nrows),
         named_person_edges=nrows,
+        shared_note=("Authors reached by more than one reader. Marks and references "
+                     "are reported separately per reader -- they are different "
+                     "measurements and must not be added."),
+        n_authors_reached_by_multiple_readers=len(shared),
+        shared_authors=shared,
     )
     with open(os.path.join(OUT, "edges.json"), "w") as f:
         json.dump(payload, f, indent=1, ensure_ascii=False)
@@ -202,7 +227,11 @@ def main():
     print(f'\nself-edge marks excluded (a reader in their own book): {dict(self_edges)}')
     print(f'{len(nrows)} NAMED-PERSON edges (persons, not authors) -- top: '
           f'{[(r["reader"].split()[-1], r["person"], r["n_mentions"]) for r in nrows[:6]]}')
+    print(f'\n{len(shared)} authors reached by MORE THAN ONE reader -- top:')
+    for x in shared[:8]:
+        print(f'  {x["author"][:30]:<30} {x["n_readers"]}  {list(x["readers"])}')
     print(f'\n{len(rrows)} REFERENCE edges (the reader naming an author)')
+    print(f'self-references excluded: {dict(self_refs)}')
     print(f'references with no author attached: {dict(unresolved)}')
     for r in rrows[:14]:
         print(f'{r["reader"]:<16} {r["target_author"][:30]:<30} {r["n_references"]:>4}  {r["kinds"]}')

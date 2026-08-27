@@ -83,6 +83,24 @@ SOURCES = {
         attribution_required=True,
         images_prohibited=True,   # the IIIF page images are PUL's, not CC BY
     ),
+    "nietzsche": dict(
+        name="Friedrich Nietzsche, works (Project Gutenberg German texts)",
+        url="https://www.gutenberg.org",
+        editors="Public domain; Nietzsche died 1900",
+        terms=(
+            "The underlying texts are public domain worldwide. Project Gutenberg's "
+            "own licence attaches to their MARKED-UP FILES and to use of the "
+            "trademark, not to the public-domain work, so the header and licence "
+            "block are stripped and the text itself is emitted. Same treatment "
+            "literature-mutations already applies to its 345 Gutenberg texts. "
+            "NOTE this is NOT the Colli-Montinari critical text (eKGWB) -- that is "
+            "de Gruyter copyright, published online by permission, and must never "
+            "be redistributed from here. Read 2026-08-27."
+        ),
+        emit_text=True,
+        attribution_required=False,
+        images_prohibited=False,
+    ),
 }
 
 

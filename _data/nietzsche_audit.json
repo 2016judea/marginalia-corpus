@@ -1,0 +1,1023 @@
+{
+ "_note": "Every gazetteer hit with its surrounding sentence, so the counts can be checked against the text instead of trusted. Gated entries and zero-count controls are documented in ingest/nietzsche_gazetteer.json.",
+ "n_references": 1081,
+ "controls_at_zero": [
+  "Herman Melville",
+  "Walt Whitman",
+  "Jacques Derrida"
+ ],
+ "posthumous_compilations": [
+  "WzM"
+ ],
+ "works_naming_nobody": [
+  "Also sprach Zarathustra (1885)"
+ ],
+ "hits": {
+  "Socrates": [
+   {
+    "work": "GT",
+    "context": "vor dem Pessimismus? Eine feine Nothwehr gegen - die Wahrheit? Und, moralisch geredet, etwas wie Feig- und Falschheit? Unmoralisch geredet, eine Schlauheit? Oh Sokrates, Sokrates, war das vielleicht dein Geheimniss? Oh g"
+   },
+   {
+    "work": "GT",
+    "context": "ssimismus? Eine feine Nothwehr gegen - die Wahrheit? Und, moralisch geredet, etwas wie Feig- und Falschheit? Unmoralisch geredet, eine Schlauheit? Oh Sokrates, Sokrates, war das vielleicht dein Geheimniss? Oh geheimnissv"
+   },
+   {
+    "work": "GT",
+    "context": "Euripides war in gewissem Sinne nur Maske: die Gottheit, die aus ihm redete, war nicht Dionysus, auch nicht Apollo, sondern ein ganz neugeborner Dämon, genannt Sokrates. Dies ist der neue Gegensatz: das Dionysische und d"
+   },
+   {
+    "work": "GT",
+    "context": "Parallelsatz zu dem sokratischen \"alles muss bewusst sein, um gut zu sein\". Demgemäss darf uns Euripides als der Dichter des aesthetischen Sokratismus gelten. Sokrates aber war jener zweite Zuschauer, der die ältere Trag"
+   }
+  ],
+  "Richard Wagner": [
+   {
+    "work": "GT",
+    "context": ": andererseits, in Hinsicht auf den Erfolg, den es hatte (in Sonderheit bei dem grossen Künstler, an den es sich wie zu einem Zwiegespräch wendete, bei Richard Wagner) ein bewiesenes Buch, ich meine ein solches, das jede"
+   },
+   {
+    "work": "GT",
+    "context": "stet hat, - fügen wir seine schwerste Frage noch hinzu! Was bedeutet, unter der Optik des Lebens gesehn, - die Moral? . . . 5. Bereits im Vorwort an Richard Wagner wird die Kunst - und nicht die Moral - als die eigentlic"
+   },
+   {
+    "work": "GT",
+    "context": "osenkranz-Krone: euch, meinen Brüdern, werfe ich diese Krone zu! Das Lachen sprach ich heilig: ihr höheren Menschen, lernt mir - lachen!\" Vorwort an Richard Wagner. Um mir alle die möglichen Bedenklichkeiten, Aufregungen"
+   },
+   {
+    "work": "GT",
+    "context": "ich der Satyr, das fingirte Naturwesen, zu dem Culturmenschen in gleicher Weise verhält, wie die dionysische Musik zur Civilisation. Von letzterer sagt Richard Wagner, dass sie von der Musik aufgehoben werde wie der Lamp"
+   }
+  ],
+  "Arthur Schopenhauer": [
+   {
+    "work": "GT",
+    "context": "sich, vielleicht zum ersten Male, ein Pessimismus \"jenseits von Gut und Böse\" an, hier kommt jene \"Perversität der Gesinnung\" zu Wort und Formel, gegen welche Schopenhauer nicht müde geworden ist, im Voraus seine zornigs"
+   },
+   {
+    "work": "GT",
+    "context": "erlauben, - dass ich mühselig mit Schopenhauerischen und Kantischen Formeln fremde und neue Werthschätzungen auszudrücken suchte, welche dem Geiste Kantens und Schopenhauers, ebenso wie ihrem Geschmacke, von Grund aus en"
+   },
+   {
+    "work": "GT",
+    "context": "Werthschätzungen auszudrücken suchte, welche dem Geiste Kantens und Schopenhauers, ebenso wie ihrem Geschmacke, von Grund aus entgegen giengen! Wie dachte doch Schopenhauer über die Tragödie? \"Was allem Tragischen den ei"
+   },
+   {
+    "work": "GT",
+    "context": "r das Vorgefühl, dass auch unter dieser Wirklichkeit, in der wir leben und sind, eine zweite ganz andre verborgen liege, dass also auch sie ein Schein sei; und Schopenhauer bezeichnet geradezu die Gabe, dass Einem zu Zei"
+   }
+  ],
+  "Plato": [
+   {
+    "work": "GT",
+    "context": "Wie? wenn die Griechen, gerade im Reichthum ihrer Jugend, den Willen zum Tragischen hatten und Pessimisten waren? wenn es gerade der Wahnsinn war, um ein Wort Plato's zu gebrauchen, der die grössten Segnungen über Hellas"
+   },
+   {
+    "work": "GT",
+    "context": "he Unterscheidung und Werthabschätzung der \"Idee\" im Gegensatze zum \"Idol\", zum Abbild tief im hellenischen Wesen begründet liegt. Um uns aber der Terminologie Plato's zu bedienen, so wäre von den tragischen Gestalten de"
+   },
+   {
+    "work": "GT",
+    "context": "s nicht im Sinne des Euripides gesagt: der nur so viel hätte gelten lassen, dass Aeschylus, weil er unbewusst schaffe, das Unrechte schaffe. Auch der göttliche Plato redet vom schöpferischen Vermögen des Dichters, insofe"
+   },
+   {
+    "work": "GT",
+    "context": "; sei doch der Dichter nicht eher fähig zu dichten als bis er bewusstlos geworden sei, und kein Verstand mehr in ihm wohne. Euripides unternahm es, wie es auch Plato unternommen hat, das Gegenstück des \"unverständigen\" D"
+   }
+  ],
+  "Johann Wolfgang von Goethe": [
+   {
+    "work": "GT",
+    "context": "t. Was uns hier der Denker Aeschylus zu sagen hatte, was er aber als Dichter durch sein gleichnissartiges Bild uns nur ahnen lässt, das hat uns der jugendliche Goethe in den verwegenen Worten seines Prometheus zu enthüll"
+   },
+   {
+    "work": "GT",
+    "context": "te nun freilich die tragische Wirkung unerreichbar ist. Es kommt hierbei nicht auf den Inhalt der dargestellten Ereignisse an; ja ich möchte behaupten, dass es Goethe in seiner projectirten \"Nausikaa\" unmöglich gewesen s"
+   },
+   {
+    "work": "GT",
+    "context": "dass der moderne Mensch die Grenzen jener sokratischen Erkenntnisslust zu ahnen beginnt und aus dem weiten wüsten Wissensmeere nach einer Küste verlangt. Wenn Goethe einmal zu Eckermann, mit Bezug auf Napoleon, äussert: "
+   },
+   {
+    "work": "GT",
+    "context": "an erinnert, dass der nicht theoretische Mensch für den modernen Menschen etwas Unglaubwürdiges und Staunenerregendes ist, so dass es wieder der Weisheit eines Goethe bedarf, um auch eine so befremdende Existenzform begr"
+   }
+  ],
+  "Euripides": [
+   {
+    "work": "GT",
+    "context": "uns in orgiastischem Taumel tanzt: wir sehen Dionysus und die Mänaden, wir sehen den berauschten Schwärmer Archilochus zum Schlafe niedergesunken - wie ihn uns Euripides in den Bacchen beschreibt, den Schlaf auf hoher Al"
+   },
+   {
+    "work": "GT",
+    "context": "und dass der längere Zeit hindurch einzig vorhandene Bühnenheld eben Dionysus war. Aber mit der gleichen Sicherheit darf behauptet werden, dass niemals bis auf Euripides Dionysus aufgehört hat, der tragische Held zu sein"
+   },
+   {
+    "work": "GT",
+    "context": "ganze Ueberschuss von Kraft, sammt der weisheitsvollen Ruhe des Sterbenden, brennt in seinem Auge mit letztem, mächtigem Leuchten. Was wolltest du, frevelnder Euripides, als du diesen Sterbenden noch einmal zu deinem Fro"
+   },
+   {
+    "work": "GT",
+    "context": "en, dass sie allerdings die Züge ihrer Mutter trage, aber dieselben, die jene in ihrem langen Todeskampfe gezeigt hatte. Diesen Todeskampf der Tragödie kämpfte Euripides; jene spätere Kunstgattung ist als neue reattische"
+   }
+  ],
+  "Immanuel Kant": [
+   {
+    "work": "GT",
+    "context": "lche erkannt wurde, welche, an der Hand der Causalität, sich anmaasst, das innerste Wesen der Dinge ergründen zu können. Der ungeheuren Tapferkeit und Weisheit Kant's und Schopenhauer's ist der schwerste Sieg gelungen, d"
+   },
+   {
+    "work": "GT",
+    "context": "edenklichen aeternae veritates, geglaubt und Raum, Zeit und Causalität als gänzlich unbedingte Gesetze von allgemeinster Gültigkeit behandelt hatte, offenbarte Kant, wie diese eigentlich nur dazu dienten, die blosse Ersc"
+   },
+   {
+    "work": "GT",
+    "context": "dem untrüglichen Richter Dionysus erscheinen müssen. Erinnern wir uns sodann, wie dem aus gleichen Quellen strömenden Geiste der deutschen Philosophie, durch Kant und Schopenhauer, es ermöglicht war, die zufriedne Dasein"
+   },
+   {
+    "work": "MA",
+    "context": "r Empfindung Bewegendes und Bewegtes und kommen aus diesem Zirkel nicht heraus, weil der Glaube an Dinge mit unserem Wesen von Alters her verknotet ist. - Wenn Kant sagt \"der Verstand schöpft seine Gesetze nicht aus der "
+   }
+  ],
+  "Napoleon Bonaparte": [
+   {
+    "work": "GT",
+    "context": "sokratischen Erkenntnisslust zu ahnen beginnt und aus dem weiten wüsten Wissensmeere nach einer Küste verlangt. Wenn Goethe einmal zu Eckermann, mit Bezug auf Napoleon, äussert: \"Ja mein Guter, es giebt auch eine Product"
+   },
+   {
+    "work": "MA",
+    "context": "sind; doch zeigt sich endlich, bei jedem \"Genie\", das an seine Göttlichkeit glaubt, das Gift in dem Grade, als das \"Genie\" alt wird: man möge sich zum Beispiel Napoleon's erinnern, dessen Wesen sicherlich gerade durch se"
+   },
+   {
+    "work": "MA",
+    "context": "weiss, welche scheinbar und äusserlich ein ganz anderes Interesse vertreten. Ohne Beihülfe der Priester kann auch jetzt noch keine Macht \"legitim\" werden: wie Napoleon begriff. - So gehen absolute vormundschaftliche Regi"
+   },
+   {
+    "work": "JGB",
+    "context": "lich werdenden Druck trotz Alledem das Erscheinen eines unbedingt Befehlenden für diese Heerdenthier-Europäer ist, dafür gab die Wirkung, welche das Erscheinen Napoleon's machte, das letzte grosse Zeugniss: - die Geschic"
+   }
+  ],
+  "Homer": [
+   {
+    "work": "GT",
+    "context": "olge der Scenen vorauszusetzen, deren Vollkommenheit uns, wenn eine Vergleichung möglich wäre, gewiss berechtigen würde, die träumenden Griechen als Homere und Homer als einen träumenden Griechen zu bezeichnen: in einem "
+   },
+   {
+    "work": "GT",
+    "context": ", als einem Paradies der Menschheit begegnen müssten: dies konnte nur eine Zeit glauben, die den Emil Rousseau's sich auch als Künstler zu denken suchte und in Homer einen solchen am Herzen der Natur erzogenen Künstler E"
+   },
+   {
+    "work": "GT",
+    "context": "orden sein muss. Aber wie selten wird das Naive, jenes völlige Verschlungensein in der Schönheit des Scheines, erreicht! Wie unaussprechbar erhaben ist deshalb Homer, der sich, als Einzelner, zu jener apollinischen Volks"
+   },
+   {
+    "work": "GT",
+    "context": "ung kämpfte der hellenische \"Wille\" gegen das dem künstlerischen correlative Talent zum Leiden und zur Weisheit des Leidens und als Denkmal seines Sieges steht Homer vor uns, der naive Künstler. 4. Ueber diesen naiven Kü"
+   }
+  ],
+  "Jean-Jacques Rousseau": [
+   {
+    "work": "GT",
+    "context": "meidlicher Zustand ist, dem wir an der Pforte jeder Cultur, als einem Paradies der Menschheit begegnen müssten: dies konnte nur eine Zeit glauben, die den Emil Rousseau's sich auch als Künstler zu denken suchte und in Ho"
+   },
+   {
+    "work": "MA",
+    "context": "kelung der Tragödie aus dem Zwange zu jenem Scheine der Freiheit fortgeführt hätten; sie machten später nach deutschem Vorbilde auch den Sprung in eine Art von Rousseau'schem Naturzustand der Kunst und experimentirten. M"
+   },
+   {
+    "work": "MA",
+    "context": "s dann sofort das stolzeste Tempelhaus schönen Menschenthums gleichsam von selbst sich erheben werde. In diesen gefährlichen Träumen klingt noch der Aberglaube Rousseau's nach, welcher an eine wundergleiche, ursprünglich"
+   },
+   {
+    "work": "MA",
+    "context": "r ein Ordner, Baumeister, Künstler, Vollender der menschlichen Natur. - Nicht Voltaire's maassvolle, dem Ordnen, Reinigen und Umbauen zugeneigte Natur, sondern Rousseau's leidenschaftliche Thorheiten und Halblügen haben "
+   }
+  ],
+  "Voltaire": [
+   {
+    "work": "MA",
+    "context": "ärung mit sich brachte, in einem so wesentlichen Puncte corrigirt haben, dürfen wir die Fahne der Aufklärung - die Fahne mit den drei Namen: Petrarca, Erasmus, Voltaire - von Neuem weiter tragen. Wir haben aus der Reacti"
+   },
+   {
+    "work": "MA",
+    "context": "französischen Tragödie und hielt sich ziemlich unabhängig von Lessing (dessen dramatische Versuche er bekanntlich ablehnte). Den Franzosen selber fehlten nach Voltaire auf einmal die grossen Talente, welche die Entwickel"
+   },
+   {
+    "work": "MA",
+    "context": "machten später nach deutschem Vorbilde auch den Sprung in eine Art von Rousseau'schem Naturzustand der Kunst und experimentirten. Man lese nur von Zeit zu Zeit Voltaire's Mahomet, um sich klar vor die Seele zu stellen, w"
+   },
+   {
+    "work": "MA",
+    "context": "oltaire's Mahomet, um sich klar vor die Seele zu stellen, was durch jenen Abbruch der Tradition ein für alle Mal der europäischen Cultur verloren gegangen ist. Voltaire war der letzte der grossen Dramatiker, welcher sein"
+   }
+  ],
+  "William Shakespeare": [
+   {
+    "work": "GT",
+    "context": "chen als Homere und Homer als einen träumenden Griechen zu bezeichnen: in einem tieferen Sinne als wenn der moderne Mensch sich hinsichtlich seines Traumes mit Shakespeare zu vergleichen wagt. Dagegen brauchen wir nicht "
+   },
+   {
+    "work": "GT",
+    "context": "ge der Scenen und die anschaulichen Bilder offenbaren eine tiefere Weisheit, als der Dichter selbst in Worte und Begriffe fassen kann: wie das Gleiche auch bei Shakespeare beobachtet wird, dessen Hamlet z.B. in einem ähn"
+   },
+   {
+    "work": "GT",
+    "context": "er den pathologisch - moralischen Prozess sich nicht hinausgehoben fühlt, mag nur an seiner aesthetischen Natur verzweifeln: wogegen wir ihm die Interpretation Shakespeare's nach der Manier des Gervinus und das fleissige"
+   },
+   {
+    "work": "GT",
+    "context": "er Kunst geschwatzt und so wenig von der Kunst gehalten worden ist. Kann man aber mit einem Menschen noch verkehren, der im Stande ist, sich über Beethoven und Shakespeare zu unterhalten? Mag Jeder nach seinem Gefühl die"
+   }
+  ],
+  "Aeschylus": [
+   {
+    "work": "GT",
+    "context": "Fürst, überhaupt jegliche politisch-sociale Sphäre ausgeschlossen ist; aber wir möchten es auch in Hinsicht auf die uns bekannte classische Form des Chors bei Aeschylus und Sophokles für Blasphemie erachten, hier von der"
+   },
+   {
+    "work": "GT",
+    "context": "zlich zu tönen beginnt - in sophokleischen Melodieen! Der Glorie der Passivität stelle ich jetzt die Glorie der Activität gegenüber, welche den Prometheus des Aeschylus umleuchtet. Was uns hier der Denker Aeschylus zu sa"
+   },
+   {
+    "work": "GT",
+    "context": "odieen! Der Glorie der Passivität stelle ich jetzt die Glorie der Activität gegenüber, welche den Prometheus des Aeschylus umleuchtet. Was uns hier der Denker Aeschylus zu sagen hatte, was er aber als Dichter durch sein "
+   },
+   {
+    "work": "GT",
+    "context": "satz der aeschyleischen Weltbetrachtung, die über Göttern und Menschen die Moira als ewige Gerechtigkeit thronen sieht. Bei der erstaunlichen Kühnheit, mit der Aeschylus die olympische Welt auf seine Gerechtigkeitswagsch"
+   }
+  ],
+  "Georg Wilhelm Friedrich Hegel": [
+   {
+    "work": "JGB",
+    "context": "ophie. (Dergestalt scheint mir zum Beispiel die Nachwirkung Schopenhauer's auf das neueste Deutschland zu sein: - er hat es mit seiner unintelligenten Wuth auf Hegel dahin gebracht, die ganze letzte Generation von Deutsc"
+   },
+   {
+    "work": "JGB",
+    "context": "seiner Aufgabe: diese Aufgabe selbst will etwas Anderes, - sie verlangt, dass er Werthe schaffe. Jene philosophischen Arbeiter nach dem edlen Muster Kant's und Hegel's haben irgend einen grossen Thatbestand von Werthschä"
+   },
+   {
+    "work": "JGB",
+    "context": "zu verdeutschen. Die Ausländer stehen erstaunt und angezogen vor den Räthseln, die ihnen die Widerspruchs-Natur im Grunde der deutschen Seele aufgiebt (welche Hegel in System gebracht, Richard Wagner zuletzt noch in Musi"
+   },
+   {
+    "work": "JGB",
+    "context": "e erhob und hob sich Kant; Locke war es, von dem Schelling sagen durfte: \"je méprise Locke\"; im Kampfe mit der englisch-mechanistischen Welt-Vertölpelung waren Hegel und Schopenhauer (mit Goethe) einmüthig, jene beiden f"
+   }
+  ],
+  "Friedrich Schiller": [
+   {
+    "work": "GT",
+    "context": "d. Hier muss nun ausgesprochen werden, dass diese von den neueren Menschen so sehnsüchtig angeschaute Harmonie, ja Einheit des Menschen mit der Natur, für die Schiller das Kunstwort \"naiv\" in Geltung gebracht hat, keines"
+   },
+   {
+    "work": "GT",
+    "context": ", gerade auch das delphische Orakel, der Herd der \"objectiven\" Kunst, in sehr merkwürdigen Aussprüchen erwiesen hat? Ueber den Prozess seines Dichtens hat uns Schiller durch eine ihm selbst unerklärliche, doch nicht bede"
+   },
+   {
+    "work": "GT",
+    "context": "m für zu tief, um von so flachen Betrachtungsarten auch nur berührt zu werden. Eine unendlich werthvollere Einsicht über die Bedeutung des Chors hatte bereits Schiller in der berühmten Vorrede zur Braut von Messina verra"
+   },
+   {
+    "work": "GT",
+    "context": "ie die Tragödie um sich herum zieht, um sich von der wirklichen Welt rein abzuschliessen und sich ihren idealen Boden und ihre poetische Freiheit zu bewahren. Schiller kämpft mit dieser seiner Hauptwaffe gegen den gemein"
+   }
+  ],
+  "Aristotle": [
+   {
+    "work": "GT",
+    "context": "Einem dabei handgreiflich deutlich, dass zwischen Homer und Pindar die orgiastischen Flötenweisen des Olympus erklungen sein müssen, die noch im Zeitalter des Aristoteles, inmitten einer unendlich entwickelteren Musik, z"
+   },
+   {
+    "work": "GT",
+    "context": "argestellt sei, der über die leidenschaftlichen Ausschreitungen und Ausschweifungen der Könige hinaus immer Recht behalte - mag noch so sehr durch ein Wort des Aristoteles nahegelegt sein: auf die ursprüngliche Formation"
+   },
+   {
+    "work": "GT",
+    "context": "chauspielern coordinirt erscheint, gleich als ob er aus der Orchestra in die Scene hineingehoben würde: womit freilich sein Wesen völlig zerstört ist, mag auch Aristoteles gerade dieser Auffassung des Chors seine Beistim"
+   },
+   {
+    "work": "GT",
+    "context": "chten überhaupt keine aesthetisch erregbaren Menschen sein und beim Anhören der Tragödie vielleicht nur als moralische Wesen in Betracht kommen. Noch nie, seit Aristoteles, ist eine Erklärung der tragischen Wirkung gegeb"
+   }
+  ],
+  "Baruch Spinoza": [
+   {
+    "work": "MA",
+    "context": "r ist; und in mitunter sind seine Leiden wirklich sehr gross, aber nur desshalb, weil sein Ehrgeiz, sein Neid so gross ist. Der wissende Genius, wie Kepler und Spinoza, ist für gewöhnlich nicht so begehrlich und macht vo"
+   },
+   {
+    "work": "MA",
+    "context": "es, nicht ohne unser Aller Schuld, die leidvollste Geschichte unter allen Völkern gehabt hat und dem man den edelsten Menschen (Christus), den reinsten Weisen (Spinoza), das mächtigste Buch und das wirkungsvollste Sitten"
+   },
+   {
+    "work": "JGB",
+    "context": "lustigung darin finden, den feinen Tücken alter Moralisten und Moralprediger auf die Finger zu sehn. Oder gar jener Hocuspocus von mathematischer Form, mit der Spinoza seine Philosophie - \"die Liebe zu seiner Weisheit\" z"
+   },
+   {
+    "work": "JGB",
+    "context": "- Kurz, hier wie überall, Vorsicht vor überflüssigen teleologischen Principien! - wie ein solches der Selbsterhaltungstrieb ist (man dankt ihn der Inconsequenz Spinoza's -). So nämlich gebietet es die Methode, die wesent"
+   }
+  ],
+  "Ludwig van Beethoven": [
+   {
+    "work": "GT",
+    "context": "ur etwas dieser Gegenwart Entsprechendes niederschreiben durfte. Sie werden dabei sich erinnern, dass ich zu gleicher Zeit, als Ihre herrliche Festschrift über Beethoven entstand, das heisst in den Schrecken und Erhabenh"
+   },
+   {
+    "work": "GT",
+    "context": "re der Felsen und der Wüste. Mit Blumen und Kränzen ist der Wagen des Dionysus überschüttet: unter seinem Joche schreiten Panther und Tiger. Man verwandele das Beethoven'sche Jubellied der \"Freude\" in ein Gemälde und ble"
+   },
+   {
+    "work": "GT",
+    "context": "ng aufgereizt haben. Ich erinnere hier an ein bekanntes, unserer Aesthetik nur anstössig dünkendes Phänomen unserer Tage. Wir erleben es immer wieder, wie eine Beethoven'sche Symphonie die einzelnen Zuhörer zu einer Bild"
+   },
+   {
+    "work": "GT",
+    "context": "in einem ernstern Sinne genommen, die Aesthetik erst beginnt, hat Richard Wagner, zur Bekräftigung ihrer ewigen Wahrheit, seinen Stempel gedrückt, wenn er im \"Beethoven\" feststellt, dass die Musik nach ganz anderen aesth"
+   }
+  ],
+  "Blaise Pascal": [
+   {
+    "work": "MA",
+    "context": "e gelegentliche Unterschätzung der vita contemplativa mit sich bringen. Aber eingestehen muss man es sich, dass unsere Zeit arm ist an grossen Moralisten, dass Pascal, Epictet, Seneca, Plutarch wenig noch gelesen werden,"
+   },
+   {
+    "work": "JGB",
+    "context": "in der Seele der homines religiosi gehabt hat, dazu müsste Einer vielleicht selbst so tief, so verwundet, so ungeheuer sein, wie es das intellektuelle Gewissen Pascal's war: und dann bedürfte es immer noch jenes ausgespa"
+   },
+   {
+    "work": "JGB",
+    "context": "em etwa ein Luther oder ein Cromwell oder sonst ein nordischer Barbar des Geistes an ihrem Gotte und Christenthum gehangen haben; viel eher scholl jener Glaube Pascal's, der auf schreckliche Weise einem dauernden Selbstm"
+   },
+   {
+    "work": "JGB",
+    "context": "t irgend einem göttlichen Hammer in der Hand auf diese fast willkürliche Entartung und Verkümmerung des Menschen zuträte, wie sie der christliche Europäer ist (Pascal zum Beispiel), müsste er da nicht mit Grimm, mit Mitl"
+   }
+  ],
+  "Thomas Carlyle": [
+   {
+    "work": "JGB",
+    "context": "nur Brüder Unrecht thun. - Woran es in England fehlt und immer gefehlt hat, das wusste jener Halb-Schauspieler und Rhetor gut genug, der abgeschmackte Wirrkopf Carlyle, welcher es unter leidenschaftlichen Fratzen zu verb"
+   },
+   {
+    "work": "JGB",
+    "context": "genug, der abgeschmackte Wirrkopf Carlyle, welcher es unter leidenschaftlichen Fratzen zu verbergen suchte, was er von sich selbst wusste: nämlich woran es in Carlyle fehlte - an eigentlicher Macht der Geistigkeit, an ei"
+   },
+   {
+    "work": "GD",
+    "context": "it - nach Weibern. - George Sand: oder lactea ubertas, auf deutsch: die Milchkuh mit \"schönem Stil\". - Michelet: oder die Begeisterung, die den Rock auszieht...Carlyle: oder Pessimismus als zurückgetretenes Mittagessen. "
+   },
+   {
+    "work": "GD",
+    "context": "Widerspruch gegen sie giebt; die in sich ruht, fatalistisch, ein Gesetz unter Gesetzen: Das redet als grosser Stil von sich. - 12. Ich las das Leben Thomas Carlyle's, diese farce wider Wissen und Willen, diese heroisch-m"
+   }
+  ],
+  "Sophocles": [
+   {
+    "work": "GT",
+    "context": "upt jegliche politisch-sociale Sphäre ausgeschlossen ist; aber wir möchten es auch in Hinsicht auf die uns bekannte classische Form des Chors bei Aeschylus und Sophokles für Blasphemie erachten, hier von der Ahnung einer"
+   },
+   {
+    "work": "GT",
+    "context": "ungefährdeten Behagens auf allen Wegen und Stegen der Gegenwart antreffen. Die leidvollste Gestalt der griechischen Bühne, der unglückselige Oedipus, ist von Sophokles als der edle Mensch verstanden worden, der zum Irrth"
+   },
+   {
+    "work": "GT",
+    "context": "rossen Genius, das selbst mit ewigem Leide zu gering bezahlt ist, der herbe Stolz des Künstlers - das ist Inhalt und Seele der aeschyleischen Dichtung, während Sophokles in seinem Oedipus das Siegeslied des Heiligen präl"
+   },
+   {
+    "work": "GT",
+    "context": "öchte versucht sein, die radicale Tendenz des Euripides, ein entsprechendes Verhältniss zwischen Kunstwerk und Publicum zu erzielen, als einen Fortschritt über Sophokles hinaus zu preisen. Nun aber ist \"Publicum\" nur ein"
+   }
+  ],
+  "Charles Darwin": [
+   {
+    "work": "JGB",
+    "context": "besitzen - - auf diesen vielleicht unangenehmen Satz wird man gerade jetzt hingestossen, seitdem der Geist achtbarer, aber mittelmässiger Engländer - ich nenne Darwin, John Stuart Mill und Herbert Spencer - in der mittle"
+   },
+   {
+    "work": "JGB",
+    "context": "önnende im grossen Stil, der Schaffende wird möglicherweise ein Unwissender sein müssen, - während andererseits zu wissenschaftlichen Entdeckungen nach der Art Darwin's eine gewisse Enge, Dürre und fleissige Sorglichkeit"
+   },
+   {
+    "work": "GD",
+    "context": "rmanns, der von einem verliebten Stelldichein tamquam re bene gesta zurückkam. \"Ut desint vires, sprach er dankbar, tamen est laudanda voluptas.\" - 14. Anti-Darwin. - Was den berühmten Kampf um's Leben betrifft, so schei"
+   },
+   {
+    "work": "GD",
+    "context": "cht Malthus mit der Natur verwechseln. - Gesetzt aber, es giebt diesen Kampf - und in der That, er kommt vor -, so läuft er leider umgekehrt aus als die Schule Darwin's wünscht, als man vielleicht mit ihr wünschen dürfte"
+   }
+  ],
+  "Thucydides": [
+   {
+    "work": "GT",
+    "context": "ustbarkeiten, neuen Culten, aus Mangel, aus Entbehrung, aus Melancholie, aus Schmerz erwachsen ist? Gesetzt nämlich, gerade dies wäre wahr - und Perikles (oder Thukydides) giebt es uns in der grossen Leichenrede zu verst"
+   },
+   {
+    "work": "MA",
+    "context": "ortlichkeit überhand nähme. 92. Ursprung der Gerechtigkeit. - Die Gerechtigkeit (Billigkeit) nimmt ihren Ursprung unter ungefähr gleich Mächtigen, wie diess Thukydides (in dem furchtbaren Gespräche der athenischen und me"
+   },
+   {
+    "work": "MA",
+    "context": "ung bricht plötzlich ab. Fast von allen grossen Hellenen kann man sagen, dass sie zu spät gekommen scheinen, so von Aeschylus, von Pindar, von Demosthenes, von Thukydides; ein Geschlecht nach ihnen - und dann ist es imme"
+   },
+   {
+    "work": "MA",
+    "context": "srede des Perikles berufen: denn sie ist nur ein grosses optimistisches Trugbild über den angeblich nothwendigen Zusammenhang von Polis und athenischer Cultur; Thukydides lässt sie, unmittelbar bevor die Nacht über Athen"
+   }
+  ],
+  "Martin Luther": [
+   {
+    "work": "GT",
+    "context": "hsen: in deren Choral die Zukunftsweise der deutschen Musik zuerst erklang. So tief, muthig und seelenvoll, so überschwänglich gut und zart tönte dieser Choral Luther's, als der erste dionysische Lockruf, der aus dichtve"
+   },
+   {
+    "work": "GT",
+    "context": "und blutigen Glorie des letzten Krieges erkennen dürfte, die innerliche Nöthigung aber in dem Wetteifer suchen muss, der erhabenen Vorkämpfer auf dieser Bahn, Luther's ebensowohl als unserer grossen Künstler und Dichter,"
+   },
+   {
+    "work": "MA",
+    "context": "e entgegenwirken, noch nicht kräftig genug sind, dass Etwas an ihnen fehlt: sonst würden sie jenen Beschwörern besseren Widerpart halten. So zeugt zum Beispiel Luther's Reformation dafür, dass in seinem Jahrhundert alle "
+   },
+   {
+    "work": "MA",
+    "context": "immer wieder zu seinem Heile über die Alpen zu steigen) verhinderte diess. Es lag in dem Zufall einer ausserordentlichen Constellation der Politik, dass damals Luther erhalten blieb und jener Protest Kraft gewann: denn d"
+   }
+  ],
+  "Heraclitus": [
+   {
+    "work": "GT",
+    "context": "eit jene blassrothe Heiterkeitsfarbe festhielt - als ob es nie ein sechstes Jahrhundert mit seiner Geburt der Tragödie, seinen Mysterien, seinen Pythagoras und Heraklit gegeben hätte, ja als ob die Kunstwerke der grossen"
+   },
+   {
+    "work": "GT",
+    "context": "enn gerade sie ist, inmitten aller unserer Cultur, der einzig reine, lautere und läuternde Feuergeist, von dem aus und zu dem hin, wie in der Lehre des grossen Heraklit von Ephesus, sich alle Dinge in doppelter Kreisbahn"
+   },
+   {
+    "work": "GT",
+    "context": "mmer von Neuem wieder das spielende Aufhauen und Zertrümmern der Individualwelt als den Ausfluss einer Urlust offenbart, in einer ähnlichen Weise, wie wenn von Heraklit dem Dunklen die weltbildende Kraft einem Kinde verg"
+   },
+   {
+    "work": "GD",
+    "context": "k, die es giebt, widerlegt, unmöglich sogar, ob er schon frech genug ist, sich als wirklich zu gebärden!\"... 2. Ich nehme, mit hoher Ehrerbietung, den Namen Heraklit's bei Seite. Wenn das andre Philosophen-Volk das Zeugn"
+   }
+  ],
+  "Francois de La Rochefoucauld": [
+   {
+    "work": "MA",
+    "context": "Warum liest man nicht einmal die grossen Meister der psychologischen Sentenz mehr? - denn, ohne jede Uebertreibung gesprochen: der Gebildete in Europa, der La Rochefoucauld und seine Geistes- und Kunstverwandten gelesen "
+   },
+   {
+    "work": "MA",
+    "context": "m Gebiete hilft der Menschlichkeit vorwärts, während die Erkenntniss der Wahrheit vielleicht durch die anregende Kraft einer Hypothese mehr gewinnt, wie sie La Rochefoucauld der ersten Ausgabe seiner \"Sentences et maxime"
+   },
+   {
+    "work": "MA",
+    "context": "t: \"Ce que le monde nomme vertu n'est d'ordinaire qu'un fantôame formé par nos passions, à qui on donne un nom honnête pour faire impunément ce qu'on veut.\" La Rochefoucauld und jene anderen französischen Meister der See"
+   },
+   {
+    "work": "MA",
+    "context": "jene Momente des Behagens, an welchen jeder Tag in jedem, auch dem bedrängtesten Menschenleben reich ist, nicht vergisst. 50. Mitleiden erregen wollen.- La Rochefoucauld trifft in der bemerkenswerthesten Stelle seines Se"
+   }
+  ],
+  "Rene Descartes": [
+   {
+    "work": "GT",
+    "context": "it musste häufig den Verlauf der Tragödie dem Publicum gewissermaassen garantieren und jeden Zweifel an der Realität des Mythus nehmen: in ähnlicher Weise, wie Descartes die Realität der empirischen Welt nur durch die Ap"
+   },
+   {
+    "work": "JGB",
+    "context": "achsen ist, - dass er aber gerade die theistische Befriedigung mit tiefem Misstrauen ablehnt. 54. Was thut denn im Grunde die ganze neuere Philosophie? Seit Descartes - und zwar mehr aus Trotz gegen ihn, als auf Grund se"
+   },
+   {
+    "work": "JGB",
+    "context": "heisst, in Dingen der Moral hat bisher der Instinkt, oder wie die Christen es nennen, \"der Glaube\", oder wie ich es nenne, \"die Heerde\" gesiegt. Man müsse denn Descartes ausnehmen, den Vater des Rationalismus (und folgli"
+   },
+   {
+    "work": "JGB",
+    "context": "Vater des Rationalismus (und folglich Grossvater der Revolution), welcher der Vernunft allein Autorität zuerkannte: aber die Vernunft ist nur ein Werkzeug, und Descartes war oberflächlich. 192. Wer der Geschichte einer e"
+   }
+  ],
+  "Lord Byron": [
+   {
+    "work": "MA",
+    "context": "Heil- und Trostmittel der höchsten Art nöthig zu haben; woraus also die Gefahr entsteht, dass der Mensch sich an der erkannten Wahrheit verblute. Diess drückt Byron in unsterblichen Versen aus: Sorrow is knowledge: they "
+   },
+   {
+    "work": "MA",
+    "context": "en. Einer der Grossen, auf dessen Instinct man sich wohl verlassen kann und dessen Theorie Nichts weiter, als ein dreissig Jahre Mehr von Praxis fehlte, - Lord Byron hat einmal ausgesprochen: \"Was die Poesie im Allgemein"
+   },
+   {
+    "work": "MA",
+    "context": "lle einem innerlich falschen revolutionären System, - unsere oder die nächste Generation wird noch zu der selben Ueberzeugung gelangen.\" Es ist diess der selbe Byron, welcher sagt: \"Ich betrachte Shakespeare als das schl"
+   },
+   {
+    "work": "MA",
+    "context": "etwa dadurch, dass sie ihre Gesinnung gegen einen niedrig denkenden, dem Schein und der Lügnerei ergebenen Vater durchsetzen müssen, oder fortwährend, wie Lord Byron, im Kampfe mit einer kindischen und zornwüthigen Mutte"
+   }
+  ],
+  "Herbert Spencer": [
+   {
+    "work": "JGB",
+    "context": "angenehmen Satz wird man gerade jetzt hingestossen, seitdem der Geist achtbarer, aber mittelmässiger Engländer - ich nenne Darwin, John Stuart Mill und Herbert Spencer - in der mittleren Region des europäischen Geschmack"
+   },
+   {
+    "work": "GD",
+    "context": "aufreissenden, unter- und überordnenden Kraft formulirt sich in der Sociologie von heute zum Ideal... Unsre Socialisten sind décadents, aber auch Herr Herbert Spencer ist ein décadent, - er sieht im Sieg des Altruismus e"
+   },
+   {
+    "work": "EH",
+    "context": "erdengethier darin sein enges Glück fände; zu fordern, dass Alles \"guter Mensch\", Heerdenthier, blauäugig, wohlwollend, \"schöne Seele\" - oder, wie Herr Herbert Spencer es wünscht, altruistisch werden solle, hiesse dem Da"
+   },
+   {
+    "work": "WzM",
+    "context": "ch, ist selbst eine Ausgeburt der ~décadence~ des Lebens.... Das Leben ist eine Folge des Kriegs, die Gesellschaft selbst ein Mittel zum Krieg.... Herr Herbert Spencer ist als Biologe ein ~décadent~, -- er ist es auch al"
+   }
+  ],
+  "Ernest Renan": [
+   {
+    "work": "JGB",
+    "context": "Logik der Instinkte! Wie jesuitisch jener liebenswürdige und kluge Cicerone von Port-Royal, Sainte-Beuve, trotz all seiner Jesuiten-Feindschaft! Und gar Ernest Renan: wie unzugänglich klingt uns Nordländern die Sprache s"
+   },
+   {
+    "work": "JGB",
+    "context": "rone von Port-Royal, Sainte-Beuve, trotz all seiner Jesuiten-Feindschaft! Und gar Ernest Renan: wie unzugänglich klingt uns Nordländern die Sprache solch eines Renan, in dem alle Augenblicke irgend ein Nichts von religiö"
+   },
+   {
+    "work": "GD",
+    "context": "die beleidigende Klarheit. - Les fréres de Goncourt: oder die beiden Ajaxe im Kampf mit Homer. Musik von Offenbach. - Zola: oder die Freude zu stinken. - 2. Renan. - Theologie, oder die Verderbniss der Vernunft durch die"
+   },
+   {
+    "work": "GD",
+    "context": "Offenbach. - Zola: oder die Freude zu stinken. - 2. Renan. - Theologie, oder die Verderbniss der Vernunft durch die \"Erbsünde\" (das Christenthum). Zeugniss Renan, der, sobald er einmal ein Ja oder Nein allgemeinerer Art "
+   }
+  ],
+  "Stendhal": [
+   {
+    "work": "JGB",
+    "context": "Philosophen einengt, der Bücher schreibt - oder gar seine Philosophie in Bücher bringt! - Einen letzten Zug zum Bilde des freigeisterischen Philosophen bringt Stendhal bei, den ich um des deutschen Geschmacks willen nich"
+   },
+   {
+    "work": "JGB",
+    "context": "örten sie zu den \"Vaterländern\", - sie ruhten sich nur von sich selber aus, wenn sie \"Patrioten\" wurden. Ich denke an Menschen wie Napoleon, Goethe, Beethoven, Stendhal, Heinrich Heine, Schopenhauer: man verarge mir es n"
+   },
+   {
+    "work": "GD",
+    "context": "nzigen Psychologen, anbei gesagt, von dem ich Etwas zu lernen hatte: er gehört zu den schönsten Glücksfällen meines Lebens, mehr selbst noch als die Entdeckung Stendhal's. Dieser tiefe Mensch, der zehn Mal Recht hatte, d"
+   },
+   {
+    "work": "EH",
+    "context": "ssverständniss grosser Menschen und Zeiten verdankt. So weit Deutschland reicht, verdirbt es die Cultur. Der Krieg erst hat den Geist in Frankreich \"erlöst\"... Stendhal, einer der schönsten Zufälle meines Lebens - denn A"
+   }
+  ],
+  "Hippolyte Taine": [
+   {
+    "work": "JGB",
+    "context": "einrich Heine, der den feineren und anspruchsvolleren Lyrikern von Paris lange schon in Fleisch und Blut übergegangen ist, oder von Hegel, der heute in Gestalt Taine's - das heisst des ersten lebenden Historikers - einen"
+   },
+   {
+    "work": "EH",
+    "context": "Guy de Maupassant. Ich ziehe diese Generation, unter uns gesagt, sogar ihren grossen Lehrern vor, die allesammt durch deutsche Philosophie verdorben sind: Herr Taine zum Beispiel durch Hegel, dem er das Missverständniss "
+   },
+   {
+    "work": "EH",
+    "context": "bhandlungen wie ein Pariser romancier - absurd spannend. In Paris selbst ist man erstaunt über \"toutes mes audaces et finesses\" - der Ausdruck ist von Monsieur Taine -; ich fürchte, bis in die höchsten Formen des Dithyra"
+   },
+   {
+    "work": "WzM",
+    "context": "chslung so weit, daß man den Darwinismus als Philosophie betrachtet: und jetzt ist die Herrschaft bei den *wissenschaftlichen* Menschen. Auch die Franzosen wie Taine suchen oder meinen zu suchen, *ohne* die Wertmaße scho"
+   }
+  ],
+  "Heinrich Heine": [
+   {
+    "work": "JGB",
+    "context": "s Geistes, welches auch ein Frankreich des Pessimismus ist, mehr zu Hause und heimischer geworden, als er es je in Deutschland war; nicht zu reden von Heinrich Heine, der den feineren und anspruchsvolleren Lyrikern von P"
+   },
+   {
+    "work": "JGB",
+    "context": "aterländern\", - sie ruhten sich nur von sich selber aus, wenn sie \"Patrioten\" wurden. Ich denke an Menschen wie Napoleon, Goethe, Beethoven, Stendhal, Heinrich Heine, Schopenhauer: man verarge mir es nicht, wenn ich auch"
+   },
+   {
+    "work": "GD",
+    "context": "die Deutschen nicht mehr in Betracht. Man fragt: habt ihr auch nur Einen für Europa mitzählenden Geist aufzuweisen? wie euer Goethe, euer Hegel, euer Heinrich Heine, euer Schopenhauer mitzählte? - Dass es nicht einen ein"
+   },
+   {
+    "work": "GD",
+    "context": "f... 21. Schopenhauer. Schopenhauer, der letzte Deutsche, der in Betracht kommt (der ein europäisches Ereigniss gleich Goethe, gleich Hegel, gleich Heinrich Heine ist, und nicht bloss ein lokales, ein \"nationales\"), ist "
+   }
+  ],
+  "Fyodor Dostoevsky": [
+   {
+    "work": "GD",
+    "context": "ein solcher Mensch sich stärker erweist als die Gesellschaft: der Corse Napoleon ist der berühmteste Fall. Für das Problem, das hier vorliegt, ist das Zeugniss Dostoiewsky's von Belang - Dostoiewsky's, des einzigen Psych"
+   },
+   {
+    "work": "GD",
+    "context": "rker erweist als die Gesellschaft: der Corse Napoleon ist der berühmteste Fall. Für das Problem, das hier vorliegt, ist das Zeugniss Dostoiewsky's von Belang - Dostoiewsky's, des einzigen Psychologen, anbei gesagt, von d"
+   },
+   {
+    "work": "WzM",
+    "context": "; im letzteren die Präzision und Klarheit der Richtung. 53. *Hauptsymptome des Pessimismus*: -- die ~dîners chez Magny~; der russische Pessimismus (Tolstoi, Dostoiewsky); der ästhetische Pessimismus, ~l'art pour l'art~, "
+   },
+   {
+    "work": "WzM",
+    "context": "das gute Gewissen zurückgeben* -- ist das mein unwillkürliches Bemühen gewesen? und zwar dem bösen Menschen, insofern er der *starke Mensch* ist? (Das Urteil *Dostoiewskys* über die Verbrecher der Gefängnisse ist hierbei"
+   }
+  ],
+  "Epicurus": [
+   {
+    "work": "GT",
+    "context": "t der er gleichzeitig ist, - ein Symptom der absinkenden Kraft, des nahenden Alters, der physiologischen Ermüdung sein? Und gerade nicht - der Pessimismus? War Epikur ein Optimist - gerade als Leidender? - - Man sieht, e"
+   },
+   {
+    "work": "MA",
+    "context": "ber das Geistigere und Zarte gesiegt hat. Wie es mit der grösseren Wahrheit steht, ist daraus zu ersehen, dass die erwachenden Wissenschaften Punct um Punct an Epikur's Philosophie angeknüpft, das Christenthum aber Punct"
+   },
+   {
+    "work": "WzM",
+    "context": "istheorie respektive Skepsis: und wozu? Immer zugunsten der *Moral*.... (Der Haß gegen die Physiker und Ärzte.) Sokrates, Aristipp, die Megariker, die Zyniker, Epikur, Pyrrho -- Generalansturm gegen die Erkenntnis zuguns"
+   },
+   {
+    "work": "WzM",
+    "context": "eichgültigkeit; keine Tugenden, die Gebärden brauchen: sich auch in der Tugend gleichsetzen: letzte Selbstüberwindung, letzte Gleichgültigkeit. Pyrrho, gleich Epikur, zwei Formen der griechischen ~décadence~: verwandt, i"
+   }
+  ],
+  "John Stuart Mill": [
+   {
+    "work": "JGB",
+    "context": "sen vielleicht unangenehmen Satz wird man gerade jetzt hingestossen, seitdem der Geist achtbarer, aber mittelmässiger Engländer - ich nenne Darwin, John Stuart Mill und Herbert Spencer - in der mittleren Region des europ"
+   },
+   {
+    "work": "GD",
+    "context": "lchkuh mit \"schönem Stil\". - Michelet: oder die Begeisterung, die den Rock auszieht...Carlyle: oder Pessimismus als zurückgetretenes Mittagessen. - John Stuart Mill: oder die beleidigende Klarheit. - Les fréres de Goncou"
+   },
+   {
+    "work": "WzM",
+    "context": "t und Böse: so, daß man den Sieg des Guten und die Vernichtung des Bösen als *Aufgabe* empfindet (-- das ist englisch, typischer Fall der Flachkopf John Stuart Mill); f) die Verachtung der „Natürlichkeit“, der Begierde, "
+   },
+   {
+    "work": "WzM",
+    "context": "hen wahrgenommen wird. Denn diese urteilen: „wir sind die *Edleren*! Es liegt *mehr* an *unserer* Erhaltung als an der jenes Viehs!“ 557. *Gegen John Stuart Mill.* -- Ich perhorresziere seine Gemeinheit, welche sagt, „wa"
+   }
+  ],
+  "Victor Hugo": [
+   {
+    "work": "JGB",
+    "context": "emokratischen bourgeois. In der That wälzt sich heut im Vordergrunde ein verdummtes und vergröbertes Frankreich, - es hat neuerdings, bei dem Leichenbegängniss Victor Hugo's, eine wahre Orgie des Ungeschmacks und zugleic"
+   },
+   {
+    "work": "GD",
+    "context": "turalibus. - Schiller: oder der Moral-Trompeter von Säckingen. - Dante: oder die Hyäne, die in Gräbern dichtet. - Kant: oder cant als intelligibler Charakter. -Victor Hugo: oder der Pharus am Meere des Unsinns. - Liszt: "
+   },
+   {
+    "work": "WzM",
+    "context": "- das Reich der „Gerechtigkeit“ (der Kultus der „Menschheit“); -- die „Freiheit“. Die *romantische* Attitüde des modernen Menschen: -- der edle Mensch (Byron, Victor Hugo, George Sand); -- die edle Entrüstung; -- die Hei"
+   },
+   {
+    "work": "WzM",
+    "context": "uptsache zu tyrannisieren: nämlich in Hinsicht auf das Werk selbst (auf Verzichtleisten, Kürzen, Klären, Vereinfachen). Die Überwältigung durch Massen (Wagner, Victor Hugo, Zola, Taine). 543. Der *Künstler*philosoph. Höh"
+   }
+  ],
+  "Pindar": [
+   {
+    "work": "GT",
+    "context": "t oder die Musikwelt nachahmte. Man denke nur einmal tiefer über die sprachliche Differenz der Farbe, des syntaktischen Bau's, des Wortmaterial's bei Homer und Pindar nach, um die Bedeutung dieses Gegensatzes zu begreife"
+   },
+   {
+    "work": "GT",
+    "context": "tmaterial's bei Homer und Pindar nach, um die Bedeutung dieses Gegensatzes zu begreifen; ja es wird Einem dabei handgreiflich deutlich, dass zwischen Homer und Pindar die orgiastischen Flötenweisen des Olympus erklungen "
+   },
+   {
+    "work": "GT",
+    "context": "ser fragwürdigsten Erscheinung des Alterthums zu erkennen. Wer ist das, der es wagen darf, als ein Einzelner das griechische Wesen zu verneinen, das als Homer, Pindar und Aeschylus, als Phidias, als Perikles, als Pythia "
+   },
+   {
+    "work": "MA",
+    "context": "urz, gewaltsam, ihre Nachwirkung bricht plötzlich ab. Fast von allen grossen Hellenen kann man sagen, dass sie zu spät gekommen scheinen, so von Aeschylus, von Pindar, von Demosthenes, von Thukydides; ein Geschlecht nach"
+   }
+  ],
+  "Michel de Montaigne": [
+   {
+    "work": "MA",
+    "context": "wohl von seinem Temperamente her zu vielen einen sehr nahen Zugang gehabt (Dramatiker sind im Allgemeinen ziemlich böse Menschen). Aber er vermochte nicht, wie Montaigne, darüber zu reden, sondern legte die Beobachtungen"
+   },
+   {
+    "work": "MA",
+    "context": "e oder unbedeutende Einfälle zu Grunde liegen) sind eben Theatersentenzen und wirken als solche sehr stark: während die Sentenzen Shakespeare's seinem Vorbilde Montaigne Ehre machen und ganz ernsthafte Gedanken in geschl"
+   },
+   {
+    "work": "JGB",
+    "context": "ss zu spüren. Ja! und Nein! - das geht ihm wider die Moral; umgekehrt liebt er es, seiner Tugend mit der edlen Enthaltung ein Fest zu machen, etwa indem er mit Montaigne spricht: \"was weiss ich?\" Oder mit Sokrates: \"ich "
+   },
+   {
+    "work": "EH",
+    "context": "stenthums, langsam hingemordet, erst leiblich, dann psychologisch, die ganze Logik dieser schauderhaftesten Form unmenschlicher Grausamkeit; dass ich Etwas von Montaigne's Muthwillen im Geiste, wer weiss? vielleicht auch"
+   }
+  ],
+  "Gottfried Wilhelm Leibniz": [
+   {
+    "work": "JGB",
+    "context": "ich glättende Seele weiss nicht mehr zu bejahen, nicht mehr zu verneinen; er befiehlt nicht; er zerstört auch nicht. \"Je ne méprise presque rien\" - sagt er mit Leibnitz: man überhöre und unterschätze das presque nicht! E"
+   },
+   {
+    "work": "EH",
+    "context": "\"Ideal\", Versöhnungen zwischen Wahrheit und \"Ideal\", im Grunde Formeln für ein Recht auf Ablehnung der Wissenschaft, für ein Recht auf Lüge zu finden gewusst. Leibniz und Kant - diese zwei grössten Hemmschuhe der intelle"
+   },
+   {
+    "work": "EH",
+    "context": "n, sie haben immer nur \"unbewusste\" Falschmünzer hervorgebracht (- Fichte, Schelling, Schopenhauer, Hegel, Schleiermacher gebührt dies Wort so gut wie Kant und Leibniz, es sind Alles blosse Schleiermacher -): sie sollen "
+   },
+   {
+    "work": "WzM",
+    "context": "ht das Chaos *vor* der Schöpfung der Welt, sondern hinter ihr: -- *Goethe* als schönster Ausdruck des Typus (-- *ganz und gar kein Olympier!*). 605. Händel, Leibniz, Goethe, Bismarck -- für die *deutsche starke Art* char"
+   }
+  ],
+  "Seneca": [
+   {
+    "work": "MA",
+    "context": "nterschätzung der vita contemplativa mit sich bringen. Aber eingestehen muss man es sich, dass unsere Zeit arm ist an grossen Moralisten, dass Pascal, Epictet, Seneca, Plutarch wenig noch gelesen werden, dass Arbeit und "
+   },
+   {
+    "work": "GD",
+    "context": "lernen muss? - Aber an dieser Stelle würde ich deutschen Lesern vollkommen zum Räthsel werden... Streifzüge eines Unzeitgemässen. 1. Meine Unmöglichen. - Seneca: oder der Toreador der Tugend. - Rousseau: oder die Rückkeh"
+   },
+   {
+    "work": "WzM",
+    "context": "t vielleicht auch wünschenswert, daß der Philosoph eine *seltene* Pflanze ist. Nichts ist mir widerlicher als die lehrhafte Anpreisung der Philosophie, wie bei Seneca oder gar Cicero. Philosophie hat wenig mit Tugend zu "
+   }
+  ],
+  "Plutarch": [
+   {
+    "work": "MA",
+    "context": "n, an eine Fülle des unpersönlichen Wohlwollens in der Welt die Menschen besser gemacht, insofern er dieselben weniger misstrauisch machte. Wenn man die Helden Plutarch's mit Begeisterung nachahmt, und einen Abscheu davo"
+   },
+   {
+    "work": "MA",
+    "context": "tzung der vita contemplativa mit sich bringen. Aber eingestehen muss man es sich, dass unsere Zeit arm ist an grossen Moralisten, dass Pascal, Epictet, Seneca, Plutarch wenig noch gelesen werden, dass Arbeit und Fleiss -"
+   },
+   {
+    "work": "WzM",
+    "context": "ht kommt*, jenem christlichen Ideal ähnlich gesehen? Wenigstens für solche Augen, wie sie ein Psycholog und Nierenprüfer haben muß! -- man blättere alle Helden Plutarchs durch. 259. Der *höhere* Mensch unterscheidet sich"
+   }
+  ],
+  "Horace": [
+   {
+    "work": "JGB",
+    "context": "uriefe \"seid wahr! seid natürlich! gebt euch, wie ihr seid!\" - selbst ein solcher tugendhafter und treuherziger Esel würde nach einiger Zeit zu jener furca des Horaz greifen lernen, um naturam expellere: mit welchem Erfo"
+   },
+   {
+    "work": "GD",
+    "context": "r ernsthafte Ambition nach römischem Stil, nach dem \"aere perennius\" im Stil bei mir wiedererkennen. - Nicht anders ergieng es mir bei der ersten Berührung mit Horaz. Bis heute habe ich an keinem Dichter dasselbe artisti"
+   },
+   {
+    "work": "EH",
+    "context": "en hat, das ist vielleicht die erste Einsicht, zu der ein guter Leser gelangt - ein Leser, wie ich ihn verdiene, der mich liest, wie gute alte Philologen ihren Horaz lasen. Die Sätze, über die im Grunde alle Welt einig i"
+   }
+  ],
+  "Petronius": [
+   {
+    "work": "JGB",
+    "context": "rwegensten Nuances des freien, freigeisterischen Gedankens. So gut ihm der Buffo und der Satyr fremd ist, in Leib und Gewissen, so gut ist ihm Aristophanes und Petronius unübersetzbar. Alles Gravitätische, Schwerflüssige"
+   },
+   {
+    "work": "JGB",
+    "context": "anken, lang, schwer, hart, gefährlich, und ein tempo des Galopps und der allerbesten muthwilligsten Laune. Wer endlich dürfte gar eine deutsche Übersetzung des Petronius wagen, der, mehr als irgend ein grosser Musiker bi"
+   },
+   {
+    "work": "WzM",
+    "context": "Natürlichkeit“. *Christlich* ist das Neinsagen zum Natürlichen, das Unwürdigkeitsgefühl im Natürlichen, die Widernatürlichkeit. „Unschuldig“ ist zum Beispiel Petronius: ein Christ hat im Vergleich mit diesem Glücklichen "
+   }
+  ],
+  "Cicero": [
+   {
+    "work": "JGB",
+    "context": "ist, im Sinne der Alten, vor Allem ein physiologisches Ganzes, insofern sie von Einem Athem zusammengefasst wird. Solche Perioden, wie sie bei Demosthenes, bei Cicero vorkommen, zwei Mal schwellend und zwei Mal absinkend"
+   },
+   {
+    "work": "GD",
+    "context": "dass wer sie hat, ein Andrer ist, als wer sie erwirbt. Alles Gute ist Erbschaft: was nicht ererbt ist, ist unvollkommen, ist Anfang... In Athen waren zur Zeit Cicero's, der darüber seine Überraschung ausdrückt, die Männe"
+   },
+   {
+    "work": "WzM",
+    "context": "h wünschenswert, daß der Philosoph eine *seltene* Pflanze ist. Nichts ist mir widerlicher als die lehrhafte Anpreisung der Philosophie, wie bei Seneca oder gar Cicero. Philosophie hat wenig mit Tugend zu tun. Es sei mir "
+   }
+  ],
+  "Ralph Waldo Emerson": [
+   {
+    "work": "GD",
+    "context": "kommnen cant sind, sogar billig, und nicht nur, begreiflich. Im Grunde ist Carlyle ein englischer Atheist, der seine Ehre darin sucht, es nicht zu sein. 13. Emerson. - Viel aufgeklärter, schweifender, vielfacher, raffini"
+   },
+   {
+    "work": "GD",
+    "context": "schmacks. - Carlyle, der ihn sehr liebte, sagte trotzdem von ihm: \"er giebt uns nicht genug zu beissen\": was mit Recht gesagt sein mag, aber nicht zu Ungunsten Emerson's. - Emerson hat jene gütige und geistreiche Heiterk"
+   },
+   {
+    "work": "GD",
+    "context": "arlyle, der ihn sehr liebte, sagte trotzdem von ihm: \"er giebt uns nicht genug zu beissen\": was mit Recht gesagt sein mag, aber nicht zu Ungunsten Emerson's. - Emerson hat jene gütige und geistreiche Heiterkeit, welche a"
+   }
+  ],
+  "Jacob Burckhardt": [
+   {
+    "work": "GD",
+    "context": "ie erste Vorbedingung der Erziehung: daher der Niedergang der deutschen Cultur. - Eine jener allerseltensten Ausnahmen ist mein verehrungswürdiger Freund Jakob Burckhardt in Basel: ihm zuerst verdankt Basel seinen Vorran"
+   },
+   {
+    "work": "GD",
+    "context": "Dionysos trägt: es ist einzig erklärbar aus einem Zuviel von Kraft. Wer den Griechen nachgeht, wie jener tiefste Kenner ihrer Cultur, der heute lebt, wie Jakob Burckhardt in Basel, der wusste sofort, dass damit Etwas get"
+   },
+   {
+    "work": "GD",
+    "context": "er den Griechen nachgeht, wie jener tiefste Kenner ihrer Cultur, der heute lebt, wie Jakob Burckhardt in Basel, der wusste sofort, dass damit Etwas gethan sei: Burckhardt fügte seiner \"Cultur der Griechen\" einen eignen A"
+   }
+  ],
+  "Sallust": [
+   {
+    "work": "GD",
+    "context": "meinem Leben mitzählen; die berühmtesten sind nicht darunter. Mein Sinn für Stil, für das Epigramm als Stil erwachte fast augenblicklich bei der Berührung mit Sallust. Ich habe das Erstaunen meines verehrten Lehrers Cors"
+   },
+   {
+    "work": "EH",
+    "context": "pferkeit. Eine lange lateinische Abhandlung in Einer Nachtwache niederzuschreiben und auch noch abzuschreiben, mit dem Ehrgeiz in der Feder, es meinem Vorbilde Sallust in Strenge und Gedrängtheit nachzuthun und einigen G"
+   },
+   {
+    "work": "EH",
+    "context": "iessen, dies stand schon, als ich Schüler der ehrwürdigen Schulpforta war, durchaus nicht im Widerspruch zu meiner Physiologie, noch vielleicht auch zu der des Sallust wie sehr auch immer zur ehrwürdigen Schulpforta... S"
+   }
+  ],
+  "Emile Zola": [
+   {
+    "work": "GD",
+    "context": "nes Mittagessen. - John Stuart Mill: oder die beleidigende Klarheit. - Les fréres de Goncourt: oder die beiden Ajaxe im Kampf mit Homer. Musik von Offenbach. - Zola: oder die Freude zu stinken. - 2. Renan. - Theologie, o"
+   },
+   {
+    "work": "WzM",
+    "context": "on ein Instinkt der Macht und Herrlichkeit am Künstler: er fürchtet sie nicht.... Es gibt keine pessimistische Kunst.... Die Kunst bejaht. Hiob bejaht. -- Aber Zola? Aber die Goncourts? -- Die Dinge sind häßlich, die sie"
+   },
+   {
+    "work": "WzM",
+    "context": "yrannisieren: nämlich in Hinsicht auf das Werk selbst (auf Verzichtleisten, Kürzen, Klären, Vereinfachen). Die Überwältigung durch Massen (Wagner, Victor Hugo, Zola, Taine). 543. Der *Künstler*philosoph. Höherer Begriff "
+   }
+  ],
+  "Epictetus": [
+   {
+    "work": "MA",
+    "context": "ntliche Unterschätzung der vita contemplativa mit sich bringen. Aber eingestehen muss man es sich, dass unsere Zeit arm ist an grossen Moralisten, dass Pascal, Epictet, Seneca, Plutarch wenig noch gelesen werden, dass Ar"
+   },
+   {
+    "work": "WzM",
+    "context": "ubt: das Privilegium, kein Automat zu sein; „Freiheit“ auf die Gefahr hin, sich zu vergreifen, falsch zu wählen.... zum Beispiel bei Simplicius im Kommentar zu Epiktet). *Oder* unsere Welt ist unvollkommen, das Übel und "
+   }
+  ],
+  "Eugen Duhring": [
+   {
+    "work": "JGB",
+    "context": "er der Philosophie, die heute Dank der Mode ebenso oben-auf als unten-durch sind - in Deutschland zum Beispiel die beiden Löwen von Berlin, der Anarchist Eugen Dühring und der Amalgamist Eduard von Hartmann - ein braver "
+   },
+   {
+    "work": "EH",
+    "context": "usgezeichnete Mensch, der mit der ganzen ungestümen Einfalt eines preussischen Junkers in den Wagner'schen Sumpf hineingewatet war (- und ausserdem noch in den Dühring'schen!) war diese drei Tage wie umgewandelt durch ei"
+   }
+  ],
+  "Tacitus": [
+   {
+    "work": "JGB",
+    "context": "der Fürst in jedem neuen Menschen eine unbedenkliche Gelegenheit zu neuem Besitze. Woraus folgt..... 195. Die Juden - ein Volk \"geboren zur Sklaverei\", wie Tacitus und die ganze antike Welt sagt, \"das auserwählte Volk un"
+   },
+   {
+    "work": "WzM",
+    "context": "in, um das Anziehende zu empfinden... Es ist eine Probe davon, ob man etwas *klassischen Geschmack* im Leibe hat, wie man zum Neuen Testament steht (vergleiche Tacitus); wer davon nicht revoltiert ist, wer dabei nicht eh"
+   }
+  ],
+  "Charles Augustin Sainte-Beuve": [
+   {
+    "work": "JGB",
+    "context": "undeutsch riecht uns Auguste Comte's Sociologie mit ihrer römischen Logik der Instinkte! Wie jesuitisch jener liebenswürdige und kluge Cicerone von Port-Royal, Sainte-Beuve, trotz all seiner Jesuiten-Feindschaft! Und gar"
+   },
+   {
+    "work": "GD",
+    "context": "sgefährliche Weise anzubeten... Dieser Geist Renan's, ein Geist, der entnervt, ist ein Verhängniss mehr für das arme, kranke, willenskranke Frankreich. - 3. Sainte-Beuve. - Nichts von Mann; voll eines kleinen Ingrimms ge"
+   }
+  ],
+  "Charles Baudelaire": [
+   {
+    "work": "GD",
+    "context": "r, vernutzter Geschmack die höchste Instanz ist: da hat er wirklich den Muth zu sich, die Lust an sich, - da ist er Meister. - Nach einigen Seiten eine Vorform Baudelaire's. - 4. Die imitatio Christi gehört zu den Bücher"
+   },
+   {
+    "work": "EH",
+    "context": "t, von Unheilbarkeit im Wesen, lauter Fanatiker des Ausdrucks, Virtuosen durch und durch... Wer war der erste intelligente Anhänger Wagner's überhaupt? Charles Baudelaire, derselbe, der zuerst Delacroix verstand, jener t"
+   }
+  ],
+  "David Strauss": [
+   {
+    "work": "GD",
+    "context": "inmal in einem beinahe berühmt gewordnen Fall den Finger auf eine solche Entartung gelegt - die Entartung unsres ersten deutschen Freigeistes, des klugen David Strauss, zum Verfasser eines Bierbank-Evangeliums und \"neuen"
+   },
+   {
+    "work": "EH",
+    "context": "eines starken Vergrösserungsglases, mit dem man einen allgemeinen, aber schleichenden, aber wenig greifbaren Nothstand sichtbar machen kann. So griff ich David Strauss an, genauer den Erfolg eines altersschwachen Buchs b"
+   }
+  ],
+  "Julius Caesar": [
+   {
+    "work": "GD",
+    "context": "erien für Geist, Witz und Gemüth. Das verstand Wagner. Die reine Thorheit stellt wieder her... 31. Noch ein Problem der Diät. - Die Mittel, mit denen Julius Cäsar sich gegen Kränklichkeiten und Kopfschmerz vertheidigte: "
+   },
+   {
+    "work": "EH",
+    "context": "ter zurück, auf sie hin hat am längsten gesammelt, gespart, gehäuft werden müssen. Die grossen Individuen sind die ältesten: ich verstehe es nicht, aber Julius Cäsar könnte mein Vater sein - oder Alexander, dieser leibha"
+   }
+  ],
+  "Leopold von Ranke": [
+   {
+    "work": "EH",
+    "context": "wird: - wir ziehn selbst, um zur Wahrheit zu gelangen, noch die Schleichwege vor. Ich möchte mit diesen Worten meinen näheren Landsmann, den klugen Leopold von Ranke, durchaus nicht unterschätzt haben...) 10. An dieser S"
+   },
+   {
+    "work": "WzM",
+    "context": "ck. Die Konkurrenz mit starken und unintelligenten Willen, welche am meisten hindert, ist gering. Wer wirft diese Herren „Objektiven“ mit schwachem Willen, wie Ranke oder Renan, nicht um! 64. Der Sozialismus -- als die z"
+   }
+  ],
+  "Niccolo Machiavelli": [
+   {
+    "work": "GD",
+    "context": "em, Praxis der Kirche! - Meine Erholung, meine Vorliebe, meine Kur von allem Platonismus war zu jeder Zeit Thukydides. Thukydides und, vielleicht, der principe Machiavell's sind mir selber am meisten verwandt durch den u"
+   }
+  ],
+  "Paul Ree": [
+   {
+    "work": "EH",
+    "context": "en Arglist, auch hier wieder das Wörtchen \"ich\" umgieng und dies Mal nicht Schopenhauer oder Wagner, sondern einen meiner Freunde, den ausgezeichneten Dr. Paul Rée, mit einer welthistorischen Glorie überstrahlte - zum Gl"
+   }
+  ],
+  "Leo Tolstoy": [
+   {
+    "work": "WzM",
+    "context": "ergewicht; im letzteren die Präzision und Klarheit der Richtung. 53. *Hauptsymptome des Pessimismus*: -- die ~dîners chez Magny~; der russische Pessimismus (Tolstoi, Dostoiewsky); der ästhetische Pessimismus, ~l'art pour"
+   }
+  ]
+ },
+ "counts": {
+  "Socrates": 130,
+  "Richard Wagner": 98,
+  "Arthur Schopenhauer": 97,
+  "Plato": 87,
+  "Johann Wolfgang von Goethe": 67,
+  "Euripides": 60,
+  "Immanuel Kant": 45,
+  "Napoleon Bonaparte": 35,
+  "Homer": 32,
+  "Jean-Jacques Rousseau": 32,
+  "Voltaire": 26,
+  "William Shakespeare": 23,
+  "Aeschylus": 22,
+  "Georg Wilhelm Friedrich Hegel": 20,
+  "Friedrich Schiller": 19,
+  "Aristotle": 18,
+  "Baruch Spinoza": 18,
+  "Ludwig van Beethoven": 16,
+  "Blaise Pascal": 16,
+  "Thomas Carlyle": 15,
+  "Sophocles": 14,
+  "Charles Darwin": 14,
+  "Thucydides": 12,
+  "Martin Luther": 12,
+  "Heraclitus": 10,
+  "Francois de La Rochefoucauld": 10,
+  "Rene Descartes": 9,
+  "Lord Byron": 9,
+  "Herbert Spencer": 9,
+  "Ernest Renan": 8,
+  "Stendhal": 7,
+  "Hippolyte Taine": 6,
+  "Heinrich Heine": 6,
+  "Fyodor Dostoevsky": 6,
+  "Epicurus": 5,
+  "John Stuart Mill": 5,
+  "Victor Hugo": 5,
+  "Pindar": 4,
+  "Michel de Montaigne": 4,
+  "Gottfried Wilhelm Leibniz": 4,
+  "Seneca": 3,
+  "Plutarch": 3,
+  "Horace": 3,
+  "Petronius": 3,
+  "Cicero": 3,
+  "Ralph Waldo Emerson": 3,
+  "Jacob Burckhardt": 3,
+  "Sallust": 3,
+  "Emile Zola": 3,
+  "Epictetus": 2,
+  "Eugen Duhring": 2,
+  "Tacitus": 2,
+  "Charles Augustin Sainte-Beuve": 2,
+  "Charles Baudelaire": 2,
+  "David Strauss": 2,
+  "Julius Caesar": 2,
+  "Leopold von Ranke": 2,
+  "Niccolo Machiavelli": 1,
+  "Paul Ree": 1,
+  "Leo Tolstoy": 1
+ }
+}

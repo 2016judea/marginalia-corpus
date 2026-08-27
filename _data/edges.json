@@ -5675,13 +5675,17 @@
   }
  ],
  "reference_note": "The reader NAMING an author, in a marginal note or in their own published work. A separate measurement from the mark tiers -- never sum the two.",
- "n_reference_edges": 388,
+ "n_reference_edges": 446,
  "n_references_without_an_author": {
   "aor:named_in_note": 8483,
   "aor:work_cited_in_note": 79,
   "derrida:footnote": 9,
   "derrida:citation": 1,
   "derrida:quotation": 2
+ },
+ "n_self_references_excluded": {
+  "dee": 4,
+  "derrida": 9
  },
  "reference_edges": [
   {
@@ -5752,6 +5756,78 @@
    ]
   },
   {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Socrates",
+   "n_references": 130,
+   "kinds": {
+    "named_in_work": 130
+   },
+   "works_named": [
+    "Sokrates"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Richard Wagner",
+   "n_references": 98,
+   "kinds": {
+    "named_in_work": 98
+   },
+   "works_named": [
+    "Wagner"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Arthur Schopenhauer",
+   "n_references": 97,
+   "kinds": {
+    "named_in_work": 97
+   },
+   "works_named": [
+    "Schopenhauer"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
    "reader_id": "derrida",
    "reader": "Jacques Derrida",
    "target_author": "Claude Lévi-Strauss",
@@ -5788,6 +5864,30 @@
    ]
   },
   {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Plato",
+   "n_references": 87,
+   "kinds": {
+    "named_in_work": 87
+   },
+   "works_named": [
+    "Plato"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
    "reader_id": "derrida",
    "reader": "Jacques Derrida",
    "target_author": "Ferdinand de Saussure",
@@ -5808,6 +5908,144 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Johann Wolfgang von Goethe",
+   "n_references": 67,
+   "kinds": {
+    "named_in_work": 67
+   },
+   "works_named": [
+    "Goethe"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Euripides",
+   "n_references": 60,
+   "kinds": {
+    "named_in_work": 60
+   },
+   "works_named": [
+    "Euripides"
+   ],
+   "in_works": [
+    "Die Geburt der Tragödie (1872)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Immanuel Kant",
+   "n_references": 45,
+   "kinds": {
+    "named_in_work": 45
+   },
+   "works_named": [
+    "Kant"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Napoleon Bonaparte",
+   "n_references": 35,
+   "kinds": {
+    "named_in_work": 35
+   },
+   "works_named": [
+    "Napoleon"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Homer",
+   "n_references": 32,
+   "kinds": {
+    "named_in_work": 32
+   },
+   "works_named": [
+    "Homer"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Jean-Jacques Rousseau",
+   "n_references": 32,
+   "kinds": {
+    "named_in_work": 32
+   },
+   "works_named": [
+    "Rousseau"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -5894,6 +6132,28 @@
    ]
   },
   {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Voltaire",
+   "n_references": 26,
+   "kinds": {
+    "named_in_work": 26
+   },
+   "works_named": [
+    "Voltaire"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
    "reader_id": "harvey",
    "reader": "Gabriel Harvey",
    "target_author": "Aristotle",
@@ -5934,6 +6194,29 @@
    ],
    "datasets": [
     "aor"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "William Shakespeare",
+   "n_references": 23,
+   "kinds": {
+    "named_in_work": 23
+   },
+   "works_named": [
+    "Shakespeare"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -5988,6 +6271,27 @@
    ]
   },
   {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Aeschylus",
+   "n_references": 22,
+   "kinds": {
+    "named_in_work": 22
+   },
+   "works_named": [
+    "Aeschylus"
+   ],
+   "in_works": [
+    "Die Geburt der Tragödie (1872)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
    "reader_id": "derrida",
    "reader": "Jacques Derrida",
    "target_author": "Plato",
@@ -6034,6 +6338,50 @@
    ],
    "datasets": [
     "aor"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Georg Wilhelm Friedrich Hegel",
+   "n_references": 20,
+   "kinds": {
+    "named_in_work": 20
+   },
+   "works_named": [
+    "Hegel"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Friedrich Schiller",
+   "n_references": 19,
+   "kinds": {
+    "named_in_work": 19
+   },
+   "works_named": [
+    "Schiller"
+   ],
+   "in_works": [
+    "Die Geburt der Tragödie (1872)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -6113,6 +6461,51 @@
    ]
   },
   {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Aristotle",
+   "n_references": 18,
+   "kinds": {
+    "named_in_work": 18
+   },
+   "works_named": [
+    "Aristoteles"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Baruch Spinoza",
+   "n_references": 18,
+   "kinds": {
+    "named_in_work": 18
+   },
+   "works_named": [
+    "Spinoza"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
    "reader_id": "harvey",
    "reader": "Gabriel Harvey",
    "target_author": "Jacopo di Porcia",
@@ -6155,6 +6548,51 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Ludwig van Beethoven",
+   "n_references": 16,
+   "kinds": {
+    "named_in_work": 16
+   },
+   "works_named": [
+    "Beethoven"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Blaise Pascal",
+   "n_references": 16,
+   "kinds": {
+    "named_in_work": 16
+   },
+   "works_named": [
+    "Pascal"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -6202,6 +6640,28 @@
    ]
   },
   {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Thomas Carlyle",
+   "n_references": 15,
+   "kinds": {
+    "named_in_work": 15
+   },
+   "works_named": [
+    "Carlyle"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
    "reader_id": "derrida",
    "reader": "Jacques Derrida",
    "target_author": "Madeleine V.-David",
@@ -6224,6 +6684,47 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Sophocles",
+   "n_references": 14,
+   "kinds": {
+    "named_in_work": 14
+   },
+   "works_named": [
+    "Sophokles"
+   ],
+   "in_works": [
+    "Die Geburt der Tragödie (1872)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Charles Darwin",
+   "n_references": 14,
+   "kinds": {
+    "named_in_work": 14
+   },
+   "works_named": [
+    "Darwin"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -6435,6 +6936,51 @@
    ]
   },
   {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Thucydides",
+   "n_references": 12,
+   "kinds": {
+    "named_in_work": 12
+   },
+   "works_named": [
+    "Thukydides"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Götzen-Dämmerung (1888)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Martin Luther",
+   "n_references": 12,
+   "kinds": {
+    "named_in_work": 12
+   },
+   "works_named": [
+    "Luther"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
    "reader_id": "harvey",
    "reader": "Gabriel Harvey",
    "target_author": "Sallust",
@@ -6624,6 +7170,50 @@
    ]
   },
   {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Heraclitus",
+   "n_references": 10,
+   "kinds": {
+    "named_in_work": 10
+   },
+   "works_named": [
+    "Heraklit"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Francois de La Rochefoucauld",
+   "n_references": 10,
+   "kinds": {
+    "named_in_work": 10
+   },
+   "works_named": [
+    "Larochefoucauld",
+    "Rochefoucauld"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
    "reader_id": "harvey",
    "reader": "Gabriel Harvey",
    "target_author": "Virgil",
@@ -6675,30 +7265,69 @@
    ]
   },
   {
-   "reader_id": "derrida",
-   "reader": "Jacques Derrida",
-   "target_author": "Jacques Derrida",
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Rene Descartes",
    "n_references": 9,
    "kinds": {
-    "footnote": 9
+    "named_in_work": 9
    },
    "works_named": [
-    "De la grammatologie I",
-    "L'écriture et la différence",
-    "La voix et le phénomène",
-    "Ousia et Grammè, note sur une note de Sein und Zeit"
+    "Descartes"
    ],
    "in_works": [
-    "De la grammatologie"
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Ecce homo (1888)",
+    "Jenseits von Gut und Böse (1886)"
    ],
-   "identifiers": [
-    "https://derridas-margins.princeton.edu/titles/10/",
-    "https://derridas-margins.princeton.edu/titles/11/",
-    "https://derridas-margins.princeton.edu/titles/143/",
-    "https://derridas-margins.princeton.edu/titles/22/"
-   ],
+   "identifiers": [],
    "datasets": [
-    "derrida"
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Lord Byron",
+   "n_references": 9,
+   "kinds": {
+    "named_in_work": 9
+   },
+   "works_named": [
+    "Byron"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Herbert Spencer",
+   "n_references": 9,
+   "kinds": {
+    "named_in_work": 9
+   },
+   "works_named": [
+    "Spencer"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -6858,6 +7487,27 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Ernest Renan",
+   "n_references": 8,
+   "kinds": {
+    "named_in_work": 8
+   },
+   "works_named": [
+    "Renan"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -7082,6 +7732,27 @@
    ]
   },
   {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Stendhal",
+   "n_references": 7,
+   "kinds": {
+    "named_in_work": 7
+   },
+   "works_named": [
+    "Stendhal"
+   ],
+   "in_works": [
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
    "reader_id": "harvey",
    "reader": "Gabriel Harvey",
    "target_author": "Bartolus de Saxoferrato",
@@ -7205,6 +7876,68 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Hippolyte Taine",
+   "n_references": 6,
+   "kinds": {
+    "named_in_work": 6
+   },
+   "works_named": [
+    "Taine"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Heinrich Heine",
+   "n_references": 6,
+   "kinds": {
+    "named_in_work": 6
+   },
+   "works_named": [
+    "Heine"
+   ],
+   "in_works": [
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Fyodor Dostoevsky",
+   "n_references": 6,
+   "kinds": {
+    "named_in_work": 6
+   },
+   "works_named": [
+    "Dostoiewsky"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -7387,6 +8120,69 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Epicurus",
+   "n_references": 5,
+   "kinds": {
+    "named_in_work": 5
+   },
+   "works_named": [
+    "Epikur"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Die Geburt der Tragödie (1872)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "John Stuart Mill",
+   "n_references": 5,
+   "kinds": {
+    "named_in_work": 5
+   },
+   "works_named": [
+    "Mill"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Victor Hugo",
+   "n_references": 5,
+   "kinds": {
+    "named_in_work": 5
+   },
+   "works_named": [
+    "Victor Hugo"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -7653,26 +8449,6 @@
   {
    "reader_id": "dee",
    "reader": "John Dee",
-   "target_author": "John Dee",
-   "n_references": 4,
-   "kinds": {
-    "work_cited_in_note": 4
-   },
-   "works_named": [
-    "Hieroglyphic Monad",
-    "Propaedumata Aphoristica"
-   ],
-   "in_works": [],
-   "identifiers": [
-    "https://ustc.ac.uk/index.php/record/401164"
-   ],
-   "datasets": [
-    "aor"
-   ]
-  },
-  {
-   "reader_id": "dee",
-   "reader": "John Dee",
    "target_author": "Thomas Walsingham",
    "n_references": 4,
    "kinds": {
@@ -7710,6 +8486,69 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Pindar",
+   "n_references": 4,
+   "kinds": {
+    "named_in_work": 4
+   },
+   "works_named": [
+    "Pindar"
+   ],
+   "in_works": [
+    "Die Geburt der Tragödie (1872)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Michel de Montaigne",
+   "n_references": 4,
+   "kinds": {
+    "named_in_work": 4
+   },
+   "works_named": [
+    "Montaigne"
+   ],
+   "in_works": [
+    "Ecce homo (1888)",
+    "Jenseits von Gut und Böse (1886)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Gottfried Wilhelm Leibniz",
+   "n_references": 4,
+   "kinds": {
+    "named_in_work": 4
+   },
+   "works_named": [
+    "Leibnitz",
+    "Leibniz"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -8371,6 +9210,187 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Seneca",
+   "n_references": 3,
+   "kinds": {
+    "named_in_work": 3
+   },
+   "works_named": [
+    "Seneca"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Götzen-Dämmerung (1888)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Plutarch",
+   "n_references": 3,
+   "kinds": {
+    "named_in_work": 3
+   },
+   "works_named": [
+    "Plutarch"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Horace",
+   "n_references": 3,
+   "kinds": {
+    "named_in_work": 3
+   },
+   "works_named": [
+    "Horaz"
+   ],
+   "in_works": [
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Petronius",
+   "n_references": 3,
+   "kinds": {
+    "named_in_work": 3
+   },
+   "works_named": [
+    "Petronius"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Cicero",
+   "n_references": 3,
+   "kinds": {
+    "named_in_work": 3
+   },
+   "works_named": [
+    "Cicero"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Ralph Waldo Emerson",
+   "n_references": 3,
+   "kinds": {
+    "named_in_work": 3
+   },
+   "works_named": [
+    "Emerson"
+   ],
+   "in_works": [
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Jacob Burckhardt",
+   "n_references": 3,
+   "kinds": {
+    "named_in_work": 3
+   },
+   "works_named": [
+    "Burckhardt"
+   ],
+   "in_works": [
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Sallust",
+   "n_references": 3,
+   "kinds": {
+    "named_in_work": 3
+   },
+   "works_named": [
+    "Sallust"
+   ],
+   "in_works": [
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Emile Zola",
+   "n_references": 3,
+   "kinds": {
+    "named_in_work": 3
+   },
+   "works_named": [
+    "Zola"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -9542,6 +10562,167 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Epictetus",
+   "n_references": 2,
+   "kinds": {
+    "named_in_work": 2
+   },
+   "works_named": [
+    "Epictet",
+    "Epiktet"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Menschliches, Allzumenschliches (1878)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Eugen Duhring",
+   "n_references": 2,
+   "kinds": {
+    "named_in_work": 2
+   },
+   "works_named": [
+    "Dühring"
+   ],
+   "in_works": [
+    "Ecce homo (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Tacitus",
+   "n_references": 2,
+   "kinds": {
+    "named_in_work": 2
+   },
+   "works_named": [
+    "Tacitus"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Charles Augustin Sainte-Beuve",
+   "n_references": 2,
+   "kinds": {
+    "named_in_work": 2
+   },
+   "works_named": [
+    "Sainte-Beuve"
+   ],
+   "in_works": [
+    "Götzen-Dämmerung (1888)",
+    "Jenseits von Gut und Böse (1886)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Charles Baudelaire",
+   "n_references": 2,
+   "kinds": {
+    "named_in_work": 2
+   },
+   "works_named": [
+    "Baudelaire"
+   ],
+   "in_works": [
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "David Strauss",
+   "n_references": 2,
+   "kinds": {
+    "named_in_work": 2
+   },
+   "works_named": [
+    "Strauss"
+   ],
+   "in_works": [
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Julius Caesar",
+   "n_references": 2,
+   "kinds": {
+    "named_in_work": 2
+   },
+   "works_named": [
+    "Cäsar"
+   ],
+   "in_works": [
+    "Ecce homo (1888)",
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Leopold von Ranke",
+   "n_references": 2,
+   "kinds": {
+    "named_in_work": 2
+   },
+   "works_named": [
+    "Ranke"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)",
+    "Ecce homo (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   },
   {
@@ -13355,6 +14536,63 @@
    ],
    "datasets": [
     "derrida"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Niccolo Machiavelli",
+   "n_references": 1,
+   "kinds": {
+    "named_in_work": 1
+   },
+   "works_named": [
+    "Machiavell"
+   ],
+   "in_works": [
+    "Götzen-Dämmerung (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Paul Ree",
+   "n_references": 1,
+   "kinds": {
+    "named_in_work": 1
+   },
+   "works_named": [
+    "Rée"
+   ],
+   "in_works": [
+    "Ecce homo (1888)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
+   ]
+  },
+  {
+   "reader_id": "nietzsche",
+   "reader": "Friedrich Nietzsche",
+   "target_author": "Leo Tolstoy",
+   "n_references": 1,
+   "kinds": {
+    "named_in_work": 1
+   },
+   "works_named": [
+    "Tolstoi"
+   ],
+   "in_works": [
+    "Der Wille zur Macht (posthumous compilation) (1901)"
+   ],
+   "identifiers": [],
+   "datasets": [
+    "nietzsche"
    ]
   }
  ],
@@ -44094,6 +45332,621 @@
    "datasets": [
     "aor"
    ]
+  }
+ ],
+ "shared_note": "Authors reached by more than one reader. Marks and references are reported separately per reader -- they are different measurements and must not be added.",
+ "n_authors_reached_by_multiple_readers": 46,
+ "shared_authors": [
+  {
+   "author": "Homer",
+   "n_readers": 5,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 32
+    },
+    "Gabriel Harvey": {
+     "references": 7
+    },
+    "Herman Melville": {
+     "marks": 563
+    },
+    "John Dee": {
+     "references": 5
+    },
+    "Walt Whitman": {
+     "marks": 2
+    }
+   }
+  },
+  {
+   "author": "Aristotle",
+   "n_readers": 4,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 18
+    },
+    "Gabriel Harvey": {
+     "references": 24
+    },
+    "Jacques Derrida": {
+     "marks": 6,
+     "references": 2
+    },
+    "John Dee": {
+     "references": 8
+    }
+   }
+  },
+  {
+   "author": "Horace",
+   "n_readers": 4,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 3
+    },
+    "Gabriel Harvey": {
+     "references": 3
+    },
+    "John Dee": {
+     "references": 1
+    },
+    "Walt Whitman": {
+     "marks": 1
+    }
+   }
+  },
+  {
+   "author": "Plato",
+   "n_readers": 4,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 87
+    },
+    "Gabriel Harvey": {
+     "references": 2
+    },
+    "Jacques Derrida": {
+     "marks": 62,
+     "references": 21
+    },
+    "John Dee": {
+     "references": 26
+    }
+   }
+  },
+  {
+   "author": "Cicero",
+   "n_readers": 3,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 3
+    },
+    "Gabriel Harvey": {
+     "references": 31
+    },
+    "John Dee": {
+     "references": 208
+    }
+   }
+  },
+  {
+   "author": "Epictetus",
+   "n_readers": 3,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 2
+    },
+    "Gabriel Harvey": {
+     "references": 3
+    },
+    "Walt Whitman": {
+     "marks": 1
+    }
+   }
+  },
+  {
+   "author": "Jean-Jacques Rousseau",
+   "n_readers": 3,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 32
+    },
+    "Jacques Derrida": {
+     "marks": 243,
+     "references": 478
+    },
+    "Walt Whitman": {
+     "marks": 2
+    }
+   }
+  },
+  {
+   "author": "Paracelsus",
+   "n_readers": 3,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 1
+    },
+    "John Dee": {
+     "marks": 3022,
+     "references": 9
+    },
+    "John Winthrop": {
+     "marks": 8
+    }
+   }
+  },
+  {
+   "author": "Pindar",
+   "n_readers": 3,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 4
+    },
+    "Gabriel Harvey": {
+     "references": 6
+    },
+    "Walt Whitman": {
+     "marks": 1
+    }
+   }
+  },
+  {
+   "author": "Plutarch",
+   "n_readers": 3,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 3
+    },
+    "Gabriel Harvey": {
+     "references": 12
+    },
+    "John Dee": {
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Sallust",
+   "n_readers": 3,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 3
+    },
+    "Gabriel Harvey": {
+     "references": 11
+    },
+    "John Dee": {
+     "references": 2
+    }
+   }
+  },
+  {
+   "author": "Aeschylus",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 22
+    },
+    "Walt Whitman": {
+     "marks": 1
+    }
+   }
+  },
+  {
+   "author": "Arthur Schopenhauer",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 97
+    },
+    "Herman Melville": {
+     "marks": 208
+    }
+   }
+  },
+  {
+   "author": "Blaise de Vigenère",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 1
+    },
+    "Jacques Derrida": {
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Dante Alighieri",
+   "n_readers": 2,
+   "readers": {
+    "John Dee": {
+     "references": 1
+    },
+    "Walt Whitman": {
+     "marks": 2
+    }
+   }
+  },
+  {
+   "author": "Ernest Renan",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 8
+    },
+    "Jacques Derrida": {
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Euclid",
+   "n_readers": 2,
+   "readers": {
+    "John Dee": {
+     "marks": 46,
+     "references": 3
+    },
+    "John Winthrop": {
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Euripides",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 60
+    },
+    "John Dee": {
+     "references": 2
+    }
+   }
+  },
+  {
+   "author": "Georg Wilhelm Friedrich Hegel",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 20
+    },
+    "Jacques Derrida": {
+     "marks": 88,
+     "references": 11
+    }
+   }
+  },
+  {
+   "author": "Giovanni Pontano",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 3
+    },
+    "John Dee": {
+     "references": 2
+    }
+   }
+  },
+  {
+   "author": "Girolamo Cardano",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 10
+    },
+    "John Dee": {
+     "references": 4
+    }
+   }
+  },
+  {
+   "author": "Gottfried Wilhelm Leibniz",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 4
+    },
+    "Jacques Derrida": {
+     "marks": 4,
+     "references": 12
+    }
+   }
+  },
+  {
+   "author": "Heinrich Heine",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 6
+    },
+    "Walt Whitman": {
+     "marks": 1
+    }
+   }
+  },
+  {
+   "author": "Herodotus",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 1
+    },
+    "John Dee": {
+     "references": 3
+    }
+   }
+  },
+  {
+   "author": "Hesiod",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 1
+    },
+    "John Dee": {
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Immanuel Kant",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 45
+    },
+    "Jacques Derrida": {
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Johann Wolfgang von Goethe",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 67
+    },
+    "Walt Whitman": {
+     "marks": 1
+    }
+   }
+  },
+  {
+   "author": "John Dee",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 1
+    },
+    "John Winthrop": {
+     "references": 2
+    }
+   }
+  },
+  {
+   "author": "Julius Caesar",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 2
+    },
+    "Gabriel Harvey": {
+     "references": 2
+    }
+   }
+  },
+  {
+   "author": "Livy",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "marks": 38995,
+     "references": 20
+    },
+    "John Dee": {
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Maurus Servius Honoratus",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 1
+    },
+    "John Dee": {
+     "references": 2
+    }
+   }
+  },
+  {
+   "author": "Michel de Montaigne",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 4
+    },
+    "Jacques Derrida": {
+     "marks": 3,
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Olaus Magnus",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "marks": 1968,
+     "references": 8
+    },
+    "John Dee": {
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Omar Khayyam",
+   "n_readers": 2,
+   "readers": {
+    "Herman Melville": {
+     "marks": 19
+    },
+    "Walt Whitman": {
+     "marks": 1
+    }
+   }
+  },
+  {
+   "author": "Ovid",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 7
+    },
+    "John Dee": {
+     "marks": 1046
+    }
+   }
+  },
+  {
+   "author": "Philipp Melanchthon",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "marks": 1530,
+     "references": 2
+    },
+    "John Dee": {
+     "references": 1
+    }
+   }
+  },
+  {
+   "author": "Pliny the Elder",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 4
+    },
+    "John Dee": {
+     "marks": 587
+    }
+   }
+  },
+  {
+   "author": "Quintilian",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 1
+    },
+    "John Dee": {
+     "marks": 4637
+    }
+   }
+  },
+  {
+   "author": "Ralph Waldo Emerson",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 3
+    },
+    "Herman Melville": {
+     "marks": 134
+    }
+   }
+  },
+  {
+   "author": "Seneca",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 3
+    },
+    "Gabriel Harvey": {
+     "references": 5
+    }
+   }
+  },
+  {
+   "author": "Sophocles",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 14
+    },
+    "Walt Whitman": {
+     "marks": 1
+    }
+   }
+  },
+  {
+   "author": "Tacitus",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 2
+    },
+    "Gabriel Harvey": {
+     "references": 4
+    }
+   }
+  },
+  {
+   "author": "Terence",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 2
+    },
+    "John Dee": {
+     "references": 5
+    }
+   }
+  },
+  {
+   "author": "Thomas Carlyle",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 15
+    },
+    "Walt Whitman": {
+     "marks": 2
+    }
+   }
+  },
+  {
+   "author": "Virgil",
+   "n_readers": 2,
+   "readers": {
+    "Gabriel Harvey": {
+     "references": 9
+    },
+    "John Dee": {
+     "references": 2
+    }
+   }
+  },
+  {
+   "author": "William Shakespeare",
+   "n_readers": 2,
+   "readers": {
+    "Friedrich Nietzsche": {
+     "references": 23
+    },
+    "Herman Melville": {
+     "marks": 761
+    }
+   }
   }
  ]
 }

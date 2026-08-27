@@ -1,0 +1,375 @@
+{
+ "_note": "A SEARCH SPACE, not a claim. Every entry is an author Nietzsche plausibly names; a count of ZERO is a real and useful answer, which is why deliberate zero-expectation controls (Melville, Whitman, Ovid) are in the list. `requires` exists because a bare German surname is often a common word: EVERY match on 'Lange' in these seven texts is the adjective ('Lange schlief Zarathustra', 'Langes Leben', 'alles Lange'), and 'Strauss' catches both a bouquet and 'Der Vogel Strauss', the ostrich. Where `requires` is set, a match counts only if one of those strings appears within 60 characters. Audited by hand 2026-08-27; the contexts are in _data/nietzsche_audit.json so the claim is checkable.",
+ "Arthur Schopenhauer": {
+  "forms": [
+   "Schopenhauer"
+  ]
+ },
+ "Richard Wagner": {
+  "forms": [
+   "Wagner"
+  ]
+ },
+ "Immanuel Kant": {
+  "forms": [
+   "Kant"
+  ]
+ },
+ "Georg Wilhelm Friedrich Hegel": {
+  "forms": [
+   "Hegel"
+  ]
+ },
+ "Plato": {
+  "forms": [
+   "Plato",
+   "Platon"
+  ]
+ },
+ "Aristotle": {
+  "forms": [
+   "Aristoteles"
+  ]
+ },
+ "Johann Wolfgang von Goethe": {
+  "forms": [
+   "Goethe"
+  ]
+ },
+ "Friedrich Schiller": {
+  "forms": [
+   "Schiller"
+  ]
+ },
+ "Ralph Waldo Emerson": {
+  "forms": [
+   "Emerson"
+  ]
+ },
+ "Stendhal": {
+  "forms": [
+   "Stendhal"
+  ]
+ },
+ "Fyodor Dostoevsky": {
+  "forms": [
+   "Dostoiewsky",
+   "Dostojewsky",
+   "Dostoevsky",
+   "Dostoiewski"
+  ]
+ },
+ "Leo Tolstoy": {
+  "forms": [
+   "Tolstoi",
+   "Tolstoy"
+  ]
+ },
+ "Charles Darwin": {
+  "forms": [
+   "Darwin"
+  ]
+ },
+ "Herbert Spencer": {
+  "forms": [
+   "Spencer"
+  ]
+ },
+ "John Stuart Mill": {
+  "forms": [
+   "Mill"
+  ],
+  "requires": [
+   "John Stuart",
+   "Stuart Mill"
+  ],
+  "note": "'Mill' collides with nothing German, but 'Mille'/'Millionen' tokenise near it; require the full name."
+ },
+ "Eugen Duhring": {
+  "forms": [
+   "Dühring"
+  ]
+ },
+ "Paul Ree": {
+  "forms": [
+   "Rée"
+  ]
+ },
+ "Jacob Burckhardt": {
+  "forms": [
+   "Burckhardt"
+  ]
+ },
+ "Hippolyte Taine": {
+  "forms": [
+   "Taine"
+  ]
+ },
+ "Ernest Renan": {
+  "forms": [
+   "Renan"
+  ]
+ },
+ "Charles Baudelaire": {
+  "forms": [
+   "Baudelaire"
+  ]
+ },
+ "Lord Byron": {
+  "forms": [
+   "Byron"
+  ]
+ },
+ "William Shakespeare": {
+  "forms": [
+   "Shakespeare",
+   "Shakspeare"
+  ]
+ },
+ "Homer": {
+  "forms": [
+   "Homer"
+  ]
+ },
+ "Thucydides": {
+  "forms": [
+   "Thukydides"
+  ]
+ },
+ "Heraclitus": {
+  "forms": [
+   "Heraklit"
+  ]
+ },
+ "Epicurus": {
+  "forms": [
+   "Epikur"
+  ]
+ },
+ "Baruch Spinoza": {
+  "forms": [
+   "Spinoza"
+  ]
+ },
+ "Gottfried Wilhelm Leibniz": {
+  "forms": [
+   "Leibniz",
+   "Leibnitz"
+  ]
+ },
+ "Rene Descartes": {
+  "forms": [
+   "Descartes"
+  ]
+ },
+ "Jean-Jacques Rousseau": {
+  "forms": [
+   "Rousseau"
+  ]
+ },
+ "Voltaire": {
+  "forms": [
+   "Voltaire"
+  ]
+ },
+ "Blaise Pascal": {
+  "forms": [
+   "Pascal"
+  ]
+ },
+ "Michel de Montaigne": {
+  "forms": [
+   "Montaigne"
+  ]
+ },
+ "Francois de La Rochefoucauld": {
+  "forms": [
+   "Rochefoucauld",
+   "Larochefoucauld"
+  ]
+ },
+ "Friedrich Albert Lange": {
+  "forms": [
+   "Lange"
+  ],
+  "requires": [
+   "Friedrich Albert",
+   "Albert Lange"
+  ],
+  "note": "MEASURED ZERO. All 12 raw hits across the seven texts are the German adjective 'lange' at sentence start or the noun form. Without this gate he would rank 28th."
+ },
+ "David Strauss": {
+  "forms": [
+   "Strauss",
+   "Strauß"
+  ],
+  "requires": [
+   "David"
+  ],
+  "note": "Raw hits include 'ihren Strauss' (a bouquet) and 'Der Vogel Strauss' (the ostrich, in Zarathustra)."
+ },
+ "Heinrich Heine": {
+  "forms": [
+   "Heine"
+  ]
+ },
+ "Martin Luther": {
+  "forms": [
+   "Luther"
+  ]
+ },
+ "Socrates": {
+  "forms": [
+   "Sokrates"
+  ]
+ },
+ "Euripides": {
+  "forms": [
+   "Euripides"
+  ]
+ },
+ "Aeschylus": {
+  "forms": [
+   "Aeschylus",
+   "Äschylus"
+  ]
+ },
+ "Sophocles": {
+  "forms": [
+   "Sophokles"
+  ]
+ },
+ "Pindar": {
+  "forms": [
+   "Pindar"
+  ]
+ },
+ "Horace": {
+  "forms": [
+   "Horaz"
+  ]
+ },
+ "Sallust": {
+  "forms": [
+   "Sallust"
+  ]
+ },
+ "Petronius": {
+  "forms": [
+   "Petronius"
+  ]
+ },
+ "Tacitus": {
+  "forms": [
+   "Tacitus"
+  ]
+ },
+ "Cicero": {
+  "forms": [
+   "Cicero"
+  ]
+ },
+ "Seneca": {
+  "forms": [
+   "Seneca"
+  ]
+ },
+ "Ovid": {
+  "forms": [
+   "Ovid"
+  ]
+ },
+ "Napoleon Bonaparte": {
+  "forms": [
+   "Napoleon"
+  ]
+ },
+ "Julius Caesar": {
+  "forms": [
+   "Cäsar"
+  ],
+  "requires": [
+   "Julius"
+  ],
+  "note": "'Cäsar' alone is used generically for 'a caesar' throughout the late works."
+ },
+ "Emile Zola": {
+  "forms": [
+   "Zola"
+  ]
+ },
+ "Victor Hugo": {
+  "forms": [
+   "Victor Hugo"
+  ]
+ },
+ "Charles Augustin Sainte-Beuve": {
+  "forms": [
+   "Sainte-Beuve"
+  ]
+ },
+ "Leopold von Ranke": {
+  "forms": [
+   "Ranke"
+  ],
+  "requires": [
+   "Leopold",
+   "oder Ranke",
+   "wie Ranke"
+  ],
+  "note": "'Ranke' is also a German noun (tendril) and a verb form."
+ },
+ "Ludwig Feuerbach": {
+  "forms": [
+   "Feuerbach"
+  ]
+ },
+ "Ludwig van Beethoven": {
+  "forms": [
+   "Beethoven"
+  ]
+ },
+ "Herman Melville": {
+  "forms": [
+   "Melville"
+  ],
+  "note": "CONTROL, expected zero. Proves the gazetteer is a search space and not a cherry-picked result list."
+ },
+ "Walt Whitman": {
+  "forms": [
+   "Whitman"
+  ],
+  "note": "CONTROL, expected zero."
+ },
+ "Jacques Derrida": {
+  "forms": [
+   "Derrida"
+  ],
+  "note": "CONTROL, expected zero -- born 1930."
+ },
+ "Thomas Carlyle": {
+  "forms": [
+   "Carlyle"
+  ],
+  "note": "Added after appearing in the audited context of every Emerson hit."
+ },
+ "Epictetus": {
+  "forms": [
+   "Epictet",
+   "Epiktet"
+  ],
+  "note": "Added from an audited Menschliches context ('Pascal, Epictet, Seneca, Plutarch')."
+ },
+ "Plutarch": {
+  "forms": [
+   "Plutarch"
+  ],
+  "note": "Same context as Epictetus."
+ },
+ "Niccolo Machiavelli": {
+  "forms": [
+   "Machiavell"
+  ],
+  "note": "Matches Machiavell/Machiavelli/Machiavellismus."
+ }
+}

@@ -23,7 +23,7 @@ from dataclasses import asdict
 
 import rights
 from schema import Reader, TIER_AUTOGRAPH, TIER_MARK, TIER_COPY
-from ingest import aor, derrida, melville_monline, whitman
+from ingest import aor, derrida, melville_monline, nietzsche, whitman
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_data")
 
@@ -41,6 +41,11 @@ READERS = [
            "implementation of a marginalia data model, and Dee is half of it."),
     Reader("winthrop", "John Winthrop", 1606, 1676, "Q1701206",
            "Three pages in AOR's Paracelsus_Meteorum only."),
+    Reader("nietzsche", "Friedrich Nietzsche", 1844, 1900, "Q9358",
+           "NO annotated volumes reachable: his ~1,100 surviving library books are "
+           "digitised as facsimile only, Weimar blocks automated access, and the "
+           "transcribed Lesespuren exist solely in the 2003 de Gruyter print "
+           "catalogue. Present here through references in his own published prose."),
     Reader("derrida", "Jacques Derrida", 1930, 2004, "Q9364",
            "Library of ~13,800 volumes at PUL; this dataset is phase 1 only, "
            "the books behind De la grammatologie (1967)."),
@@ -51,6 +56,7 @@ ADAPTERS = [
     ("aor", aor.ingest),
     ("whitman", whitman.ingest),
     ("derrida", derrida.ingest),
+    ("nietzsche", nietzsche.ingest),
 ]
 
 
@@ -120,7 +126,7 @@ def main():
     for k, v in manifest.items():
         if k.startswith("_"):
             continue
-        print(f'{k:<9} {v["n_volumes"]:>4} vols  {v["n_marks"]:>7} marks  '
+        print(f'{k:<10} {v["n_volumes"]:>4} vols  {v["n_marks"]:>7} marks  '
               f'T1 {v["n_autograph"]:>6}  T2 {v["n_mark"]:>6}  T3 {v["n_copy"]:>4}  '
               f'{v["n_references"]:>5} refs  {v["n_source_authors"]:>3} authors  '
               f'text={"yes" if v["text_emitted"] else "WITHHELD"}')

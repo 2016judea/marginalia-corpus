@@ -198,7 +198,7 @@ def test_a_named_person_is_never_promoted_to_an_authorial_edge(references):
 
 def test_reference_kinds_are_declared(references):
     known = {"quotation", "footnote", "citation", "epigraph",
-             "named_in_note", "work_cited_in_note"}
+             "named_in_note", "work_cited_in_note", "named_in_work"}
     seen = {r["kind"] for r in references}
     assert seen <= known, f"undeclared reference kind(s): {sorted(seen - known)}"
 
@@ -255,3 +255,63 @@ def test_derrida_text_ships_because_it_is_cc_by(manifest, marks, volumes):
     dm = [m for m in marks if m["volume_id"] in ids]
     assert any(m["reader_text"] for m in dm), "no Derrida reader_text emitted"
     assert any(m["marked_text"] for m in dm), "no Derrida marked_text emitted"
+
+
+def test_nietzsche_controls_stay_at_zero():
+    """
+        The Nietzsche slice matches a CLOSED gazetteer of 66 declared
+        authors, three of which cannot possibly appear -- Melville and
+        Whitman he never names, Derrida was born thirty years after he died.
+        A hit on any of them means the matcher produces false positives, and
+        every other count is then suspect.
+    """
+    p = os.path.join(DATA, "nietzsche_audit.json")
+    if not os.path.exists(p):
+        pytest.skip("nietzsche not built")
+    a = json.load(open(p))
+    hits = a["counts"]
+    for c in a["controls_at_zero"]:
+        assert hits.get(c, 0) == 0, f"control author {c!r} matched {hits[c]} times"
+
+
+def test_nietzsche_ambiguous_surnames_stay_gated():
+    """
+        Every raw match on "Lange" in these seven texts is the German
+        adjective. If the gate is removed, Friedrich Albert Lange appears on
+        twelve false hits and outranks Darwin. Guarded as a shape: a gated
+        entry must be rarer than the ungated ones it would otherwise beat.
+    """
+    p = os.path.join(DATA, "nietzsche_audit.json")
+    if not os.path.exists(p):
+        pytest.skip("nietzsche not built")
+    counts = json.load(open(p))["counts"]
+    assert counts.get("Friedrich Albert Lange", 0) == 0, (
+        "Lange matched -- the first-name gate regressed and the German adjective "
+        "is being counted as a philosopher"
+    )
+    assert counts.get("David Strauss", 0) < 10, (
+        "David Strauss over-matched -- 'Der Vogel Strauss' (the ostrich) and "
+        "'ein Strauss' (a bouquet) are back in"
+    )
+
+
+def test_a_reader_naming_themselves_is_not_an_edge(edges):
+    """Dee cites his own printed books in his own margins; Derrida quotes himself."""
+    for e in edges["reference_edges"]:
+        assert e["reader"] != e["target_author"], f"self-reference survived: {e}"
+    assert edges["n_self_references_excluded"], "no self-references excluded at all"
+
+
+def test_the_corpus_has_cross_reader_reach(edges):
+    """
+        A single-reader corpus cannot say anything comparative. The point is
+        authors reached by more than one reader -- Homer by five, Shakespeare
+        by Melville and Nietzsche four centuries apart. Marks and references
+        are reported per reader and must never be summed into one number.
+    """
+    shared = edges["shared_authors"]
+    assert len(shared) > 20, f"only {len(shared)} authors reached by 2+ readers"
+    for x in shared:
+        assert len(x["readers"]) == x["n_readers"]
+        for r, m in x["readers"].items():
+            assert set(m) <= {"marks", "references"}, f"unexpected measure on {x['author']}: {m}"

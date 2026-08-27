@@ -73,14 +73,30 @@
   "n_references": 1052,
   "n_source_authors": 107
  },
+ "nietzsche": {
+  "name": "Friedrich Nietzsche, works (Project Gutenberg German texts)",
+  "citation": "Friedrich Nietzsche, works (Project Gutenberg German texts). Public domain; Nietzsche died 1900 https://www.gutenberg.org. Accessed 2026-08-27.",
+  "text_emitted": true,
+  "terms": "The underlying texts are public domain worldwide. Project Gutenberg's own licence attaches to their MARKED-UP FILES and to use of the trademark, not to the public-domain work, so the header and licence block are stripped and the text itself is emitted. Same treatment literature-mutations already applies to its 345 Gutenberg texts. NOTE this is NOT the Colli-Montinari critical text (eKGWB) -- that is de Gruyter copyright, published online by permission, and must never be redistributed from here. Read 2026-08-27.",
+  "readers": [],
+  "n_volumes": 0,
+  "n_marks": 0,
+  "n_autograph": 0,
+  "n_mark": 0,
+  "n_copy": 0,
+  "n_text_withheld": 0,
+  "n_marks_in_readers_own_hand": 0,
+  "n_references": 1081,
+  "n_source_authors": 0
+ },
  "_totals": {
-  "readers": 6,
+  "readers": 7,
   "volumes": 672,
   "marks": 198817,
   "T1_autograph": 30237,
   "T2_mark": 168369,
   "T3_copy": 211,
-  "references": 10693,
+  "references": 11774,
   "source_authors": 313
  }
 }

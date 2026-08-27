@@ -28,7 +28,8 @@ Built 2026-08-27. Every number below comes out of `build_corpus.py`, not typed.
 | [Archaeology of Reading](https://archaeologyofreading.org) | Gabriel Harvey, John Dee, John Winthrop | 36 | 189,980 | 28,275 | 161,705 | — | 9,641 | 31 |
 | [Walt Whitman Archive](https://whitmanarchive.org) | Walt Whitman | 362 | 2,303 | 1,384 | 708 | 211 | — | 160 |
 | [Derrida's Margins](https://derridas-margins.princeton.edu) | Jacques Derrida | 222 | 1,670 | 211 | 1,459 | — | 1,052 | 107 |
-| **Total** | **6 readers** | **672** | **198,817** | **30,237** | **168,369** | **211** | **10,693** | **313** |
+| [Nietzsche, works](https://www.gutenberg.org) (Gutenberg, German) | Friedrich Nietzsche | — | — | — | — | — | 1,081 | 60 |
+| **Total** | **7 readers** | **672** | **198,817** | **30,237** | **168,369** | **211** | **11,774** | **313** |
 
 **30,237 utterances by an author, written in another author's book, beside the
 line that provoked them.** Plus 168,369 marks that locate a passage without
@@ -40,10 +41,15 @@ Three edge sets in `_data/edges.json`, never merged:
 
 - **242 mark edges** — the reader physically marked this author's book. 84 are
   passage-anchored.
-- **388 reference edges** — the reader *named* this author, in a marginal note
-  or in their own published book.
+- **446 reference edges** — the reader *named* this author, in a marginal note
+  or in their own published work.
 - **2,572 named-person edges** — people named inside notes who are not attached
   to a cited work. Not authors: Hannibal and Socrates are here too.
+
+And the thing a multi-reader corpus is *for*: **46 authors reached by more than
+one reader.** Homer by five of the seven. Shakespeare by Melville and Nietzsche,
+four centuries apart. Plato and Aristotle by four each. Marks and references are
+reported per reader inside `shared_authors` and never added together.
 
 ## The evidence ladder
 
@@ -90,6 +96,59 @@ four are certainly Herman's. Channing is not Melville's fourth-favourite author;
 Channing is very probably his wife's reading. By raw count he ranks 4th of 19; by
 own-hand he ranks last. Shakespeare, by contrast, is 755 of 761 unambiguously
 Herman.
+
+## Nietzsche has no marks here, and that is the finding
+
+He is the best-documented annotator in the survey and the least reachable.
+Established by fetching, not by reading about it:
+
+- **430,000 pages of his library are digitised, ~18,000 carrying annotations —
+  and they are facsimile only.** There is no transcription layer to ingest.
+- **Nietzsche Source publishes exactly three modules** — the Colli-Montinari
+  text, facsimiles of the *archive* (manuscripts: its search columns are Mette
+  numbers and KGW sigla, not books), and a journal. The announced digital
+  edition of the **library is not published**. Confirmed by rendering the
+  JavaScript nav, since the served HTML is an empty shell.
+- **Weimar blocks automated access outright** — Anubis proof-of-work, and it
+  gates the OAI-PMH endpoint too, which is the sanctioned harvesting route.
+  That is a deliberate operator decision and this repo respects it.
+- The transcribed *Lesespuren* exist in one place: **Campioni, D'Iorio, Fornari,
+  Fronterotta and Orsucci, *Nietzsches persönliche Bibliothek* (de Gruyter,
+  2003)** — ~2,200 titles with a complete index of reading traces. In copyright,
+  in print, purchasable. It is the Coleridge problem again, and the only gate
+  that matters.
+
+So he enters through the one class that is free, complete and redistributable:
+**naming another author in his own published prose** — seven German works from
+Project Gutenberg, public domain, header stripped. A reference, never a mark.
+
+**The matching is a closed gazetteer of 66 declared authors, never open-ended
+entity recognition**, and the audit is shipped in
+`_data/nietzsche_audit.json` with every hit's surrounding sentence so the counts
+can be checked instead of trusted. Three consequences, all deliberate:
+
+1. **Zero is a real answer**, so three impossible controls are in the list —
+   Melville, Whitman, Derrida. A hit on any of them fails the build.
+2. **Recall is bounded by the list.** This finds who, among 66 candidates,
+   Nietzsche invokes and how often. It is not a claim to have found everyone.
+3. **Ambiguous surnames are gated**, because a bare German surname is often a
+   common word. Every raw match on "Lange" is the adjective — *Lange schlief
+   Zarathustra*, *Langes Leben*, *alles Lange* — so Friedrich Albert Lange would
+   otherwise rank 28th on twelve false hits. "Strauss" catches a bouquet and, in
+   Zarathustra, an ostrich. Those entries require a first name within 60 characters.
+
+What comes out reads like the books themselves, which is the check that matters:
+
+| work | most-named |
+|---|---|
+| *Die Geburt der Tragödie* (1872) | Euripides 59, Socrates 58, Aeschylus 17 |
+| *Ecce homo* (1888) | Wagner 64, Schopenhauer 13 |
+| *Götzen-Dämmerung* (1888) | Socrates 35, Plato 23, Goethe 17 |
+| *Also sprach Zarathustra* (1885) | **nobody** |
+
+Zarathustra names none of the 66. It is written as scripture, not as argument —
+recorded in the audit as `works_naming_nobody` rather than dropped, because an
+absent row reads as "not processed".
 
 ## The one rule that fails silently
 
@@ -192,8 +251,13 @@ and each entry records the terms as actually read, with the date.
 |---|---|---|
 | **Derrida's Margins** | CC BY 4.0, stated in the release's own rights field | **yes** |
 | **Melville's Marginalia Online** | transcriptions quotable with attribution; the restriction is on *photographic images* | **yes** |
+| **Nietzsche (Gutenberg, German)** | public domain — he died in 1900; Gutenberg's licence attaches to their marked-up files, which are stripped | **yes** |
 | **Archaeology of Reading** | no licence file, no reuse statement found | no — counts and metadata only |
 | **Walt Whitman Archive** | its own `<availability>`: *"all rights reserved… Redistribution or republication on other terms, in any medium, requires express written consent"* | no — counts and metadata only |
+
+**Not the Colli-Montinari text.** The eKGWB at nietzschesource.org is de Gruyter
+copyright, published online by permission, and must never be redistributed from
+here. The Gutenberg German editions are a different, public-domain text.
 
 `_data/marks.jsonl.gz` therefore carries full text for Melville and Derrida and
 structure only for the other two. Passage-level text for all four builds locally
@@ -213,6 +277,8 @@ bodies:
 - **Charles Darwin's Library** — 730 annotated books with transcriptions. One
   free BHL API key away; the keyless routes (bulk TSVs, OAI-PMH) carry
   bibliography only, checked 2026-08-27.
+- **Nietzsche's *Lesespuren*** — ~2,200 titles, fully indexed, in a €-priced
+  2003 de Gruyter volume. Not a technical problem.
 
 ## Citing the sources
 
