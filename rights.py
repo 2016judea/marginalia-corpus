@@ -118,6 +118,27 @@ SOURCES = {
         attribution_required=True,
         images_prohibited=True,
     ),
+    "abo": dict(
+        name="Annotated Books Online",
+        url="https://annotatedbooksonline.com",
+        editors=("Arnoud Visser and Paul Dijstelberge, eds.; Utrecht University / "
+                 "University of Amsterdam, 'A Collaboratory for the Study of Reading "
+                 "and the Circulation of Ideas'"),
+        terms=(
+            "conditions-of-use page reads: 'You are free to use the images of "
+            "digitized books on ABO for non-commercial purposes, but we ask that you "
+            "give credit to the copyright holders who retain rights to the images. "
+            "These works are licensed under a Creative Commons "
+            "Attribution-Noncommercial license.' Transcriptions therefore ship with "
+            "attribution; the NC clause constrains COMMERCIAL reuse downstream, which "
+            "any consumer of _data/ must respect -- it is the one source here whose "
+            "licence is narrower than CC BY. Images are linked, never copied. "
+            "Read 2026-08-27."
+        ),
+        emit_text=True,
+        attribution_required=True,
+        images_prohibited=True,
+    ),
 }
 
 

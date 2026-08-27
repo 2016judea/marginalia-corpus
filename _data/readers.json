@@ -56,6 +56,222 @@
   "note": "Library of ~13,800 volumes at PUL; this dataset is phase 1 only, the books behind De la grammatologie (1967)."
  },
  {
+  "reader_id": "erasmus",
+  "name": "Desiderius Erasmus",
+  "birth": 1466,
+  "death": 1536,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "montano",
+  "name": "Benito Arias Montano",
+  "birth": 1527,
+  "death": 1598,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "newton",
+  "name": "Isaac Newton",
+  "birth": 1642,
+  "death": 1727,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "scaliger",
+  "name": "Joseph Justus Scaliger",
+  "birth": 1540,
+  "death": 1609,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "vanhout",
+  "name": "Jan van Hout",
+  "birth": 1542,
+  "death": 1609,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "luther",
+  "name": "Martin Luther",
+  "birth": 1483,
+  "death": 1546,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance; provenance chain names others too, so hands are not separable"
+ },
+ {
+  "reader_id": "melanchthon",
+  "name": "Philipp Melanchthon",
+  "birth": 1497,
+  "death": 1560,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance; provenance chain names others too, so hands are not separable"
+ },
+ {
+  "reader_id": "montaigne",
+  "name": "Michel de Montaigne",
+  "birth": 1533,
+  "death": 1592,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance; provenance chain names others too, so hands are not separable"
+ },
+ {
+  "reader_id": "bude",
+  "name": "Guillaume Bud\u00e9",
+  "birth": 1467,
+  "death": 1540,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "coornhert",
+  "name": "Dirck Volckertszoon Coornhert",
+  "birth": 1522,
+  "death": 1590,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "drusius",
+  "name": "Johannes Drusius",
+  "birth": 1550,
+  "death": 1616,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "vossius",
+  "name": "Gerardus Joannes Vossius",
+  "birth": 1577,
+  "death": 1649,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "gabbema",
+  "name": "Simon Abbes Gabbema",
+  "birth": 1628,
+  "death": 1688,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "poeraet",
+  "name": "Pieter Poeraet",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "gaucellet",
+  "name": "Estiene Gaucellet",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "verwer",
+  "name": "Adriaen Verwer",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance; provenance chain names others too, so hands are not separable"
+ },
+ {
+  "reader_id": "vangoens",
+  "name": "Rijklof Michael van Goens",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance; provenance chain names others too, so hands are not separable"
+ },
+ {
+  "reader_id": "junius",
+  "name": "Hadrianus Junius",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance; provenance chain names others too, so hands are not separable"
+ },
+ {
+  "reader_id": "laetus",
+  "name": "Pomponius Laetus",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance; provenance chain names others too, so hands are not separable"
+ },
+ {
+  "reader_id": "dow",
+  "name": "Robert Dow",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "burman",
+  "name": "Pieter Burman",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "knol",
+  "name": "Jan Corneliszoon Knol",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "gualtherus",
+  "name": "Marcus Gualtherus",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "voet",
+  "name": "Johannes Voet",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "ruysch",
+  "name": "Hendrik Ruysch",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "fontein",
+  "name": "Pieter Fontein",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
+  "reader_id": "serrure",
+  "name": "Constant Philippe Serrure",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Annotated Books Online provenance"
+ },
+ {
   "reader_id": "shakeco:abbott-berenice",
   "name": "Berenice Abbott",
   "birth": 1898,

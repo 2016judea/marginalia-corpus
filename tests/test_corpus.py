@@ -363,3 +363,38 @@ def test_every_attested_contact_is_dated_and_sourced(volumes):
     unsourced = [v for v in sc if not v["evidence_source"]]
     assert len(undated) < len(sc) * 0.01, f"{len(undated)}/{len(sc)} undated"
     assert not unsourced, f"{len(unsourced)} records name no source card"
+
+
+def test_abo_excludes_the_copies_aor_already_transcribed(manifest):
+    '''
+        ABO and AOR are different projects that transcribed many of the SAME
+        physical copies -- 10 of ABO's 11 Dee/Harvey books. If the overlap
+        check stops working, ~1,190 annotations enter as independent evidence
+        when they are duplicates, and every Dee and Harvey weight inflates.
+    '''
+    a = manifest.get("abo")
+    if not a:
+        pytest.skip("abo not built")
+    assert a.get("excluded_already_in_aor", 0) > 1000, (
+        f'only {a.get("excluded_already_in_aor")} annotations excluded as AOR '
+        f'duplicates -- the overlap check regressed and the corpus is double-counting'
+    )
+    assert a["n_marks"] > 3000, f'abo fell to {a["n_marks"]} marks'
+
+
+def test_abo_hands_are_flagged_on_shared_provenance(marks, volumes):
+    '''
+        ABO records provenance as a free-text ownership CHAIN on the book and
+        gives no per-annotation hand. Where the chain names more than one
+        person the mark must not claim to be the named reader's -- Luther's
+        New Testament also passed through Praedinius and Manningha.
+    '''
+    ids = {v["volume_id"] for v in volumes if v["source_dataset"] == "abo"}
+    am = [m for m in marks if m["volume_id"] in ids]
+    if not am:
+        pytest.skip("abo not built")
+    assert any(not m["hand_is_reader"] for m in am), (
+        "no ABO mark is flagged as a shared-provenance hand -- the `sole` flag in "
+        "abo_readers.json stopped being applied"
+    )
+    assert any(m["hand_is_reader"] for m in am)

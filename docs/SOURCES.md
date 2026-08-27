@@ -7,7 +7,7 @@ measured figures came out materially different from the stated ones.
 
 ---
 
-## In (six sources, ingested and building)
+## In (seven sources, ingested and building)
 
 ### 1. Melville's Marginalia Online — `ingest/melville_monline.py`
 
@@ -242,19 +242,83 @@ between versions), plus 789 marks whose book has no author of record.
 
 ---
 
+### 7. Annotated Books Online — `ingest/abo.py`
+
+*Measured:* 110 books, 50,776 scans, **4,803 annotations** — 4,752 with an
+original transcription, 1,785 with an English translation. After deduplication
+against AOR: **3,527 marks over 17 readers, 3,506 of them autograph.**
+
+**CC BY-NC** — the one source here narrower than CC BY. Transcriptions ship with
+attribution; the NC clause constrains commercial reuse downstream and any
+consumer of `_data/` must respect it.
+
+**The API is open once you find the shape.** ABO looks closed: `/backend` returns
+403, there is no `/api`, and no endpoint appears in the frontend JS. The route is
+in `frontend/logic/requestmanager.js`, and `requestmanagerproxy.js` maps an ExtJS
+`read` to the action `load`:
+
+    POST /?controller=Book&action=search       ->    110 books
+    POST /?controller=Scan&action=load         -> 50,776 scans
+    POST /?controller=Annotation&action=load   ->  4,803 annotations
+
+All three **ignore filters and return everything**. `Book/search` reports `total`
+separately from `records` and defaults to **5**, so a naive caller takes 5 of 110
+and never notices.
+
+**THE OVERLAP, which is the point of this section.** ABO and AOR are separate
+projects that transcribed **many of the same physical copies** — 10 of the 11 ABO
+books with Dee or Harvey provenance. Ingesting both naively counts the same marks
+twice as independent evidence and inflates every Dee and Harvey weight.
+
+| | annotations |
+|---|---:|
+| on copies AOR already covers — **excluded** | 1,190 |
+| provenance names nobody attributable — **excluded** | 84 |
+| on copies AOR does not — **ingested** | 3,611 |
+
+Matched on shelfmark then title against `ingest/aor_corpus.csv`.
+`test_abo_excludes_the_copies_aor_already_transcribed` fails if the count of
+exclusions ever drops, and the ingest itself raises on zero.
+
+What survives: **John Dee's Strabo, *De situ orbis*, Royal Library of Belgium —
+2,826 annotations**, his most heavily annotated book anywhere and absent from
+AOR. New readers: Luther (224, in an Erasmus New Testament), Luther and
+Melanchthon's shared Odyssey (70), Erasmus (55), Pieter Poeraet (223), Joseph
+Scaliger, Jan van Hout, Adriaen Verwer's *Principia* (65 — Verwer the reader,
+Newton the source author), Newton's own Principia (1), Montano, Gabbema.
+
+**Montaigne's Lucretius is listed with zero annotations transcribed.** Listed, not
+transcribed — do not report him as present.
+
+Two silent-failure joins, both guarded:
+- `bindingId` is an **int** on scans and a **string** on books. A dict lookup
+  across the two matches nothing and reports every annotation unmapped. That is
+  how this join failed on the first attempt.
+- **A binding can hold several works** (12 of 95). The book is the one with the
+  greatest `firstPage` at or below the scan's page; without that, every
+  Sammelband annotation lands on the binding's first work. Better than AOR, whose
+  page XML carries no ranges at all.
+
+Hands: `provenance` is a free-text ownership **chain** on the book, not a
+per-annotation hand, and `createdName`/`changedName` are the MODERN transcriber.
+`ingest/abo_readers.json` maps 31 provenance strings to 29 people — including two
+spellings of Vossius in the same field — and flags `sole`, so every mark from a
+multi-name chain carries `hand_is_reader=False`.
+
+---
+
 ## Gated (measured or read, not ingested — ranked by what they'd add)
 
 | Source | Reader | Scale *(stated)* | What blocks it |
 |---|---|---|---|
 | **Beckett Digital Library** | Samuel Beckett | **815 extant volumes** with reading traces + transcriptions, 247 virtual entries | Subscription for the full module; the browse index renders only inside a JS/session app — a scripted fetch returns a 2.3 KB shell. Needs a real browser, then probably a login. **The single biggest literary addition available.** |
-| **Charles Darwin's Library** (BHL + Cambridge) | Darwin | **730 annotated books** of 1,480, fully-indexed transcriptions (Di Gregorio & Gill) | **One free API key away, and the keyless routes are exhausted:** `api3` returns an empty body without a key; OAI-PMH (`/oai?verb=Identify`) works but serves bibliographic metadata only; the open `/data/TSV/` directory carries title/item/part/page/creator/subject and **no marginalia table** (checked 2026-08-27, dump dated 2026-08-01). Science rather than prose — but ~4× everything currently here. |
+| **Charles Darwin's Library** (BHL + Cambridge) | Darwin | **730 annotated books** of 1,480, fully-indexed transcriptions | **Downgraded 2026-08-27 — not the free win it looked like.** An earlier pass called it "one free API key away"; that was wrong on three counts. (1) BHL sits behind **Cloudflare bot protection that a real headless browser does not pass either** — same class of block as Weimar. (2) The developer docs list **no marginalia resource**, so a key would not reach the transcriptions; `api3` empty without a key, OAI-PMH bibliographic only, and the open `/data/TSV/` dump has title/item/part/page/creator/subject and **no marginalia table**. (3) The transcriptions are **Di Gregorio and Gill's copyrighted 1990 catalogue**, which BHL *displays* rather than serves. Same category as Nietzsche and Coleridge: transcribed, in copyright, not data. |
 | **Corpus des notes marginales de Voltaire** | Voltaire | 9 printed volumes, TEI digitisation under way at Oxford | Openness unstated. Ask the Voltaire Foundation. |
 | **Reading Experience Database (UK RED)** | ~many | ~30,000 recorded reading experiences, 1450–1945, graded by evidence type | Open University site 403s a plain fetch. Not marginalia — but it is the only source that would populate **T3 at scale**, across hundreds of readers instead of one. |
 | **Nietzsche's *Lesespuren*** — the transcriptions | Nietzsche | **~2,200 titles, complete index of reading traces** | A **book**, not a website: *Nietzsches persönliche Bibliothek* (de Gruyter 2003). Purchasable. See section 5 — everything else about Nietzsche is settled and this is the only thing left. |
 | **Studia Nietzscheana** per-book commentaries | Nietzsche | 2014–2018, small n | Real transcribed Lesespuren inside journal articles. Article lists are Solr-driven JS; POST to `/SN/search`. Unfinished, and the cheapest remaining Nietzsche win. |
-| **Annotated Books Online** | ~100 early modern owners | **100+ annotated copies**, transcriptions and translations, **CC BY-NC** — so note text could ship | An ExtJS app with a gated backend: `/backend` exists and returns **403** to a bare request, `/backend/BookController` 404s, and no endpoint appears in the frontend JS. Next step is capturing the app's own request format in a browser. Readers are early modern owners, not literary authors — same profile as AOR. |
 | **Newton Project** | Newton | Annotated books alongside the manuscripts | Site responds 200; `/his-library` is 404. Annotated-book coverage vs manuscript coverage unmeasured. |
-| **Whitman's sibling data repos** | Whitman | `whitman-notebooks` 700 KB, `whitman-correspondence` **66 MB**, `whitman-other_books`, `whitman-reviews` | Same GitHub org, same TEI, already cloneable. His notebooks and 66 MB of letters are full of statements about what he was reading — a T3-with-a-date layer sitting one clone away, in a source whose marginalia slice is already wired. **Cheapest unclaimed win in the survey.** |
+| **Whitman's sibling data repos** | Whitman | 6,040 letters, 35 notebook files | **Cloned and measured 2026-08-27, and RULED OUT — an earlier pass called this the cheapest win and was wrong.** The correspondence TEI has **no person or title markup**: `<name>` appears 1,429 times in 1,200 letters and 909 of those are `type="place"` (letterhead), with **five** `type="person"` in the sample and **zero** `<title>` in any body. The notebooks are drafting material — `del` 2,117, `add` 1,541, `subst` 895 — not reading notes. Extracting who he read would be our own NER over all-rights-reserved text, which is both an inference layer and a rights problem. |
 | **CERL / MEI** (Material Evidence in Incunabula) | many | copy-level provenance and annotation flags at scale | `data.cerl.org/mei/_search` responds. Flags annotation as a feature; carries no transcriptions. T3 at scale for incunabula, no passages. |
 | **OPenn** (Penn) | many | openly licensed TEI + IIIF, no rights encumbrance at all | Responds 200. Manuscript descriptions; how much is annotated *printed* books is unmeasured. |
 | **LibraryThing Legacy Libraries** | ~500 historical figures | personal library catalogues — Jefferson, Poe, Hemingway, Plath, Sontag | **403s automated access.** T3 ownership at real breadth if a sanctioned route exists. |

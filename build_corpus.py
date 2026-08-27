@@ -23,7 +23,7 @@ from dataclasses import asdict
 
 import rights
 from schema import Reader, TIER_AUTOGRAPH, TIER_MARK, TIER_COPY
-from ingest import aor, derrida, melville_monline, nietzsche, shakeco, whitman
+from ingest import abo, aor, derrida, melville_monline, nietzsche, shakeco, whitman
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_data")
 
@@ -51,6 +51,17 @@ READERS = [
            "the books behind De la grammatologie (1967)."),
 ]
 
+# ABO names its annotators in a free-text provenance field on the book, so the
+# roster is a hand-checked map (ingest/abo_readers.json) rather than a generated
+# one -- 31 provenance strings to 29 people, including two spellings of Vossius
+# and six chains that name nobody attributable.
+for _r in abo.readers().values():
+    if not any(x.reader_id == _r["reader"] for x in READERS):
+        READERS.append(Reader(_r["reader"], _r["name"], _r.get("birth"), _r.get("death"),
+                              None, "Annotated Books Online provenance"
+                              + ("" if _r.get("sole") else "; provenance chain names "
+                                 "others too, so hands are not separable")))
+
 # The Shakespeare and Company roster is 520 readers -- too many to hand-type,
 # and too many to let an adapter invent at build time. It is generated from the
 # CC BY members dataset into ingest/shakeco_readers.json, committed, and loaded
@@ -68,6 +79,7 @@ ADAPTERS = [
     ("derrida", derrida.ingest),
     ("nietzsche", nietzsche.ingest),
     ("shakeco", shakeco.ingest),
+    ("abo", abo.ingest),
 ]
 
 
@@ -78,7 +90,9 @@ def main():
 
     for key, fn in ADAPTERS:
         meta = rights.check(key)              # gate: no entry, no ingest
-        vols, marks, refs = fn()
+        out = fn()
+        vols, marks, refs = out[0], out[1], out[2]
+        extra = out[3] if len(out) > 3 else {}
         stray = {v.reader_id for v in vols} - known
         if stray:
             raise RuntimeError(
@@ -99,6 +113,7 @@ def main():
             n_marks_in_readers_own_hand=sum(1 for m in marks if m.hand_is_reader),
             n_references=len(refs),
             n_source_authors=len({v.source_author for v in vols if v.source_author}),
+            **extra,
         )
         all_vols += vols
         all_marks += marks

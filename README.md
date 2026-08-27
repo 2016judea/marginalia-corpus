@@ -30,7 +30,8 @@ Built 2026-08-27. Every number below comes out of `build_corpus.py`, not typed.
 | [Derrida's Margins](https://derridas-margins.princeton.edu) | Jacques Derrida | 222 | 1,670 | 211 | 1,459 | — | 1,052 | 107 |
 | [Nietzsche, works](https://www.gutenberg.org) (Gutenberg, German) | Friedrich Nietzsche | — | — | — | — | — | 1,081 | 60 |
 | [Shakespeare and Company Project](https://shakespeareandco.princeton.edu) | 253 writers with a Paris library card | 7,741 | 8,432 | — | — | 8,432 | — | 1,420 |
-| **Total** | **527 readers** | **8,413** | **207,249** | **30,237** | **168,369** | **8,643** | **11,774** | **1,705** |
+| [Annotated Books Online](https://annotatedbooksonline.com) | Dee, Luther, Melanchthon, Erasmus, Newton, Scaliger + 11 | 21 | 3,527 | 3,506 | 21 | — | — | 17 |
+| **Total** | **554 readers** | **8,434** | **210,776** | **33,743** | **168,390** | **8,643** | **11,774** | **1,719** |
 
 **30,237 utterances by an author, written in another author's book, beside the
 line that provoked them.** Plus 168,369 marks that locate a passage without
@@ -40,7 +41,7 @@ Melville and Whitman in the 1850s, Derrida in the 1960s.
 
 Three edge sets in `_data/edges.json`, never merged:
 
-- **5,140 mark-and-contact edges** — the reader marked this author's book, or
+- **5,157 mark-and-contact edges** — the reader marked this author's book, or
   demonstrably held a copy of it. 84 are passage-anchored.
 - **446 reference edges** — the reader *named* this author, in a marginal note
   or in their own published work.
@@ -110,6 +111,41 @@ four are certainly Herman's. Channing is not Melville's fourth-favourite author;
 Channing is very probably his wife's reading. By raw count he ranks 4th of 19; by
 own-hand he ranks last. Shakespeare, by contrast, is 755 of 761 unambiguously
 Herman.
+
+## Two projects transcribed the same books — catching that mattered most
+
+Annotated Books Online is **CC BY-NC**, and its API turns out to be wide open
+once you find the shape: `POST /?controller=Book&action=search` — the route is in
+`frontend/logic/requestmanager.js`, `/backend` itself 403s and no endpoint
+appears anywhere else. Three calls return the whole archive: 110 books, 50,776
+scans, **4,803 annotations, 4,752 with an original transcription and 1,785 with
+an English translation.**
+
+Then the check that changed the number. **10 of ABO's 11 books with Dee or Harvey
+provenance are the same physical copies AOR already transcribed** — the Folger
+H.a.2 Sammelband, Princeton's *Arte of Warre*, the Livy, both Buchanans.
+Ingesting both naively counts the same marks twice as independent evidence.
+
+| | annotations |
+|---|---:|
+| on copies AOR already covers — **excluded** | 1,190 |
+| on copies AOR does not — **ingested** | 3,611 |
+
+What survives is worth having: **John Dee's Strabo, *De situ orbis*, at the Royal
+Library of Belgium — 2,826 annotations**, his most heavily annotated book
+anywhere and absent from AOR. Plus new readers: Luther (224, in an Erasmus New
+Testament), Luther and Melanchthon's shared Odyssey (70), Erasmus himself (55),
+Joseph Scaliger, Jan van Hout, Adriaen Verwer's copy of Newton's *Principia*
+(65 — Verwer the reader, Newton the source author), and Newton's own Principia (1).
+
+Montaigne's Lucretius is in ABO's book list with **zero** annotations
+transcribed. Listed, not transcribed — he is not in this corpus.
+
+Two joins that fail silently, both now guarded: `bindingId` is an **int** on
+scans and a **string** on books, so a dict lookup across them matches nothing and
+reports every annotation unmapped; and **a binding can hold several works** (12
+of 95 do), so the book is the one with the greatest `firstPage` at or below the
+scan's page — without that, every Sammelband annotation lands on the first work.
 
 ## A lending library, and why it belongs here
 
@@ -304,6 +340,7 @@ and each entry records the terms as actually read, with the date.
 | **Melville's Marginalia Online** | transcriptions quotable with attribution; the restriction is on *photographic images* | **yes** |
 | **Nietzsche (Gutenberg, German)** | public domain — he died in 1900; Gutenberg's licence attaches to their marked-up files, which are stripped | **yes** |
 | **Shakespeare and Company Project** | CC BY 4.0 on all fourteen deposited datasets; the card images are PUL's and are linked, not copied | **yes** |
+| **Annotated Books Online** | **CC BY-NC** — the one source narrower than CC BY. Transcriptions ship with attribution; the NC clause constrains commercial reuse downstream | **yes** |
 | **Archaeology of Reading** | no licence file, no reuse statement found | no — counts and metadata only |
 | **Walt Whitman Archive** | its own `<availability>`: *"all rights reserved… Redistribution or republication on other terms, in any medium, requires express written consent"* | no — counts and metadata only |
 
@@ -326,14 +363,14 @@ bodies:
 
 - **Beckett Digital Library** — 815 volumes with transcribed reading traces.
   Subscription, and a JS app a scripted fetch cannot read.
-- **Charles Darwin's Library** — 730 annotated books with transcriptions. One
-  free BHL API key away; the keyless routes (bulk TSVs, OAI-PMH) carry
-  bibliography only, checked 2026-08-27.
+- **Charles Darwin's Library** — 730 annotated books. **Not the free win it looked
+  like:** BHL is behind Cloudflare bot protection that a real headless browser
+  does not pass either, its developer docs list no marginalia resource, and the
+  transcriptions are Di Gregorio and Gill's copyrighted 1990 catalogue which BHL
+  *displays* rather than serves. Same category as Nietzsche and Coleridge.
 - **Nietzsche's *Lesespuren*** — ~2,200 titles, fully indexed, in a €-priced
   2003 de Gruyter volume. Not a technical problem.
-- **Annotated Books Online** — 100+ early modern annotated copies, **CC BY-NC**,
-  so the note text could ship. Its ExtJS `/backend` exists and returns 403 to a
-  bare request; the next step is capturing the app's own request format.
+
 
 ## Citing the sources
 

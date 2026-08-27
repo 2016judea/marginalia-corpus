@@ -359,14 +359,51 @@
   "n_references": 0,
   "n_source_authors": 1420
  },
+ "abo": {
+  "name": "Annotated Books Online",
+  "citation": "Annotated Books Online. Arnoud Visser and Paul Dijstelberge, eds.; Utrecht University / University of Amsterdam, 'A Collaboratory for the Study of Reading and the Circulation of Ideas' https://annotatedbooksonline.com. Accessed 2026-08-27.",
+  "text_emitted": true,
+  "terms": "conditions-of-use page reads: 'You are free to use the images of digitized books on ABO for non-commercial purposes, but we ask that you give credit to the copyright holders who retain rights to the images. These works are licensed under a Creative Commons Attribution-Noncommercial license.' Transcriptions therefore ship with attribution; the NC clause constrains COMMERCIAL reuse downstream, which any consumer of _data/ must respect -- it is the one source here whose licence is narrower than CC BY. Images are linked, never copied. Read 2026-08-27.",
+  "readers": [
+   "burman",
+   "dee",
+   "dow",
+   "erasmus",
+   "gabbema",
+   "gaucellet",
+   "junius",
+   "laetus",
+   "luther",
+   "melanchthon",
+   "montano",
+   "newton",
+   "poeraet",
+   "scaliger",
+   "vangoens",
+   "vanhout",
+   "verwer"
+  ],
+  "n_volumes": 21,
+  "n_marks": 3527,
+  "n_autograph": 3506,
+  "n_mark": 21,
+  "n_copy": 0,
+  "n_text_withheld": 0,
+  "n_marks_in_readers_own_hand": 3155,
+  "n_references": 0,
+  "n_source_authors": 17,
+  "excluded_already_in_aor": 1190,
+  "excluded_provenance_not_one_person": 84,
+  "unmapped_scan": 2
+ },
  "_totals": {
-  "readers": 527,
-  "volumes": 8413,
-  "marks": 207249,
-  "T1_autograph": 30237,
-  "T2_mark": 168369,
+  "readers": 554,
+  "volumes": 8434,
+  "marks": 210776,
+  "T1_autograph": 33743,
+  "T2_mark": 168390,
   "T3_copy": 8643,
   "references": 11774,
-  "source_authors": 1705
+  "source_authors": 1719
  }
 }
