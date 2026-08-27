@@ -1,0 +1,42 @@
+[
+ {
+  "reader_id": "melville",
+  "name": "Herman Melville",
+  "birth": 1819,
+  "death": 1891,
+  "wikidata": "Q4162",
+  "note": "Library of ~1,000 volumes at his death; 52 digitally transcribed."
+ },
+ {
+  "reader_id": "whitman",
+  "name": "Walt Whitman",
+  "birth": 1819,
+  "death": 1892,
+  "wikidata": "Q81438",
+  "note": "Annotations mostly on loose sheets and clippings, not bound volumes."
+ },
+ {
+  "reader_id": "harvey",
+  "name": "Gabriel Harvey",
+  "birth": 1552,
+  "death": 1631,
+  "wikidata": "Q1489443",
+  "note": "Spenser's correspondent; the most prolific annotator in AOR."
+ },
+ {
+  "reader_id": "dee",
+  "name": "John Dee",
+  "birth": 1527,
+  "death": 1609,
+  "wikidata": "Q117783",
+  "note": "Not a literary author -- included because AOR is the reference implementation of a marginalia data model, and Dee is half of it."
+ },
+ {
+  "reader_id": "winthrop",
+  "name": "John Winthrop",
+  "birth": 1606,
+  "death": 1676,
+  "wikidata": "Q1701206",
+  "note": "Three pages in AOR's Paracelsus_Meteorum only."
+ }
+]

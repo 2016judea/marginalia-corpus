@@ -1,0 +1,57 @@
+{
+ "monline": {
+  "name": "Melville's Marginalia Online",
+  "citation": "Melville's Marginalia Online. Steven Olsen-Smith and Peter Norberg, eds. https://melvillesmarginalia.org. Accessed 2026-08-27.",
+  "text_emitted": true,
+  "terms": "Policies page: written/edited material may be quoted or cited with author + title + 'Melville's Marginalia Online' + the two main editors + date of access. The stated restriction is on PHOTOGRAPHIC IMAGES (one-time display permission from holding institutions), not on the transcriptions. Read 2026-08-27.",
+  "readers": [
+   "melville"
+  ],
+  "n_volumes": 52,
+  "n_marks": 4864,
+  "n_autograph": 367,
+  "n_mark": 4497,
+  "n_copy": 0,
+  "n_text_withheld": 0
+ },
+ "aor": {
+  "name": "The Archaeology of Reading in Early Modern Europe",
+  "citation": "The Archaeology of Reading in Early Modern Europe. Sheridan Libraries (JHU), CELL (UCL), CDH (Princeton); Mellon-funded https://archaeologyofreading.org. Accessed 2026-08-27.",
+  "text_emitted": false,
+  "terms": "GitHub repo livesandletters/aor carries NO licence file and the site publishes no reuse statement found as of 2026-08-27. Counts and metadata only until someone asks them. Contact CELL before any bulk republication of the note transcriptions or translations.",
+  "readers": [
+   "dee",
+   "harvey",
+   "winthrop"
+  ],
+  "n_volumes": 36,
+  "n_marks": 189980,
+  "n_autograph": 28275,
+  "n_mark": 161705,
+  "n_copy": 0,
+  "n_text_withheld": 28275
+ },
+ "whitman": {
+  "name": "The Walt Whitman Archive \u2014 Annotations and Marginalia",
+  "citation": "The Walt Whitman Archive \u2014 Annotations and Marginalia. Kenneth M. Price and Ed Folsom, dirs.; Matt Cohen, marginalia project https://whitmanarchive.org/manuscripts/marginalia. Accessed 2026-08-27.",
+  "text_emitted": false,
+  "terms": "Data repo whitmanarchive/whitman-marginalia carries no licence file. The Archive's public terms are CC BY-NC-ND on site content; the TEI repos state no licence. Counts and metadata only pending a check. Read 2026-08-27.",
+  "readers": [
+   "whitman"
+  ],
+  "n_volumes": 362,
+  "n_marks": 2303,
+  "n_autograph": 1384,
+  "n_mark": 708,
+  "n_copy": 211,
+  "n_text_withheld": 1384
+ },
+ "_totals": {
+  "readers": 5,
+  "volumes": 450,
+  "marks": 197147,
+  "T1_autograph": 30026,
+  "T2_mark": 166910,
+  "T3_copy": 211
+ }
+}

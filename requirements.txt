@@ -1,0 +1,3 @@
+# The ingests use only the standard library, on purpose: a corpus whose
+# provenance is the whole point should not depend on a parser it cannot audit.
+pytest>=7.0        # tests only

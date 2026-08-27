@@ -1,0 +1,4251 @@
+{
+ "note": "Directed edges from PHYSICAL evidence of reading. Tiers are separate measurements; do not sum them. See build_edges.py.",
+ "n_edges": 196,
+ "n_marks_stranded_no_source_author": {
+  "monline": 155,
+  "aor": 44279,
+  "whitman": 2118
+ },
+ "edges": [
+  {
+   "reader_id": "dee",
+   "reader": "John Dee",
+   "source_author": "Marcus Tullius Cicero",
+   "n_volumes": 2,
+   "n_T1": 14000,
+   "n_T2": 30075,
+   "n_T3": 0,
+   "n_marks": 44075,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "dee",
+   "reader": "John Dee",
+   "source_author": "Quintilian",
+   "n_volumes": 1,
+   "n_T1": 2229,
+   "n_T2": 2408,
+   "n_T3": 0,
+   "n_marks": 4637,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "dee",
+   "reader": "John Dee",
+   "source_author": "Girolamo Cardano",
+   "n_volumes": 1,
+   "n_T1": 928,
+   "n_T2": 1912,
+   "n_T3": 0,
+   "n_marks": 2840,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "harvey",
+   "reader": "Gabriel Harvey",
+   "source_author": "Livy",
+   "n_volumes": 1,
+   "n_T1": 854,
+   "n_T2": 38141,
+   "n_T3": 0,
+   "n_marks": 38995,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "harvey",
+   "reader": "Gabriel Harvey",
+   "source_author": "Sextus Julius Frontinus",
+   "n_volumes": 1,
+   "n_T1": 875,
+   "n_T2": 6769,
+   "n_T3": 0,
+   "n_marks": 7644,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "dee",
+   "reader": "John Dee",
+   "source_author": "Paracelsus",
+   "n_volumes": 2,
+   "n_T1": 547,
+   "n_T2": 2475,
+   "n_T3": 0,
+   "n_marks": 3022,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "harvey",
+   "reader": "Gabriel Harvey",
+   "source_author": "Baldassare Castiglione",
+   "n_volumes": 2,
+   "n_T1": 486,
+   "n_T2": 18223,
+   "n_T3": 0,
+   "n_marks": 18709,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "dee",
+   "reader": "John Dee",
+   "source_author": "Matthew Paris",
+   "n_volumes": 1,
+   "n_T1": 479,
+   "n_T2": 2555,
+   "n_T3": 0,
+   "n_marks": 3034,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "dee",
+   "reader": "John Dee",
+   "source_author": "Geoffrey of Monmouth",
+   "n_volumes": 1,
+   "n_T1": 284,
+   "n_T2": 958,
+   "n_T3": 0,
+   "n_marks": 1242,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "harvey",
+   "reader": "Gabriel Harvey",
+   "source_author": "Niccolo Machiavelli",
+   "n_volumes": 1,
+   "n_T1": 215,
+   "n_T2": 11523,
+   "n_T3": 0,
+   "n_marks": 11738,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "dee",
+   "reader": "John Dee",
+   "source_author": "Ovid",
+   "n_volumes": 1,
+   "n_T1": 181,
+   "n_T2": 865,
+   "n_T3": 0,
+   "n_marks": 1046,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "dee",
+   "reader": "John Dee",
+   "source_author": "Pliny the Elder",
+   "n_volumes": 1,
+   "n_T1": 138,
+   "n_T2": 449,
+   "n_T3": 0,
+   "n_marks": 587,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "harvey",
+   "reader": "Gabriel Harvey",
+   "source_author": "Thomas Tusser",
+   "n_volumes": 1,
+   "n_T1": 94,
+   "n_T2": 5519,
+   "n_T3": 0,
+   "n_marks": 5613,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "John Milton",
+   "n_volumes": 2,
+   "n_T1": 70,
+   "n_T2": 487,
+   "n_T3": 0,
+   "n_marks": 557,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1836"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "arcedscore3",
+    "autograph",
+    "brace",
+    "bracket",
+    "bracket2",
+    "brokenscore",
+    "checkmark",
+    "checkmark2",
+    "circledcheckmark"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "William Shakespeare",
+   "n_volumes": 8,
+   "n_T1": 48,
+   "n_T2": 713,
+   "n_T3": 0,
+   "n_marks": 761,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1837",
+    "1865"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "arcedscoresinout",
+    "autograph",
+    "border",
+    "brace",
+    "bracket",
+    "bracket2",
+    "brokenscore",
+    "caret",
+    "checkmark"
+   ]
+  },
+  {
+   "reader_id": "harvey",
+   "reader": "Gabriel Harvey",
+   "source_author": "Philipp Melanchthon",
+   "n_volumes": 1,
+   "n_T1": 41,
+   "n_T2": 1489,
+   "n_T3": 0,
+   "n_marks": 1530,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "drawing",
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Nathaniel Hawthorne",
+   "n_volumes": 6,
+   "n_T1": 42,
+   "n_T2": 323,
+   "n_T3": 0,
+   "n_marks": 365,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1842",
+    "1845",
+    "1846",
+    "1851",
+    "1860"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "autograph",
+    "bracket",
+    "brokenscore",
+    "checkmark",
+    "circledxmark",
+    "crosschecks3",
+    "diagonalscore",
+    "emendation",
+    "enclosure"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Thomas Beale",
+   "n_volumes": 1,
+   "n_T1": 41,
+   "n_T2": 171,
+   "n_T3": 0,
+   "n_marks": 212,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1839"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "autograph",
+    "brokenscore",
+    "checkmark",
+    "checkmark3",
+    "circle",
+    "circledxmark",
+    "fist",
+    "notation",
+    "score"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Ralph Waldo Emerson",
+   "n_volumes": 3,
+   "n_T1": 41,
+   "n_T2": 93,
+   "n_T3": 0,
+   "n_marks": 134,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1844",
+    "1847",
+    "1860"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotation",
+    "arcedscore",
+    "arcedscore2",
+    "asterisk",
+    "autograph",
+    "brace",
+    "bracket",
+    "bracket2",
+    "checkmark",
+    "diagonalscore",
+    "enclosure",
+    "notation"
+   ]
+  },
+  {
+   "reader_id": "dee",
+   "reader": "John Dee",
+   "source_author": "Euclid",
+   "n_volumes": 1,
+   "n_T1": 25,
+   "n_T2": 21,
+   "n_T3": 0,
+   "n_marks": 46,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "emphasis",
+    "marginalia",
+    "mark",
+    "numeral",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "harvey",
+   "reader": "Gabriel Harvey",
+   "source_author": "George Buchanan",
+   "n_volumes": 2,
+   "n_T1": 21,
+   "n_T2": 914,
+   "n_T3": 0,
+   "n_marks": 935,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "emphasis",
+    "marginalia",
+    "mark",
+    "symbol",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Matthew Arnold",
+   "n_volumes": 2,
+   "n_T1": 20,
+   "n_T2": 171,
+   "n_T3": 0,
+   "n_marks": 191,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1856",
+    "1867"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "autograph",
+    "border",
+    "brace",
+    "bracket",
+    "checkmark",
+    "checkmark3",
+    "crosschecks2",
+    "crosschecks3",
+    "crosschecks4"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Homer",
+   "n_volumes": 4,
+   "n_T1": 19,
+   "n_T2": 544,
+   "n_T3": 0,
+   "n_marks": 563,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1857"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotation",
+    "arcedscore",
+    "arcedscore2",
+    "autograph",
+    "border",
+    "bracket",
+    "checkmark",
+    "crosschecks2",
+    "crosschecks3",
+    "diagonalscore",
+    "dottedxmark",
+    "doublescore"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "William E. Channing",
+   "n_volumes": 6,
+   "n_T1": 13,
+   "n_T2": 440,
+   "n_T3": 0,
+   "n_marks": 453,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1848"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "arcedscore3",
+    "bar",
+    "bars2",
+    "brokenscore",
+    "checkmark",
+    "emendation",
+    "parenthesis",
+    "questionmark",
+    "score"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Thomas Warton",
+   "n_volumes": 1,
+   "n_T1": 13,
+   "n_T2": 434,
+   "n_T3": 0,
+   "n_marks": 447,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "nd"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "border",
+    "brace",
+    "checkmark",
+    "checkmark2",
+    "crosschecks2",
+    "crosschecks3",
+    "diagonalscore",
+    "diagonalscore2",
+    "dottedxmark"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "William Hazlitt",
+   "n_volumes": 1,
+   "n_T1": 12,
+   "n_T2": 285,
+   "n_T3": 0,
+   "n_marks": 297,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1859"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "arcedscore2",
+    "arcedscore3",
+    "autograph",
+    "border",
+    "checkmark",
+    "crosschecks3",
+    "diagonalscore",
+    "dottedxmark",
+    "notation"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "David Dudley Field",
+   "n_volumes": 1,
+   "n_T1": 10,
+   "n_T2": 125,
+   "n_T3": 0,
+   "n_marks": 135,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1829"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "arcedscore3",
+    "autograph",
+    "brokenscore",
+    "checkmark",
+    "checkmark3",
+    "crosschecks2",
+    "diagonalscore",
+    "notation",
+    "score"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "William Rounseville Alger",
+   "n_volumes": 1,
+   "n_T1": 7,
+   "n_T2": 86,
+   "n_T3": 0,
+   "n_marks": 93,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1867"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotation",
+    "bracket",
+    "checkmark",
+    "diagonalscore",
+    "emendation",
+    "score",
+    "score2",
+    "score3",
+    "scoresinout",
+    "underline",
+    "wavyscore",
+    "xmark"
+   ]
+  },
+  {
+   "reader_id": "winthrop",
+   "reader": "John Winthrop",
+   "source_author": "Paracelsus",
+   "n_volumes": 1,
+   "n_T1": 7,
+   "n_T2": 1,
+   "n_T3": 0,
+   "n_marks": 8,
+   "passage_anchored": true,
+   "datasets": [
+    "aor"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "marginalia",
+    "symbol"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Christopher Marlowe",
+   "n_volumes": 1,
+   "n_T1": 6,
+   "n_T2": 39,
+   "n_T3": 0,
+   "n_marks": 45,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1827"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "autograph",
+    "checkmark",
+    "crosschecks3",
+    "notation",
+    "score",
+    "scoresinout",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "James Thomson",
+   "n_volumes": 1,
+   "n_T1": 5,
+   "n_T2": 6,
+   "n_T3": 0,
+   "n_marks": 11,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "18680"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotation",
+    "arcedscore",
+    "autograph",
+    "checkmark",
+    "diagonalscore",
+    "emendation",
+    "score",
+    "score2"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Arthur Schopenhauer",
+   "n_volumes": 6,
+   "n_T1": 4,
+   "n_T2": 204,
+   "n_T3": 0,
+   "n_marks": 208,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1871",
+    "1888",
+    "1891"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotated",
+    "annotation",
+    "arcedscore",
+    "brokenscore",
+    "checkmark",
+    "checkmark2",
+    "diagonalscore",
+    "line",
+    "parenthesis",
+    "score",
+    "score2",
+    "score3"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Saadi",
+   "n_volumes": 1,
+   "n_T1": 4,
+   "n_T2": 133,
+   "n_T3": 0,
+   "n_marks": 137,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1822"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotation",
+    "autograph",
+    "checkmark",
+    "crosschecks2",
+    "crosschecks3",
+    "diagonalscore",
+    "notation",
+    "score",
+    "score2",
+    "score3",
+    "scoresinout",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "James MacPherson",
+   "n_volumes": 1,
+   "n_T1": 3,
+   "n_T2": 60,
+   "n_T3": 0,
+   "n_marks": 63,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1762"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "annotation",
+    "arcedscore",
+    "autograph",
+    "checkmark",
+    "crosschecks3",
+    "score",
+    "underline",
+    "wavyscore",
+    "xmark"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Omar Khayyam",
+   "n_volumes": 1,
+   "n_T1": 2,
+   "n_T2": 17,
+   "n_T3": 0,
+   "n_marks": 19,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1878"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "checkmark",
+    "emendation",
+    "notation",
+    "score",
+    "underline",
+    "wavyscore"
+   ]
+  },
+  {
+   "reader_id": "melville",
+   "reader": "Herman Melville",
+   "source_author": "Horace Walpole",
+   "n_volumes": 1,
+   "n_T1": 2,
+   "n_T2": 16,
+   "n_T3": 0,
+   "n_marks": 18,
+   "passage_anchored": true,
+   "datasets": [
+    "monline"
+   ],
+   "edition_dates": [
+    "1871"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "autograph",
+    "checkmark",
+    "diagonalscore2",
+    "insert",
+    "questionmark",
+    "score",
+    "underline"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Epictetus",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 1,
+   "n_T3": 0,
+   "n_marks": 1,
+   "passage_anchored": true,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1881"
+   ],
+   "reading_windows": [
+    "1881-1892"
+   ],
+   "mark_types": [
+    "attested_markings"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Bell, George Joseph",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 1,
+   "n_T3": 1,
+   "n_marks": 2,
+   "passage_anchored": true,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1878",
+    "February 1878"
+   ],
+   "reading_windows": [
+    "1878-1892",
+    "February 1878 or later-February 1878 or later"
+   ],
+   "mark_types": [
+    "attested_markings",
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Dickens, Charles",
+   "n_volumes": 5,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 5,
+   "n_marks": 5,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [
+    "August 1888-August 1888"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Brainard, John G. C.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1825"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Thompson, Benjamin F.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1843"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Khayyam, Omar",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1872"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Salt, Henry Stevens",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1884"
+   ],
+   "reading_windows": [
+    "During or after 1884-During or after 1884"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Carlyle, Thomas",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1831-07-01",
+    "1867"
+   ],
+   "reading_windows": [
+    "August 1867 or after-August 1867 or after"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Gostwick, Joseph",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1854"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Rousseau, Jean-Jacques",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1856"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Thornbury, George Walter",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "J.D.W.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1851"
+   ],
+   "reading_windows": [
+    "After January 1st, 1851-After January 1st, 1851"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Kavanaugh, Julia",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Knight, Charles",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1853"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Goethe, Johann Wolfgang von",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Racine, Jean",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [
+    "November 1855-November 1855"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Alfieri, Virrorio",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Macpherson, James",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1839"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Wiffen, James Holmes",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1859"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Mandeville, Henry",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1851"
+   ],
+   "reading_windows": [
+    "During or after 1851-During or after 1851"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Bunsen, Christian Karl Josias von",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [
+    "During or after 1854, when the book was translated into English-During or after 1854, when the book was translated into English"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Longfellow, Henry Wadsworth",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1846"
+   ],
+   "reading_windows": [
+    "After December, 1846-After December, 1846"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Waldstein, Charles",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1890"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Pardoe, Julia",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1847"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Thoreau, Henry David",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1849"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Euripedes",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1857",
+    "1866"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Brodhead, Jacob",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1851"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Radford, Ernest",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1884"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Tennyson, Alfred Lord",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1886"
+   ],
+   "reading_windows": [
+    "After 1842-After 1842"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Anacreon",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1871"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Ainsworth, Robert; Morell, Thomas",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1834"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Hoffman, Charles Fenno",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1848"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Lees, H. A.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1850"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Symonds, John Addington",
+   "n_volumes": 3,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 3,
+   "n_marks": 3,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1880",
+    "1890"
+   ],
+   "reading_windows": [
+    "After 1880-After 1880"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Teale, Thomas P.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1849"
+   ],
+   "reading_windows": [
+    "After March 26, 1849-After March 26, 1849"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Bucke, Richard Maurice",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1883"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Shelley, Percy Bysshe",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1847"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Volney, Constantin-Francois",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1890"
+   ],
+   "reading_windows": [
+    "1890 or after-1890 or after"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Heine, Heinrich",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1863"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Hedge, Frederic Henry",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1848"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Lewes, George Henry",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1856"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Mazzini, Giuseppe",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1862"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Milton, John; Gray, Thomas; Beattie, James; Collins, William",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1841"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Whitney, William Dwight",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1872"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Alighieri, Dante",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1849",
+    "1867"
+   ],
+   "reading_windows": [
+    "During or after 1849-During or after 1849",
+    "During or after 1867-During or after 1867"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Felton, Cornelius Conway",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1867"
+   ],
+   "reading_windows": [
+    "During or after 1867-During or after 1867"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Harrison, Gabriel",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1885"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Hicks, Elias",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1832"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Legouve, Ernest",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1879"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Aeschylus",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1863"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Simms, William Gilmore",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1845"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Sherman, Henry",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1860"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Arnold, Thomas",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1858"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Herrig, Ludwig",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1851"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Campbell, William W.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1849"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Tupper, Martin Farquhar",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1838"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Catullus, Gaius Valerius; Tibullus",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1854"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Cowper, William",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1856"
+   ],
+   "reading_windows": [
+    "During or after 1856-During or after 1856"
+   ],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Sand, George",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1848"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Coues, Elliot",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1890"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Carpenter, Edward",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1887"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Ellis, George",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1848"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Dowden, Edward",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1875"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "De Amicis, Edomondo",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1890"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Aurelius, Marcus",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1864",
+    "1885"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Fauriel, Claude Charles",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1860"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Ingersoll, Robert Green",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1886"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Posnett, Hutcheson Macaulay",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1886"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Horace",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1864"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Homer",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1863",
+    "1874"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Lomas, John; Peace, Alfred S.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1847"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Sarrazin, Gabriel",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1889"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Scele de Vere, Maximilian",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1853"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Babcock, William Henry",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1880"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "O'Connor, William Douglas",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1866"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Swinburne, Algernon Charles",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1868"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Pindar",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1852"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Sophocles",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1860"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Craik, George L. and Macfarlane, Charles",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1849"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Webster, Noah",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [
+    "1855"
+   ],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Ainsworth, William Harrison",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Anthon",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Baxter, Richard",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Bell, Robert",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Blake, J.D.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Berrian, William",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Bolles, William",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Boyd, J.R.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Bulwer, E.L.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Chambers",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Chapin, A.B.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Child, Lydia Maria",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Coleridge, Samuel Taylor",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Colman",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "D'Aubigne, J.H. Merle",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "DeSmet, Father P.J.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Desher, Charles D.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Dumas",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Duncan",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Dwight, Theodore",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Ellet, E.F.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Farnham, Thomas F.",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Ferrier, S.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Ford, Richard",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Foster, John",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Fowler, L.N.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Fowler, O.S.",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Galt, John G.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Goodwin",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Gore",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Guy, William Augustus",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Hallam, Henry",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Headley",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Herbert, Henry William",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Jerrould, Douglas",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Kirkland, C.M.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Knowles, James Sheridan",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Lee, R.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Livermore, Abiel Abott",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Lester, B.C. Edwards",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Lossing, Benson J.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Mackenzie, A. Slidell",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "McIntosh, Mary J.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Mayo, A.D.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Miller, Thomas",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Moore, Dr. George",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Morse",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "von Muller, Baron John",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Olmstead",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Osgood, Francis Sargent",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Pardoe",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Parker, Samuel",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Phelps",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Prescott",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Salkeld, Joseph",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Sampson, M.B.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Sargent, Epes",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Schmitz, Dr. Leonard",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Sigourney",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Soulie, Frederick",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Spooner, Alden",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Spurzheim, J.G.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Story",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Sue, Eugene",
+   "n_volumes": 2,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 2,
+   "n_marks": 2,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Taylor, W.C.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Thornton, Henry",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Timpson, Thomas",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Thackeray, William Makepeace",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Turnbull",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Upham, Thomas C.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Van Lennep, J.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "von Tschudi",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Ware, John",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Warner, James F.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Wayland, Francis",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Wellman, J. K.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Wemyss, Francis C.",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Willis, Nathaniel Parker",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Willson, Marcius",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  },
+  {
+   "reader_id": "whitman",
+   "reader": "Walt Whitman",
+   "source_author": "Whittier, John Greenleaf",
+   "n_volumes": 1,
+   "n_T1": 0,
+   "n_T2": 0,
+   "n_T3": 1,
+   "n_marks": 1,
+   "passage_anchored": false,
+   "datasets": [
+    "whitman"
+   ],
+   "edition_dates": [],
+   "reading_windows": [],
+   "mark_types": [
+    "attested_reading"
+   ]
+  }
+ ]
+}
