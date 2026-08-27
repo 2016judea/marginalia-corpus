@@ -67,6 +67,7 @@ import re
 import subprocess
 import xml.etree.ElementTree as ET
 
+import names
 import rights
 from schema import Mark, Volume, TIER_AUTOGRAPH, TIER_MARK, TIER_COPY
 
@@ -112,6 +113,10 @@ def _handlist(path, emit_text):
     for bib in bibls:
         bid = bib.get(f"{{http://www.w3.org/XML/1998/namespace}}id") or ""
         a = bib.find(f"{NS}author")
+        # @key is the Archive's normalized form; the element text is the
+        # catalogue form ("Bell, George Joseph"). Both need names.canonical()
+        # or the handlist's 187 authors sit in their own namespace and never
+        # join Melville's or Derrida's.
         author = (a.get("key") or _txt(a)) if a is not None else ""
         title = _txt(bib.find(f'{NS}title'))
         pub = read = ""
@@ -134,7 +139,8 @@ def _handlist(path, emit_text):
         vol_id = f"{SOURCE}:handlist:{bid}"
         volumes.append(Volume(
             volume_id=vol_id, source_dataset=SOURCE, reader_id=READER,
-            source_author=author, source_title=title, source_date=pub,
+            source_author=names.canonical(author), source_author_raw=author,
+            source_title=title, source_date=pub,
             repository="", url="https://whitmanarchive.org/item/anc.02129",
             n_marks=1 if marked else 0,
             read_from=read.split("-")[0].split("/")[0] if read else "",
@@ -209,11 +215,11 @@ def ingest():
             source_title=title, repository=repo,
             url=f"https://whitmanarchive.org/item/{item}", n_marks=n,
         ))
-    return volumes, marks
+    return volumes, marks, []
 
 
 if __name__ == "__main__":
-    v, m = ingest()
+    v, m, _ = ingest()
     from collections import Counter
     c = Counter(x.tier for x in m)
     print(f"{len(v)} volumes, {len(m)} records  {dict(c)}")

@@ -64,6 +64,25 @@ SOURCES = {
         attribution_required=True,
         images_prohibited=True,
     ),
+    "derrida": dict(
+        name="Derrida's Margins",
+        url="https://derridas-margins.princeton.edu",
+        editors=("Katie Chenoweth, Rebecca Sutton Koeser, Renee Altergott, Alexander "
+                 "Baron-Raiffe, Jean Bauer, Chad Cordova, Austin Hancock, Benjamin "
+                 "Hicks, Nick Budak, Kevin McElwee, Chloe Vettier; Center for Digital "
+                 "Humanities, Princeton"),
+        terms=(
+            "Derrida's Margins Datasets v1.1.1, doi:10.34770/2ezk-1104, distributed by "
+            "Princeton Data Commons. Rights field reads exactly: 'CC BY -- Creative "
+            "Commons Attribution 4.0 International'. The only openly licensed source "
+            "in the corpus, and therefore the only one whose note text ships in full. "
+            "An earlier v1 on Figshare is CC0 but is SUPERSEDED -- use the DOI. "
+            "Read 2026-08-27."
+        ),
+        emit_text=True,
+        attribution_required=True,
+        images_prohibited=True,   # the IIIF page images are PUL's, not CC BY
+    ),
 }
 
 

@@ -20,9 +20,14 @@
       anchor_text      the SOURCE AUTHOR's printed words the note sits beside
       marginalia_text  the READER's own words
       translation      an editorial English translation of the note
-      person/location  named entities INSIDE the note, reconcilable against
-                       AOR's own authority sheets (2,484 people with ISNI;
-                       530 books with USTC ids) -- see aor_authorities.py
+      person/location  named entities INSIDE the note, resolved against
+                       AOR's own authority sheets (2,479 people with ISNI
+                       and alt-name forms; 526 books with author + USTC) --
+                       see aor_authorities.py. These become References, not
+                       Marks: Harvey, reading Livy, writes a note naming
+                       Machiavelli. 3,687 <person> and 468 <book> tags.
+                       <book title="..."/> matches the Books sheet's
+                       "Standard ID" short label, NOT the full title.
 
     1,555 of 7,594 files (20%) DO NOT PARSE as XML out of the box. They use
     HTML named entities (&egrave; 496x, &agrave; 250x, &ograve; 102x,
@@ -31,6 +36,11 @@
     ElementTree and moves on silently loses a fifth of the corpus,
     concentrated in the Latin books (Cicero II worst). Fixed by substituting
     entities before parsing -- do not "clean up" that step.
+
+    Book-level bibliography is NOT in the page XML. It comes from AOR's own
+    Corpus-January-2019.xlsx via ingest/aor_resolve_books.py -- all 35
+    directories resolved, 31 distinct authors. Two directories are
+    Sammelbände whose co-bound works get no edge; see that module.
 
     READER, not book, is the unit of interest. The reader is declared
     per-PAGE (`<page reader="Harvey">`), and a book can carry more than one
@@ -46,14 +56,16 @@ import re
 import subprocess
 import xml.etree.ElementTree as ET
 
+import names
 import rights
-from schema import Mark, Volume, TIER_AUTOGRAPH, TIER_MARK
+from ingest import aor_authorities
+from schema import Mark, Reference, Volume, TIER_AUTOGRAPH, TIER_MARK
 
 SOURCE = "aor"
 REPO = "https://github.com/livesandletters/aor.git"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "cache", SOURCE)
-BOOK_AUTHORS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "aor_books.json")))
+BOOKS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "aor_books.json")))
 
 READER_IDS = {
     "harvey": ("harvey", "Gabriel Harvey"),
@@ -99,8 +111,9 @@ def _txt(e):
 def ingest():
     emit_text = rights.may_emit_text(SOURCE)
     path = fetch()
-    volumes, marks = [], []
+    volumes, marks, references = [], [], []
     unparsed = 0
+    nref = 0
 
     for book in sorted(os.listdir(path)):
         bdir = os.path.join(path, book)
@@ -133,6 +146,36 @@ def ingest():
                 note = " / ".join(x for x in (_txt(e) for e in marg.iter("marginalia_text")) if x)
                 trans = _txt(marg.find("translation"))
                 people = tuple(p.get("name") for p in marg.iter("person") if p.get("name"))
+                vol_for_ref = vol_id
+                for p_el in marg.iter("person"):
+                    nm = (p_el.get("name") or "").strip()
+                    if not nm:
+                        continue
+                    auth = aor_authorities.person(nm)
+                    references.append(Reference(
+                        ref_id=f"{SOURCE}:ref:{nref}", reader_id=rid,
+                        kind="named_in_note", source_dataset=SOURCE,
+                        in_volume=vol_for_ref, target_name=nm,
+                        target_id=auth.get("isni", ""),
+                        anchor_text=(note if emit_text else ""),
+                        page=page, url="https://archaeologyofreading.org/",
+                    ))
+                    nref += 1
+                for b_el in marg.iter("book"):
+                    std = (b_el.get("title") or "").strip()
+                    if not std:
+                        continue
+                    bk = aor_authorities.book(std)
+                    references.append(Reference(
+                        ref_id=f"{SOURCE}:ref:{nref}", reader_id=rid,
+                        kind="work_cited_in_note", source_dataset=SOURCE,
+                        in_volume=vol_for_ref, target_name=std,
+                        target_author=names.canonical(bk.get("author", "")),
+                        target_id=bk.get("ustc", ""),
+                        anchor_text=(note if emit_text else ""),
+                        page=page, url="https://archaeologyofreading.org/",
+                    ))
+                    nref += 1
                 lang = marg.find(".//language")
                 tier = TIER_AUTOGRAPH if note else TIER_MARK
                 marks.append(Mark(
@@ -161,11 +204,17 @@ def ingest():
                     ).validate())
                     per_reader[rid] += 1
 
+        rec = BOOKS.get(book) or {}
         for rid, n in per_reader.items():
             volumes.append(Volume(
                 volume_id=f"{SOURCE}:{book}:{rid}", source_dataset=SOURCE, reader_id=rid,
-                source_author=BOOK_AUTHORS.get(book) or "",
-                source_title=book.replace("_", ", "),
+                source_author=names.canonical(rec.get("author") or ""),
+                source_author_raw=rec.get("author") or "",
+                source_title=rec.get("title") or book.replace("_", ", "),
+                shelfmark=rec.get("shelfmark") or "",
+                repository=rec.get("location") or "",
+                co_bound_authors=tuple(names.canonical(c["author"])
+                                       for c in rec.get("co_bound", [])),
                 url="https://archaeologyofreading.org/", n_marks=n,
             ))
 
@@ -175,10 +224,13 @@ def ingest():
             f"An undeclared entity was added upstream -- add it to EXTRA_ENTITIES "
             f"rather than letting the files drop silently."
         )
-    return volumes, marks
+    return volumes, marks, references
 
 
 if __name__ == "__main__":
-    v, m = ingest()
+    v, m, r = ingest()
+    from collections import Counter
     print(f"{len(v)} volume-reader records, {len(m)} marks, "
-          f"{sum(1 for x in m if x.tier == TIER_AUTOGRAPH)} autograph")
+          f"{sum(1 for x in m if x.tier == TIER_AUTOGRAPH)} autograph, "
+          f"{len(r)} references {dict(Counter(x.kind for x in r))}")
+    print(f"references resolved to an id: {sum(1 for x in r if x.target_id)}")

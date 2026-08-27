@@ -12,7 +12,10 @@
   "n_autograph": 367,
   "n_mark": 4497,
   "n_copy": 0,
-  "n_text_withheld": 0
+  "n_text_withheld": 0,
+  "n_marks_in_readers_own_hand": 4227,
+  "n_references": 0,
+  "n_source_authors": 19
  },
  "aor": {
   "name": "The Archaeology of Reading in Early Modern Europe",
@@ -29,7 +32,10 @@
   "n_autograph": 28275,
   "n_mark": 161705,
   "n_copy": 0,
-  "n_text_withheld": 28275
+  "n_text_withheld": 28275,
+  "n_marks_in_readers_own_hand": 189980,
+  "n_references": 9641,
+  "n_source_authors": 31
  },
  "whitman": {
   "name": "The Walt Whitman Archive \u2014 Annotations and Marginalia",
@@ -44,14 +50,37 @@
   "n_autograph": 1384,
   "n_mark": 708,
   "n_copy": 211,
-  "n_text_withheld": 1384
+  "n_text_withheld": 1384,
+  "n_marks_in_readers_own_hand": 2303,
+  "n_references": 0,
+  "n_source_authors": 160
+ },
+ "derrida": {
+  "name": "Derrida's Margins",
+  "citation": "Derrida's Margins. Katie Chenoweth, Rebecca Sutton Koeser, Renee Altergott, Alexander Baron-Raiffe, Jean Bauer, Chad Cordova, Austin Hancock, Benjamin Hicks, Nick Budak, Kevin McElwee, Chloe Vettier; Center for Digital Humanities, Princeton https://derridas-margins.princeton.edu. Accessed 2026-08-27.",
+  "text_emitted": true,
+  "terms": "Derrida's Margins Datasets v1.1.1, doi:10.34770/2ezk-1104, distributed by Princeton Data Commons. Rights field reads exactly: 'CC BY -- Creative Commons Attribution 4.0 International'. The only openly licensed source in the corpus, and therefore the only one whose note text ships in full. An earlier v1 on Figshare is CC0 but is SUPERSEDED -- use the DOI. Read 2026-08-27.",
+  "readers": [
+   "derrida"
+  ],
+  "n_volumes": 222,
+  "n_marks": 1670,
+  "n_autograph": 211,
+  "n_mark": 1459,
+  "n_copy": 0,
+  "n_text_withheld": 0,
+  "n_marks_in_readers_own_hand": 1413,
+  "n_references": 1052,
+  "n_source_authors": 107
  },
  "_totals": {
-  "readers": 5,
-  "volumes": 450,
-  "marks": 197147,
-  "T1_autograph": 30026,
-  "T2_mark": 166910,
-  "T3_copy": 211
+  "readers": 6,
+  "volumes": 672,
+  "marks": 198817,
+  "T1_autograph": 30237,
+  "T2_mark": 168369,
+  "T3_copy": 211,
+  "references": 10693,
+  "source_authors": 313
  }
 }

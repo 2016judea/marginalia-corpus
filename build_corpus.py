@@ -23,7 +23,7 @@ from dataclasses import asdict
 
 import rights
 from schema import Reader, TIER_AUTOGRAPH, TIER_MARK, TIER_COPY
-from ingest import aor, melville_monline, whitman
+from ingest import aor, derrida, melville_monline, whitman
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_data")
 
@@ -41,23 +41,27 @@ READERS = [
            "implementation of a marginalia data model, and Dee is half of it."),
     Reader("winthrop", "John Winthrop", 1606, 1676, "Q1701206",
            "Three pages in AOR's Paracelsus_Meteorum only."),
+    Reader("derrida", "Jacques Derrida", 1930, 2004, "Q9364",
+           "Library of ~13,800 volumes at PUL; this dataset is phase 1 only, "
+           "the books behind De la grammatologie (1967)."),
 ]
 
 ADAPTERS = [
     ("monline", melville_monline.ingest),
     ("aor", aor.ingest),
     ("whitman", whitman.ingest),
+    ("derrida", derrida.ingest),
 ]
 
 
 def main():
     os.makedirs(OUT, exist_ok=True)
     known = {r.reader_id for r in READERS}
-    all_vols, all_marks, manifest = [], [], {}
+    all_vols, all_marks, all_refs, manifest = [], [], [], {}
 
     for key, fn in ADAPTERS:
         meta = rights.check(key)              # gate: no entry, no ingest
-        vols, marks = fn()
+        vols, marks, refs = fn()
         stray = {v.reader_id for v in vols} - known
         if stray:
             raise RuntimeError(
@@ -75,9 +79,13 @@ def main():
             n_autograph=tiers[TIER_AUTOGRAPH], n_mark=tiers[TIER_MARK],
             n_copy=tiers[TIER_COPY],
             n_text_withheld=sum(1 for m in marks if m.text_withheld),
+            n_marks_in_readers_own_hand=sum(1 for m in marks if m.hand_is_reader),
+            n_references=len(refs),
+            n_source_authors=len({v.source_author for v in vols if v.source_author}),
         )
         all_vols += vols
         all_marks += marks
+        all_refs += refs
 
     with open(os.path.join(OUT, "readers.json"), "w") as f:
         json.dump([asdict(r) for r in READERS], f, indent=1)
@@ -91,6 +99,7 @@ def main():
                 f.write(json.dumps(d, ensure_ascii=False) + "\n")
 
     write("volumes", all_vols)
+    write("references", all_refs)
     # 197k rows, 63 MB raw. Gzipped, matching literature-mutations'
     # reception_entries.jsonl.gz -- a submodule should not carry 63 MB.
     write("marks", all_marks, gz=True)
@@ -102,7 +111,8 @@ def main():
     manifest["_totals"] = dict(
         readers=len(READERS), volumes=len(all_vols), marks=len(all_marks),
         T1_autograph=totals[TIER_AUTOGRAPH], T2_mark=totals[TIER_MARK],
-        T3_copy=totals[TIER_COPY],
+        T3_copy=totals[TIER_COPY], references=len(all_refs),
+        source_authors=len({v.source_author for v in all_vols if v.source_author}),
     )
     with open(os.path.join(OUT, "manifest.json"), "w") as f:
         json.dump(manifest, f, indent=1)
@@ -112,10 +122,12 @@ def main():
             continue
         print(f'{k:<9} {v["n_volumes"]:>4} vols  {v["n_marks"]:>7} marks  '
               f'T1 {v["n_autograph"]:>6}  T2 {v["n_mark"]:>6}  T3 {v["n_copy"]:>4}  '
+              f'{v["n_references"]:>5} refs  {v["n_source_authors"]:>3} authors  '
               f'text={"yes" if v["text_emitted"] else "WITHHELD"}')
     t = manifest["_totals"]
-    print(f'\nTOTAL     {t["volumes"]:>4} vols  {t["marks"]:>7} marks   '
+    print(f'\nTOTAL      {t["volumes"]:>4} vols  {t["marks"]:>7} marks   '
           f'T1 {t["T1_autograph"]}  T2 {t["T2_mark"]}  T3 {t["T3_copy"]}   '
+          f'{t["references"]} refs   {t["source_authors"]} source authors   '
           f'{t["readers"]} readers')
 
 

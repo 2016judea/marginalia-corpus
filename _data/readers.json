@@ -38,5 +38,13 @@
   "death": 1676,
   "wikidata": "Q1701206",
   "note": "Three pages in AOR's Paracelsus_Meteorum only."
+ },
+ {
+  "reader_id": "derrida",
+  "name": "Jacques Derrida",
+  "birth": 1930,
+  "death": 2004,
+  "wikidata": "Q9364",
+  "note": "Library of ~13,800 volumes at PUL; this dataset is phase 1 only, the books behind De la grammatologie (1967)."
  }
 ]

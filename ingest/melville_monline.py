@@ -44,6 +44,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 
+import names
 import rights
 from schema import Mark, Volume, tier_for, TIER_AUTOGRAPH
 
@@ -151,6 +152,10 @@ def ingest(did_range=DID_RANGE, workers=6):
                 marked_text=(text if tier != TIER_AUTOGRAPH and emit_text else ""),
                 reader_text=(text if tier == TIER_AUTOGRAPH and emit_text else ""),
                 hand=HANDS.get(d.get("attribution") or "", d.get("attribution") or ""),
+                # Only a bare 'HM' is confidently Herman. 433 marks are
+                # 'HMorESM' and 177 'Unattributed'; counting those as his
+                # overstates him by ~13%.
+                hand_is_reader=(d.get("attribution") == "HM"),
                 text_withheld=bool(tier == TIER_AUTOGRAPH and text and not emit_text),
                 url=f"{BASE}/Viewer.aspx?did={did}",
             )
@@ -158,15 +163,16 @@ def ingest(did_range=DID_RANGE, workers=6):
 
         volumes.append(Volume(
             volume_id=vol_id, source_dataset=SOURCE, reader_id=READER,
-            source_author=author, source_title=title, source_date=date,
+            source_author=names.canonical(author), source_author_raw=author,
+            source_title=title, source_date=date,
             repository=repo, shelfmark=shelf,
             url=f"{BASE}/Viewer.aspx?did={did}", n_marks=len(divs),
         ))
 
-    return volumes, marks
+    return volumes, marks, []
 
 
 if __name__ == "__main__":
-    v, m = ingest()
+    v, m, _ = ingest()
     print(f"{len(v)} volumes, {len(m)} marks, "
           f"{sum(1 for x in m if x.tier == TIER_AUTOGRAPH)} autograph")

@@ -100,17 +100,6 @@ def test_no_reader_is_invented(volumes, marks):
     assert seen <= declared, f"undeclared readers: {sorted(seen - declared)}"
 
 
-def test_no_source_author_is_invented(volumes):
-    '''
-        Every AOR source author must come from the hand-checked map, never
-        from a directory name coerced into a person. 15 of 35 AOR books are
-        deliberately null there.
-    '''
-    allowed = set(json.load(open(os.path.join(ROOT, "ingest", "aor_books.json"))).values())
-    got = {v["source_author"] for v in volumes if v["source_dataset"] == "aor" and v["source_author"]}
-    assert got <= allowed, f"AOR invented author(s): {sorted(got - allowed)}"
-
-
 def test_aor_entity_fix_still_covers_the_corpus(manifest):
     '''
         1,555 of 7,594 AOR files use HTML entities the schema never declares.
@@ -156,3 +145,113 @@ def test_every_t3_names_who_attests_it(volumes):
         pytest.skip("no T3 volumes built")
     bad = [v for v in t3 if not v["evidence_source"]]
     assert not bad, f'{len(bad)} attested-reading records name no source, e.g. {bad[0]["volume_id"]}'
+
+
+# ---------------------------------------------------------------------------
+# Added with the second wave of sources (Derrida, AOR bibliography, references)
+# ---------------------------------------------------------------------------
+
+@pytest.fixture(scope="module")
+def references():
+    return _jsonl("references.jsonl")
+
+
+@pytest.fixture(scope="module")
+def edges():
+    p = os.path.join(DATA, "edges.json")
+    if not os.path.exists(p):
+        pytest.skip("edges not built -- run python build_edges.py")
+    return json.load(open(p))
+
+
+def test_every_aor_book_has_an_author_from_their_own_bibliography(volumes):
+    '''
+        All 35 AOR directories resolve now, from Corpus-January-2019.xlsx.
+        If this regresses to nulls, aor_resolve_books.py silently failed its
+        join and 44,000 marks go back to being stranded.
+    '''
+    aor = [v for v in volumes if v["source_dataset"] == "aor"]
+    if not aor:
+        pytest.skip("aor not built")
+    bad = [v for v in aor if not v["source_author"]]
+    assert not bad, f'{len(bad)} AOR volumes lost their author, e.g. {bad[0]["volume_id"]}'
+    allowed = {r["author"] for k, r in json.load(
+        open(os.path.join(ROOT, "ingest", "aor_books.json"))).items()
+        if not k.startswith("_")}
+    got = {v["source_author_raw"] for v in aor if v["source_author_raw"]}
+    assert got <= allowed, f"AOR invented author(s): {sorted(got - allowed)}"
+
+
+def test_a_named_person_is_never_promoted_to_an_authorial_edge(references):
+    """
+        8,483 <person> tags name Hannibal, Socrates and Eutrapelus as often
+        as Cicero. Giving a bare <person> a target_author would assert that
+        Harvey cited Hannibal as a source.
+
+        Note what this does NOT assert: that the two edge sets are disjoint.
+        Cicero is legitimately in both -- named in notes AND the author of
+        cited works. The guard is on the ROUTE, not on the name.
+    """
+    bad = [r for r in references if r["kind"] == "named_in_note" and r["target_author"]]
+    assert not bad, str(len(bad)) + " bare <person> tags carry an author, e.g. " + str(bad[0] if bad else "")
+
+
+def test_reference_kinds_are_declared(references):
+    known = {"quotation", "footnote", "citation", "epigraph",
+             "named_in_note", "work_cited_in_note"}
+    seen = {r["kind"] for r in references}
+    assert seen <= known, f"undeclared reference kind(s): {sorted(seen - known)}"
+
+
+def test_a_reader_marking_their_own_book_is_not_an_edge(edges):
+    '''Derrida annotated 5 of his own offprints. That is not influence.'''
+    for e in edges["edges"]:
+        assert e["reader"] != e["source_author"], f"self-edge survived: {e}"
+    assert edges["n_self_edge_marks_excluded"], (
+        "no self-edge marks were excluded at all -- Derrida's own offprints are in "
+        "the library, so zero means the check stopped running"
+    )
+
+
+def test_own_hand_is_a_real_subset_somewhere(manifest):
+    '''
+        hand_is_reader must actually bite. Melville has 433 HMorESM marks
+        and 177 unattributed; Derrida has 4 by Marguerite and 2 unattributed.
+        If own-hand equals total everywhere, the flag defaulted True and the
+        ~13% overstatement is back.
+    '''
+    biting = [k for k, v in manifest.items()
+              if not k.startswith("_") and v["n_marks_in_readers_own_hand"] < v["n_marks"]]
+    assert biting, "no source distinguishes the reader's own hand -- flag is inert"
+    for k, v in manifest.items():
+        if k.startswith("_"):
+            continue
+        assert v["n_marks_in_readers_own_hand"] <= v["n_marks"], f"{k}: own-hand > total"
+
+
+def test_names_canonical_does_not_chain(volumes):
+    '''
+        An alias whose VALUE is also another alias's KEY would resolve
+        differently depending on call order. canonical() applies once, so
+        such a pair is a latent bug -- catch it in the table, not in the data.
+    '''
+    sys.path.insert(0, ROOT)
+    import names
+    chained = [k for v in names.ALIASES.values() for k in (v,) if k in names.ALIASES]
+    assert not chained, f"alias values that are themselves alias keys: {chained}"
+    for v in volumes:
+        if v["source_author"]:
+            assert names.canonical(v["source_author"]) == v["source_author"], (
+                f'{v["source_author"]!r} is not stable under canonical()'
+            )
+
+
+def test_derrida_text_ships_because_it_is_cc_by(manifest, marks, volumes):
+    d = manifest.get("derrida")
+    if not d:
+        pytest.skip("derrida not built")
+    assert d["text_emitted"], "Derrida is CC BY -- text must ship"
+    ids = {v["volume_id"] for v in volumes if v["source_dataset"] == "derrida"}
+    dm = [m for m in marks if m["volume_id"] in ids]
+    assert any(m["reader_text"] for m in dm), "no Derrida reader_text emitted"
+    assert any(m["marked_text"] for m in dm), "no Derrida marked_text emitted"

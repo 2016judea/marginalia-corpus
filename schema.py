@@ -89,13 +89,17 @@ class Volume:
     volume_id: str
     source_dataset: str
     reader_id: str
-    source_author: str
+    source_author: str             # canonical, via names.canonical()
     source_title: str
     source_date: str = ""          # imprint date of the EDITION the reader held
     repository: str = ""
     shelfmark: str = ""
     url: str = ""
     n_marks: int = 0
+    source_author_raw: str = ""    # exactly as the source emitted it
+    co_bound_authors: tuple = ()   # other works bound in the same volume; a mark
+                                   # cannot be attributed between them, so these
+                                   # get NO edge -- see aor_resolve_books.py
     read_from: str = ""            # when the reader read it, where attested
     read_to: str = ""
     evidence_source: str = ""      # WHO attests it, for a T3 record. A T3 with
@@ -117,6 +121,13 @@ class Mark:
     marked_text: str = ""          # the SOURCE AUTHOR's printed words
     reader_text: str = ""          # the READER's own inscribed words (T1 only)
     hand: str = ""                 # which hand, where the dataset attributes it
+    hand_is_reader: bool = True     # False when the dataset attributes the mark to
+                                   # someone OTHER than, or ambiguously with, the
+                                   # volume's reader. 433 of Melville's 4,864 marks
+                                   # are "HMorESM" -- Herman or his wife Elizabeth --
+                                   # and counting those as his overstates him ~9%.
+                                   # Filter on this before making a claim about a
+                                   # named reader.
     lang: str = ""
     translation: str = ""          # where the dataset supplies one (AOR does)
     refs_people: tuple = ()        # people named INSIDE the note
@@ -154,6 +165,45 @@ def tier_for(mark_type: str, has_reader_text: bool) -> str:
     if mark_type.lower() in VERBAL_MARK_TYPES and has_reader_text:
         return TIER_AUTOGRAPH
     return TIER_MARK
+
+
+@dataclass
+class Reference:
+    '''
+        The SECOND evidence class, and it is not a mark.
+
+        A reference is the reader naming another author or work -- inside a
+        marginal note, or inside their own published book. Where a mark says
+        "this reader attended to this passage", a reference says "this reader
+        connected this passage to that author", and the reader drew the link
+        themselves.
+
+        Two shapes, both direct:
+          in a NOTE     Harvey, reading Livy, writes a note that names
+                        Machiavelli. AOR tags 3,687 <person> and 468 <book>
+                        elements inside the notes for exactly this.
+          in a WORK     Derrida quotes Rousseau in De la grammatologie, and
+                        the project located the quoted passage in Derrida's
+                        own annotated copy. 1,052 references, typed
+                        Quotation / Footnote / Citation / Epigraph.
+
+        Kept out of Mark and out of the tier ladder on purpose: a reference
+        is a different measurement, and merging the two would produce a
+        weight that means nothing.
+    '''
+    ref_id: str
+    reader_id: str
+    kind: str                      # quotation | footnote | citation | epigraph
+                                   # | named_in_note | work_cited_in_note
+    source_dataset: str
+    in_volume: str = ""            # the annotated volume the note sits in
+    in_work: str = ""              # the reader's OWN work making the reference
+    target_name: str = ""          # person or work named
+    target_author: str = ""
+    target_id: str = ""            # ISNI / USTC / project URI, where given
+    anchor_text: str = ""          # the reader's own words making the reference
+    page: str = ""
+    url: str = ""
 
 
 def rows(objs):
