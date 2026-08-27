@@ -40,6 +40,14 @@
   "note": "Three pages in AOR's Paracelsus_Meteorum only."
  },
  {
+  "reader_id": "beckett",
+  "name": "Samuel Beckett",
+  "birth": 1906,
+  "death": 1989,
+  "wikidata": "Q37327",
+  "note": "872 volumes reconstructed by the BDMP. Marginalia transcriptions are public; the text is withheld here because his marginalia are unpublished work in copyright until roughly 2059."
+ },
+ {
   "reader_id": "nietzsche",
   "name": "Friedrich Nietzsche",
   "birth": 1844,

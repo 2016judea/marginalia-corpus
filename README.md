@@ -31,7 +31,8 @@ Built 2026-08-27. Every number below comes out of `build_corpus.py`, not typed.
 | [Nietzsche, works](https://www.gutenberg.org) (Gutenberg, German) | Friedrich Nietzsche | — | — | — | — | — | 1,081 | 60 |
 | [Shakespeare and Company Project](https://shakespeareandco.princeton.edu) | 253 writers with a Paris library card | 7,741 | 8,432 | — | — | 8,432 | — | 1,420 |
 | [Annotated Books Online](https://annotatedbooksonline.com) | Dee, Luther, Melanchthon, Erasmus, Newton, Scaliger + 11 | 21 | 3,527 | 3,506 | 21 | — | — | 17 |
-| **Total** | **554 readers** | **8,434** | **210,776** | **33,743** | **168,390** | **8,643** | **11,774** | **1,719** |
+| [Beckett Digital Library](https://www.beckettarchive.org/library/home/welcome) | Samuel Beckett | 869 | 5,777 | 2,677 | 2,378 | 722 | — | 487 |
+| **Total** | **555 readers** | **9,303** | **216,553** | **36,420** | **170,768** | **9,365** | **11,774** | **2,139** |
 
 **30,237 utterances by an author, written in another author's book, beside the
 line that provoked them.** Plus 168,369 marks that locate a passage without
@@ -41,15 +42,15 @@ Melville and Whitman in the 1850s, Derrida in the 1960s.
 
 Three edge sets in `_data/edges.json`, never merged:
 
-- **5,157 mark-and-contact edges** — the reader marked this author's book, or
+- **5,643 mark-and-contact edges** — the reader marked this author's book, or
   demonstrably held a copy of it. 84 are passage-anchored.
 - **446 reference edges** — the reader *named* this author, in a marginal note
   or in their own published work.
 - **2,572 named-person edges** — people named inside notes who are not attached
   to a cited work. Not authors: Hannibal and Socrates are here too.
 
-And the thing a multi-reader corpus is *for*: **836 authors reached by more than
-one reader, 228 of them by six or more.**
+And the thing a multi-reader corpus is *for*: **858 authors reached by more than
+one reader.**
 
 | author | documented readers |
 |---|---:|
@@ -61,10 +62,25 @@ one reader, 228 of them by six or more.**
 | William Faulkner | 35 |
 
 Joyce is simultaneously the most-read author in the corpus and one of its
-readers — 149 borrows on his own card. Homer is reached by five readers across
-four centuries; Shakespeare by Melville and Nietzsche. Marks, contacts and
-references are reported per reader inside `shared_authors` and never added
-together.
+readers — 149 borrows on his own card.
+
+Strip out the lending-card readers and what remains is the spine the project was
+built to find — authors reached by three or more readers who left **physical
+marks**:
+
+| author | readers who marked them |
+|---|---|
+| Homer | Nietzsche, Harvey, Melville, Dee, Melanchthon, Whitman |
+| Plato · Aristotle | Nietzsche, Harvey, Derrida, Dee |
+| Shakespeare | Nietzsche, Melville, **Beckett** |
+| Schopenhauer | Nietzsche, Melville, **Beckett** |
+| Kant · Montaigne | Nietzsche, Derrida, **Beckett** |
+| Dante | Dee, **Beckett**, Whitman |
+| Goethe · Heine · Sophocles | Nietzsche, **Beckett**, Whitman |
+| Paracelsus | Harvey, Dee, Winthrop |
+
+Marks, contacts and references are reported per reader inside `shared_authors`
+and never added together.
 
 ## The evidence ladder
 
@@ -341,6 +357,7 @@ and each entry records the terms as actually read, with the date.
 | **Nietzsche (Gutenberg, German)** | public domain — he died in 1900; Gutenberg's licence attaches to their marked-up files, which are stripped | **yes** |
 | **Shakespeare and Company Project** | CC BY 4.0 on all fourteen deposited datasets; the card images are PUL's and are linked, not copied | **yes** |
 | **Annotated Books Online** | **CC BY-NC** — the one source narrower than CC BY. Transcriptions ship with attribution; the NC clause constrains commercial reuse downstream | **yes** |
+| **Beckett Digital Library** | transcriptions are served publicly, but Beckett d. 1989 — unpublished work in copyright until ~2059, Estate-controlled | **no — not even the marked passage** |
 | **Archaeology of Reading** | no licence file, no reuse statement found | no — counts and metadata only |
 | **Walt Whitman Archive** | its own `<availability>`: *"all rights reserved… Redistribution or republication on other terms, in any medium, requires express written consent"* | no — counts and metadata only |
 
@@ -355,21 +372,57 @@ into `cache/`. Nothing analytical is lost for the influence-graph use.
 The Derrida ingest re-checks the licence on every fetch and **refuses to build**
 if the rights field stops saying CC BY, because `emit_text` is set on that basis.
 
+## Beckett: written off as subscription-only, and that was wrong
+
+The BDMP sells a subscription, and a first pass here concluded his library sat
+behind it — the browse index returns a 2.3 KB shell to a bare `curl`. What the
+subscription actually buys is the **facsimile images.** The bibliography, the
+reading-trace page lists, the dated student-library reading notes and **the
+marginalia transcriptions** are all served publicly.
+
+The find is one URL. `library/search/index.html?q=marginalia&index=library&doc=library-readingtraces`
+— `doc=library-readingtraces` with **no book id** is the whole-library
+reading-traces document, and it pages 10 at a time through **2,685 marginalia
+entries.** Each hit arrives with the two fields this corpus is built on, already
+separated at the source:
+
+> Shakespeare, *Macbeth*, p. tp1, Zone 1 — Reading Trace: **"Skeleton of Macbeth."**
+> Proust, *Du Côté de chez Swann*, p. 73, Zone 1 — Reading Trace: **"Base senses (Kant)"**
+
+That second one is Beckett writing *Kant* in the margin of *Proust* — a reader
+connecting two authors in his own hand.
+
+Alongside it, free: **872 volumes he owned** with edition and inscriptions, and
+dated reading with citations — his Proust vol. I reads *"Read: by October 1927,
+Summer 1929, Summer 1930"*, sourced to the Letters vol. I p. 11 and Pilling 2006.
+
+**This is the strictest source in the corpus and correctly so.** Beckett died in
+1989, so his marginalia are unpublished work in copyright until roughly 2059 and
+controlled by his Estate. `emit_text` is **False**: tiers, mark types, page
+numbers, zones, source authors and counts ship — no text at all, not even the
+marked passage. Nothing analytical is lost for the influence graph, which needs
+*which author* and *which page*, not the words. Note the reason differs from AOR
+and Whitman: there the licence is merely unstated; here the underlying work is
+in copyright.
+
 ## Where it goes next
 
-[`docs/SOURCES.md`](docs/SOURCES.md) is the survey: four sources in, six
-measured and gated, five ruled out with the reason. The two biggest unclaimed
-bodies:
+[`docs/SOURCES.md`](docs/SOURCES.md) is the survey. **One thing is left, and it
+is money plus OCR rather than access:**
 
-- **Beckett Digital Library** — 815 volumes with transcribed reading traces.
-  Subscription, and a JS app a scripted fetch cannot read.
 - **Charles Darwin's Library** — 730 annotated books. **Not the free win it looked
   like:** BHL is behind Cloudflare bot protection that a real headless browser
   does not pass either, its developer docs list no marginalia resource, and the
   transcriptions are Di Gregorio and Gill's copyrighted 1990 catalogue which BHL
   *displays* rather than serves. Same category as Nietzsche and Coleridge.
-- **Nietzsche's *Lesespuren*** — ~2,200 titles, fully indexed, in a €-priced
-  2003 de Gruyter volume. Not a technical problem.
+- **Nietzsche's *Lesespuren*** — ~2,200 titles with a complete index of reading
+  traces, in *Nietzsches persönliche Bibliothek* (de Gruyter, 2003): **736 pages,
+  hardcover, EUR 148 list / ~US$283 new.** Not on Archive.org. Even bought, the
+  index arrives as German print needing OCR. A project, not a fetch.
+  The free alternative was checked and is dead: Studia Nietzscheana's promised
+  per-book Lesespuren commentaries **were never published** — the year filter
+  offers 2014 and 2015 only, `type=sources` returns nothing, and the ~12 articles
+  that exist are thematic essays.
 
 
 ## Citing the sources

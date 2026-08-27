@@ -398,3 +398,40 @@ def test_abo_hands_are_flagged_on_shared_provenance(marks, volumes):
         "abo_readers.json stopped being applied"
     )
     assert any(m["hand_is_reader"] for m in am)
+
+
+def test_beckett_ships_no_text_at_all(manifest, marks, volumes):
+    '''
+        The strictest source here. Beckett died in 1989, so his marginalia
+        are unpublished work in copyright until roughly 2059 and controlled
+        by his Estate. NOTHING may leak -- not the reading trace, not even
+        the marked passage from a public-domain source author.
+    '''
+    b = manifest.get("beckett")
+    if not b:
+        pytest.skip("beckett not built")
+    assert not b["text_emitted"], "beckett must not emit text"
+    ids = {v["volume_id"] for v in volumes if v["source_dataset"] == "beckett"}
+    leaks = [m for m in marks if m["volume_id"] in ids
+             and (m["reader_text"] or m["marked_text"] or m["translation"])]
+    assert not leaks, f'{len(leaks)} Beckett text fields leaked, e.g. {leaks[0]["mark_id"]}'
+    assert b["n_text_withheld"] > 1000, (
+        f'only {b["n_text_withheld"]} Beckett marks flag text_withheld -- the tier '
+        f'is a fact about the page, so an autograph whose text we may not ship must '
+        f'still say so'
+    )
+
+
+def test_beckett_sweep_is_complete(manifest):
+    '''
+        2,685 marginalia rows arrive 10 per page over ~269 requests. A
+        truncated sweep still builds and still looks plausible, so the ingest
+        compares parsed rows against the hit count the search itself reports
+        and this pins the result.
+    '''
+    b = manifest.get("beckett")
+    if not b:
+        pytest.skip("beckett not built")
+    reported, parsed = b["marginalia_rows_reported"], b["marginalia_rows_parsed"]
+    assert parsed >= reported * 0.95, f"parsed {parsed} of {reported} marginalia rows"
+    assert b["library_items"] > 800, f'only {b["library_items"]} library items swept'

@@ -139,6 +139,25 @@ SOURCES = {
         attribution_required=True,
         images_prohibited=True,
     ),
+    "beckett": dict(
+        name="The Beckett Digital Library (Beckett Digital Manuscript Project)",
+        url="https://www.beckettarchive.org/library/home/welcome",
+        editors="Dirk Van Hulle, Mark Nixon and Vincent Neyt, eds.; University of Antwerp",
+        terms=(
+            "Module (c) 2017 Samuel Beckett Digital Manuscript Project. The BDMP sells "
+            "a subscription; what it gates is the FACSIMILE IMAGES -- the bibliography, "
+            "reading-trace page lists, student-library reading dates and marginalia "
+            "TRANSCRIPTIONS are served publicly. But Beckett died in 1989, so his "
+            "marginalia are unpublished work in copyright until roughly 2059 and "
+            "controlled by his Estate. This is therefore the STRICTEST source in the "
+            "corpus: emit_text False, no text at all, not even the marked passage. "
+            "The reason differs from AOR and Whitman -- there the licence is merely "
+            "unstated; here the underlying work is in copyright. Read 2026-08-27."
+        ),
+        emit_text=False,
+        attribution_required=True,
+        images_prohibited=True,
+    ),
 }
 
 

@@ -23,7 +23,7 @@ from dataclasses import asdict
 
 import rights
 from schema import Reader, TIER_AUTOGRAPH, TIER_MARK, TIER_COPY
-from ingest import abo, aor, derrida, melville_monline, nietzsche, shakeco, whitman
+from ingest import abo, aor, beckett, derrida, melville_monline, nietzsche, shakeco, whitman
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_data")
 
@@ -41,6 +41,10 @@ READERS = [
            "implementation of a marginalia data model, and Dee is half of it."),
     Reader("winthrop", "John Winthrop", 1606, 1676, "Q1701206",
            "Three pages in AOR's Paracelsus_Meteorum only."),
+    Reader("beckett", "Samuel Beckett", 1906, 1989, "Q37327",
+           "872 volumes reconstructed by the BDMP. Marginalia transcriptions are "
+           "public; the text is withheld here because his marginalia are unpublished "
+           "work in copyright until roughly 2059."),
     Reader("nietzsche", "Friedrich Nietzsche", 1844, 1900, "Q9358",
            "NO annotated volumes reachable: his ~1,100 surviving library books are "
            "digitised as facsimile only, Weimar blocks automated access, and the "
@@ -80,6 +84,7 @@ ADAPTERS = [
     ("nietzsche", nietzsche.ingest),
     ("shakeco", shakeco.ingest),
     ("abo", abo.ingest),
+    ("beckett", beckett.ingest),
 ]
 
 
