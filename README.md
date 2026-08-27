@@ -29,7 +29,8 @@ Built 2026-08-27. Every number below comes out of `build_corpus.py`, not typed.
 | [Walt Whitman Archive](https://whitmanarchive.org) | Walt Whitman | 362 | 2,303 | 1,384 | 708 | 211 | — | 160 |
 | [Derrida's Margins](https://derridas-margins.princeton.edu) | Jacques Derrida | 222 | 1,670 | 211 | 1,459 | — | 1,052 | 107 |
 | [Nietzsche, works](https://www.gutenberg.org) (Gutenberg, German) | Friedrich Nietzsche | — | — | — | — | — | 1,081 | 60 |
-| **Total** | **7 readers** | **672** | **198,817** | **30,237** | **168,369** | **211** | **11,774** | **313** |
+| [Shakespeare and Company Project](https://shakespeareandco.princeton.edu) | 253 writers with a Paris library card | 7,741 | 8,432 | — | — | 8,432 | — | 1,420 |
+| **Total** | **527 readers** | **8,413** | **207,249** | **30,237** | **168,369** | **8,643** | **11,774** | **1,705** |
 
 **30,237 utterances by an author, written in another author's book, beside the
 line that provoked them.** Plus 168,369 marks that locate a passage without
@@ -39,17 +40,30 @@ Melville and Whitman in the 1850s, Derrida in the 1960s.
 
 Three edge sets in `_data/edges.json`, never merged:
 
-- **242 mark edges** — the reader physically marked this author's book. 84 are
-  passage-anchored.
+- **5,140 mark-and-contact edges** — the reader marked this author's book, or
+  demonstrably held a copy of it. 84 are passage-anchored.
 - **446 reference edges** — the reader *named* this author, in a marginal note
   or in their own published work.
 - **2,572 named-person edges** — people named inside notes who are not attached
   to a cited work. Not authors: Hannibal and Socrates are here too.
 
-And the thing a multi-reader corpus is *for*: **46 authors reached by more than
-one reader.** Homer by five of the seven. Shakespeare by Melville and Nietzsche,
-four centuries apart. Plato and Aristotle by four each. Marks and references are
-reported per reader inside `shared_authors` and never added together.
+And the thing a multi-reader corpus is *for*: **836 authors reached by more than
+one reader, 228 of them by six or more.**
+
+| author | documented readers |
+|---|---:|
+| James Joyce | 55 |
+| Virginia Woolf | 50 |
+| D. H. Lawrence | 48 |
+| Ernest Hemingway | 45 |
+| T. S. Eliot | 37 |
+| William Faulkner | 35 |
+
+Joyce is simultaneously the most-read author in the corpus and one of its
+readers — 149 borrows on his own card. Homer is reached by five readers across
+four centuries; Shakespeare by Melville and Nietzsche. Marks, contacts and
+references are reported per reader inside `shared_authors` and never added
+together.
 
 ## The evidence ladder
 
@@ -61,7 +75,7 @@ consumer has to be able to ask for only the direct ones. Full definitions in
 |---|---|---|---|
 | **T1** | autograph — the reader's own words in the margin | yes | yes |
 | **T2** | mark — score, underline, checkmark, bracket, X | yes | no |
-| **T3** | copy — demonstrably read, no surviving mark | no | no |
+| **T3** | contact — the reader demonstrably held this copy; no surviving mark | no | no |
 | *T4* | *documented — a scholar/model/Wikidata asserts it* | *no* | *no* |
 
 **This repo does not emit T4.** `literature-mutations` already has two T4
@@ -96,6 +110,43 @@ four are certainly Herman's. Channing is not Melville's fourth-favourite author;
 Channing is very probably his wife's reading. By raw count he ranks 4th of 19; by
 own-hand he ranks last. Shakespeare, by contrast, is 755 of 761 unambiguously
 Herman.
+
+## A lending library, and why it belongs here
+
+Sylvia Beach's Shakespeare and Company, Paris, 1919–1941, reconstructed from her
+surviving lending cards. **21,059 borrow events**; restricted to members who are
+authors of record, **8,432 events over 253 writers and 1,420 source authors**.
+
+It is the same evidence class as Whitman's handlist — attested contact with a
+specific copy, no surviving mark — except **dated to the day, sourced to a
+physical card, and 98.8% of events link an image of that card**:
+
+> `Borrow, 1922 → 1922-08-23 · Mr. Rhys · Conrad, *Typhoon* (1902)`
+> `source: Sylvia Beach, Rhys Lending Library Card, Box 43`
+
+Nothing else in the corpus documents contact this precisely. Joyce borrowed 149
+times, Hemingway 123, Gertrude Stein 60, Katherine Anne Porter 49, Nathalie
+Sarraute 41; Beckett, Pound, Walter Benjamin, Djuna Barnes and Bryher all held
+cards.
+
+**Who counts as a reader is mechanical, not a fame judgment.** 5,235 members is
+too many for a corpus about authors, and picking the famous novelists would be
+cherry-picking — so the criterion is *the member has a VIAF url*, i.e. an entry
+in library authority files. 520 of 5,235 qualify, 253 of those have at least one
+event, and `wikipedia` is carried per reader so a consumer can tighten to the 345
+who have both. The roster is generated into `ingest/shakeco_readers.json` and
+**committed**, so the "no adapter invents a reader" guard still holds.
+
+**Every record is T3**, and the guard
+`test_shakeco_is_t3_only` enforces it. A borrow is attested contact, not proof of
+reading, and never a passage. Anyone weighting these 8,432 against Melville's
+4,864 physical marks has merged two different measurements.
+
+One source artefact carried rather than fixed: a **shared card** credits one
+event to every member on it, so Archibald and Ada MacLeish show 236 each — the
+same transactions. `member_uris` is multi-valued precisely so the project need
+not guess who did the borrowing. Summing across readers over-counts; per reader
+does not.
 
 ## Nietzsche has no marks here, and that is the finding
 
@@ -252,6 +303,7 @@ and each entry records the terms as actually read, with the date.
 | **Derrida's Margins** | CC BY 4.0, stated in the release's own rights field | **yes** |
 | **Melville's Marginalia Online** | transcriptions quotable with attribution; the restriction is on *photographic images* | **yes** |
 | **Nietzsche (Gutenberg, German)** | public domain — he died in 1900; Gutenberg's licence attaches to their marked-up files, which are stripped | **yes** |
+| **Shakespeare and Company Project** | CC BY 4.0 on all fourteen deposited datasets; the card images are PUL's and are linked, not copied | **yes** |
 | **Archaeology of Reading** | no licence file, no reuse statement found | no — counts and metadata only |
 | **Walt Whitman Archive** | its own `<availability>`: *"all rights reserved… Redistribution or republication on other terms, in any medium, requires express written consent"* | no — counts and metadata only |
 
@@ -279,6 +331,9 @@ bodies:
   bibliography only, checked 2026-08-27.
 - **Nietzsche's *Lesespuren*** — ~2,200 titles, fully indexed, in a €-priced
   2003 de Gruyter volume. Not a technical problem.
+- **Annotated Books Online** — 100+ early modern annotated copies, **CC BY-NC**,
+  so the note text could ship. Its ExtJS `/backend` exists and returns 403 to a
+  bare request; the next step is capturing the app's own request format.
 
 ## Citing the sources
 

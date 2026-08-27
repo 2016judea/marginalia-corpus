@@ -101,6 +101,23 @@ SOURCES = {
         attribution_required=False,
         images_prohibited=False,
     ),
+    "shakeco": dict(
+        name="The Shakespeare and Company Project",
+        url="https://shakespeareandco.princeton.edu",
+        editors=("Joshua Kotin, dir.; Center for Digital Humanities, Princeton. "
+                 "Dataset v1.2 (2022-01), doi:10.34770 series"),
+        terms=(
+            "Princeton Data Commons rights field reads 'CC BY -- Creative Commons "
+            "Attribution 4.0 International' on all fourteen deposited datasets "
+            "(members, books, events, and the combined package, v1 / v1.1 / v1.2). "
+            "Data derives from Sylvia Beach's own lending cards and logbooks; the "
+            "card IMAGES are Princeton University Library's, served from IIIF, and "
+            "are linked rather than copied. Read 2026-08-27."
+        ),
+        emit_text=True,
+        attribution_required=True,
+        images_prohibited=True,
+    ),
 }
 
 

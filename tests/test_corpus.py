@@ -315,3 +315,51 @@ def test_the_corpus_has_cross_reader_reach(edges):
         assert len(x["readers"]) == x["n_readers"]
         for r, m in x["readers"].items():
             assert set(m) <= {"marks", "references"}, f"unexpected measure on {x['author']}: {m}"
+
+
+def test_shakeco_is_t3_only(manifest):
+    '''
+        A lending card records a transaction, not a mark. If this slice ever
+        reports a T1 or T2 it has invented a passage anchor, and its 8,432
+        records would then outweigh Melville's 4,864 physical marks in any
+        consumer that filters on "passage_anchored".
+    '''
+    s = manifest.get("shakeco")
+    if not s:
+        pytest.skip("shakeco not built")
+    assert s["n_autograph"] == 0 and s["n_mark"] == 0, (
+        f'shakeco reported {s["n_autograph"]} T1 and {s["n_mark"]} T2 -- a borrow is '
+        f'attested contact, never a mark'
+    )
+    assert s["n_copy"] > 5000
+
+
+def test_shakeco_readers_come_from_the_committed_roster(volumes):
+    '''
+        520 readers is too many to hand-type, so they are generated into
+        ingest/shakeco_readers.json and committed. The point of the file is
+        that the adapter cannot invent a reader at build time -- if a reader
+        appears in the data who is not in the file, that guarantee is gone.
+    '''
+    sc = [v for v in volumes if v["source_dataset"] == "shakeco"]
+    if not sc:
+        pytest.skip("shakeco not built")
+    roster = json.load(open(os.path.join(ROOT, "ingest", "shakeco_readers.json"),
+                            encoding="utf-8"))["readers"]
+    stray = {v["reader_id"] for v in sc} - set(roster)
+    assert not stray, f"readers absent from the committed roster: {sorted(stray)[:5]}"
+
+
+def test_every_attested_contact_is_dated_and_sourced(volumes):
+    '''
+        The reason a lending library belongs here at all is that the contact
+        is dated to the day and sourced to a physical card. Without those it
+        is weaker than Whitman's handlist, not stronger.
+    '''
+    sc = [v for v in volumes if v["source_dataset"] == "shakeco"]
+    if not sc:
+        pytest.skip("shakeco not built")
+    undated = [v for v in sc if not v["read_from"]]
+    unsourced = [v for v in sc if not v["evidence_source"]]
+    assert len(undated) < len(sc) * 0.01, f"{len(undated)}/{len(sc)} undated"
+    assert not unsourced, f"{len(unsourced)} records name no source card"

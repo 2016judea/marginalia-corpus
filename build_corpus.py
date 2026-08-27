@@ -23,7 +23,7 @@ from dataclasses import asdict
 
 import rights
 from schema import Reader, TIER_AUTOGRAPH, TIER_MARK, TIER_COPY
-from ingest import aor, derrida, melville_monline, nietzsche, whitman
+from ingest import aor, derrida, melville_monline, nietzsche, shakeco, whitman
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_data")
 
@@ -51,12 +51,23 @@ READERS = [
            "the books behind De la grammatologie (1967)."),
 ]
 
+# The Shakespeare and Company roster is 520 readers -- too many to hand-type,
+# and too many to let an adapter invent at build time. It is generated from the
+# CC BY members dataset into ingest/shakeco_readers.json, committed, and loaded
+# here, so the "no adapter invents a reader" guard still holds: every reader is
+# in git and reviewable.
+for _rid, _r in shakeco.readers().items():
+    READERS.append(Reader(_rid, _r["name"], _r["birth"], _r["death"], None,
+                          f'Shakespeare and Company member. VIAF {_r["viaf"]}.'
+                          + (" Wikipedia: yes." if _r["wikipedia"] else "")))
+
 ADAPTERS = [
     ("monline", melville_monline.ingest),
     ("aor", aor.ingest),
     ("whitman", whitman.ingest),
     ("derrida", derrida.ingest),
     ("nietzsche", nietzsche.ingest),
+    ("shakeco", shakeco.ingest),
 ]
 
 

@@ -7,7 +7,7 @@ measured figures came out materially different from the stated ones.
 
 ---
 
-## In (five sources, ingested and building)
+## In (six sources, ingested and building)
 
 ### 1. Melville's Marginalia Online — `ingest/melville_monline.py`
 
@@ -197,6 +197,51 @@ from here.
 
 ---
 
+### 6. The Shakespeare and Company Project — `ingest/shakeco.py`
+
+*Measured:* 5,235 members, 6,020 books, 35,523 events of which **21,059 are
+borrows**. Restricted to authors of record: **520 readers on the roster, 253 with
+events, 7,741 reader-book records, 8,432 attested-contact events, 1,420 distinct
+source authors, 7,739 of 7,741 dated.**
+
+**CC BY 4.0**, v1.2 (2022-01), fourteen datasets on Princeton Data Commons —
+same host and same Blacklight JSON route as Derrida (section 4). The ingest
+re-checks the rights field and refuses to build if it stops saying CC BY.
+
+Sylvia Beach's Paris lending library, 1919–1941, from her surviving cards. Same
+evidence class as Whitman's handlist — attested contact, no mark — but **dated to
+the day, sourced to a named card, and 98.8% of events link a IIIF image of it**.
+Nothing else in the corpus documents contact this precisely. Joyce 149 borrows,
+Hemingway 123, Stein 60, Porter 49, Sarraute 41; Beckett, Pound, Benjamin, Djuna
+Barnes, Bryher all hold cards.
+
+This is what took the corpus from 7 readers to 527 and from 313 source authors to
+1,705, and it is why **836 authors are now reached by more than one reader** —
+Joyce by 55, Woolf by 50, Lawrence by 48.
+
+Three things to get right, all guarded:
+
+- **Reader selection is mechanical.** 5,235 members is too many for a corpus
+  about authors and choosing the famous novelists would be cherry-picking, so the
+  criterion is *has a VIAF url* — an entry in library authority files. 520 of
+  5,235. `wikipedia` is carried too (345 have both) so a consumer can tighten.
+  The roster is generated into `ingest/shakeco_readers.json` and **committed**,
+  so `build_corpus.py`'s "no adapter invents a reader" guard still holds.
+- **Every record is T3.** A card records a transaction. If this slice ever
+  reported a T1 or T2 it would have invented a passage anchor, and its 8,432
+  records would swamp Melville's 4,864 physical marks in any consumer filtering
+  on `passage_anchored`. `test_shakeco_is_t3_only` enforces it.
+- **A shared card double-counts across its members** — Archibald and Ada MacLeish
+  show 236 events each, the same transactions. `member_uris` is multi-valued
+  precisely so the project need not guess who borrowed. Summing across readers
+  over-counts; per reader does not. Carried, not "fixed".
+
+Excluded and counted, never silently dropped: 2,764 member uris and 127 book uris
+listed in the `*_removed.csv` files (identities the project merged or withdrew
+between versions), plus 789 marks whose book has no author of record.
+
+---
+
 ## Gated (measured or read, not ingested — ranked by what they'd add)
 
 | Source | Reader | Scale *(stated)* | What blocks it |
@@ -207,7 +252,12 @@ from here.
 | **Reading Experience Database (UK RED)** | ~many | ~30,000 recorded reading experiences, 1450–1945, graded by evidence type | Open University site 403s a plain fetch. Not marginalia — but it is the only source that would populate **T3 at scale**, across hundreds of readers instead of one. |
 | **Nietzsche's *Lesespuren*** — the transcriptions | Nietzsche | **~2,200 titles, complete index of reading traces** | A **book**, not a website: *Nietzsches persönliche Bibliothek* (de Gruyter 2003). Purchasable. See section 5 — everything else about Nietzsche is settled and this is the only thing left. |
 | **Studia Nietzscheana** per-book commentaries | Nietzsche | 2014–2018, small n | Real transcribed Lesespuren inside journal articles. Article lists are Solr-driven JS; POST to `/SN/search`. Unfinished, and the cheapest remaining Nietzsche win. |
+| **Annotated Books Online** | ~100 early modern owners | **100+ annotated copies**, transcriptions and translations, **CC BY-NC** — so note text could ship | An ExtJS app with a gated backend: `/backend` exists and returns **403** to a bare request, `/backend/BookController` 404s, and no endpoint appears in the frontend JS. Next step is capturing the app's own request format in a browser. Readers are early modern owners, not literary authors — same profile as AOR. |
 | **Newton Project** | Newton | Annotated books alongside the manuscripts | Site responds 200; `/his-library` is 404. Annotated-book coverage vs manuscript coverage unmeasured. |
+| **Whitman's sibling data repos** | Whitman | `whitman-notebooks` 700 KB, `whitman-correspondence` **66 MB**, `whitman-other_books`, `whitman-reviews` | Same GitHub org, same TEI, already cloneable. His notebooks and 66 MB of letters are full of statements about what he was reading — a T3-with-a-date layer sitting one clone away, in a source whose marginalia slice is already wired. **Cheapest unclaimed win in the survey.** |
+| **CERL / MEI** (Material Evidence in Incunabula) | many | copy-level provenance and annotation flags at scale | `data.cerl.org/mei/_search` responds. Flags annotation as a feature; carries no transcriptions. T3 at scale for incunabula, no passages. |
+| **OPenn** (Penn) | many | openly licensed TEI + IIIF, no rights encumbrance at all | Responds 200. Manuscript descriptions; how much is annotated *printed* books is unmeasured. |
+| **LibraryThing Legacy Libraries** | ~500 historical figures | personal library catalogues — Jefferson, Poe, Hemingway, Plath, Sontag | **403s automated access.** T3 ownership at real breadth if a sanctioned route exists. |
 | **John Adams Library** (Boston Public Library) | Adams | ~3,500 volumes, heavily annotated, digitised on archive.org | BPL's own landing page is 404 as of 2026-08-27. Transcriptions likely absent — facsimile only. |
 
 ## Ruled out — don't re-research these
@@ -234,8 +284,13 @@ survey, which reached the same wall:
 ## The shape of the ceiling
 
 Structured, transcribed, machine-readable marginalia exists for **a handful of
-readers, deeply** — not for many readers, thinly. Seven readers, four centuries,
-313 source authors, and 46 authors reached by more than one of them. Nobody else in American literature has what Melville has.
+readers, deeply** — not for many readers, thinly. 527 readers, four centuries,
+1,705 source authors, and 836 authors reached by more than one of them.
+
+But note where that breadth came from: **one lending library supplied 520 of the
+527 readers and every one of them at T3.** The deep, passage-anchored evidence is
+still six readers — Melville, Harvey, Dee, Winthrop, Whitman, Derrida — and
+breadth at T3 does not substitute for it. Nobody else in American literature has what Melville has.
 That is a fact about the field's funding, not about the evidence: the marks
 exist in the world — Nietzsche's 18,000 annotated pages are photographed and
 sitting there — they just haven't been transcribed.

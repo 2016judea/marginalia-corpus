@@ -54,5 +54,4165 @@
   "death": 2004,
   "wikidata": "Q9364",
   "note": "Library of ~13,800 volumes at PUL; this dataset is phase 1 only, the books behind De la grammatologie (1967)."
+ },
+ {
+  "reader_id": "shakeco:abbott-berenice",
+  "name": "Berenice Abbott",
+  "birth": 1898,
+  "death": 1991,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/44309674/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:alderman",
+  "name": "Pauline Alderman",
+  "birth": 1893,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/42635145. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:aldington-richard",
+  "name": "Richard Aldington",
+  "birth": 1892,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7402360. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:allegret",
+  "name": "Marc All\u00e9gret",
+  "birth": 1900,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/120727427/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:allen-jay",
+  "name": "Jay Allen / Jay C. Allen",
+  "birth": 1900,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/34301639/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:alling",
+  "name": "Kenneth Slade Alling",
+  "birth": 1887,
+  "death": 1966,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/145832807/."
+ },
+ {
+  "reader_id": "shakeco:ameuille",
+  "name": "Pierre Ameuille",
+  "birth": 1880,
+  "death": 1947,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/27057403/."
+ },
+ {
+  "reader_id": "shakeco:amussen",
+  "name": "Theodore Amussen",
+  "birth": 1915,
+  "death": 1988,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/305280915/."
+ },
+ {
+  "reader_id": "shakeco:anderson-margaret",
+  "name": "Margaret C. Anderson",
+  "birth": 1886,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/31323380/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:antheil-elizabeth-boske",
+  "name": "B\u00f6ske (Markus) Antheil / Mrs. Antheil",
+  "birth": 1902,
+  "death": 1978,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/140959762/."
+ },
+ {
+  "reader_id": "shakeco:antheil-george",
+  "name": "George Antheil",
+  "birth": 1900,
+  "death": 1959,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/5120859/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:aragon",
+  "name": "Louis Aragon",
+  "birth": 1897,
+  "death": 1982,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/8178518. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:aron-francoise",
+  "name": "Fran\u00e7oise Aron",
+  "birth": 1918,
+  "death": 2011,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/2555864/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:arvanon-cyrille",
+  "name": "Cyrille Arvanon / Cyril Arnavon",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/99190."
+ },
+ {
+  "reader_id": "shakeco:asch",
+  "name": "Nathan Asch",
+  "birth": 1902,
+  "death": 1964,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/69911963/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:astruc",
+  "name": "Lucienne Astruc",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/25352101/."
+ },
+ {
+  "reader_id": "shakeco:prevost-marcelle-auclair",
+  "name": "Marcelle Auclair / Mme Jean Pr\u00e9vost",
+  "birth": 1899,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/109535619. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:audiau",
+  "name": "Jean Audiau",
+  "birth": 1897,
+  "death": 1927,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/29529335/."
+ },
+ {
+  "reader_id": "shakeco:audry",
+  "name": "Colette Audry",
+  "birth": 1906,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/97636194/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:auger",
+  "name": "Pierre Auger",
+  "birth": 1899,
+  "death": 1993,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/18620890. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:auxenfans-jacques",
+  "name": "Jacques Auxenfans",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/122147662856860550163/."
+ },
+ {
+  "reader_id": "shakeco:aveline-claude",
+  "name": "Claude Aveline",
+  "birth": 1901,
+  "death": 1992,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46756750/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bagger",
+  "name": "Eugene Szekeres Bagger",
+  "birth": 1892,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/115858258/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:baltrusaitis-helene-focillon",
+  "name": "H\u00e9l\u00e8ne (Focillon) Baltrusaitis",
+  "birth": 1908,
+  "death": 2004,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/216106257."
+ },
+ {
+  "reader_id": "shakeco:barnes-djuna",
+  "name": "Djuna Barnes",
+  "birth": 1892,
+  "death": 1982,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/110217112/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:barnett-bion",
+  "name": "Bion Barnett, Jr.",
+  "birth": 1887,
+  "death": 1965,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/42113193/."
+ },
+ {
+  "reader_id": "shakeco:barney-natalie-clifford",
+  "name": "Natalie Clifford Barney",
+  "birth": 1876,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/76311714/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:barrault-jean-louis",
+  "name": "Jean-Louis Barrault",
+  "birth": 1910,
+  "death": 1994,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7386576/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bastian-maruice",
+  "name": "Maurice Bastian",
+  "birth": 1906,
+  "death": 1994,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/88817522/."
+ },
+ {
+  "reader_id": "shakeco:bates-ernest",
+  "name": "Ernest Bates",
+  "birth": 1879,
+  "death": 1939,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/55029013/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:baudoin-denis",
+  "name": "Denis Baudoin",
+  "birth": 1905,
+  "death": 2001,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/305989220/."
+ },
+ {
+  "reader_id": "shakeco:bazaine-jean-rene",
+  "name": "Jean Ren\u00e9 Bazaine",
+  "birth": 1904,
+  "death": 2001,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/109483724/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bazalgette-leon",
+  "name": "Le\u00f3n Bazalgette",
+  "birth": 1873,
+  "death": 1928,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/32028674/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bazin-de-jessey",
+  "name": "Fiamette (de Thierry) Bazin de Jessey / Mme de Jessey",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56649390/."
+ },
+ {
+  "reader_id": "shakeco:beach-2",
+  "name": "Joseph Beach",
+  "birth": 1880,
+  "death": 1957,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/5153628/."
+ },
+ {
+  "reader_id": "shakeco:beach-sylvia",
+  "name": "Sylvia Beach",
+  "birth": 1887,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/35247539. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:beckett",
+  "name": "Samuel Beckett",
+  "birth": 1906,
+  "death": 1989,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7386737/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bedford-sybille",
+  "name": "Sybille Bedford / Mme Sybille Schoenebeck",
+  "birth": 1911,
+  "death": 2006,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56648810/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:beede",
+  "name": "Ivan Beede",
+  "birth": 1896,
+  "death": 1946,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/58870452/."
+ },
+ {
+  "reader_id": "shakeco:beerblock-maurice",
+  "name": "Maurice Beerblock",
+  "birth": 1880,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/73849823/."
+ },
+ {
+  "reader_id": "shakeco:behn-henry",
+  "name": "Harry Behn / Henry Behn",
+  "birth": 1898,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79276834/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:benet-stephen-vincent",
+  "name": "Stephen Vincent Ben\u00e9t",
+  "birth": 1898,
+  "death": 1943,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/100260717/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:benjamin-walter",
+  "name": "Walter Benjamin",
+  "birth": 1892,
+  "death": 1940,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46757196. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bennett-gwendolyn",
+  "name": "Gwendolyn Bennett",
+  "birth": 1902,
+  "death": 1981,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/43900933/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:benoist-mechin",
+  "name": "Jacques Benoist-M\u00e9chin",
+  "birth": 1901,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/61539783/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bercovici-konrad",
+  "name": "Konrad Bercovici",
+  "birth": 1882,
+  "death": 1961,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/97669269/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:berdanier",
+  "name": "Paul Frederick Berdanier",
+  "birth": 1879,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/44686767/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bernot-berthe",
+  "name": "Berthe Bernot",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/61935254/."
+ },
+ {
+  "reader_id": "shakeco:berr-de-turique-marcelle",
+  "name": "Marcelle Berr de Turique",
+  "birth": 1894,
+  "death": 1991,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/51809320/."
+ },
+ {
+  "reader_id": "shakeco:bertrand-fontaine-therese",
+  "name": "Th\u00e9r\u00e8se Bertrand-Fontaine",
+  "birth": 1895,
+  "death": 1987,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/78769188/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bespaloff",
+  "name": "Rachel Bespaloff / Mme Bespaloff / Bespalova",
+  "birth": 1895,
+  "death": 1949,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56732684/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bietry",
+  "name": "Jehanne Bi\u00e9try",
+  "birth": 1897,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/102429813/."
+ },
+ {
+  "reader_id": "shakeco:binder",
+  "name": "Pearl Binder",
+  "birth": 1904,
+  "death": 2004,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95865698/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bird",
+  "name": "William Bird",
+  "birth": 1888,
+  "death": 1963,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/22260551. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bishop-elizabeth",
+  "name": "Elizabeth Bishop",
+  "birth": 1911,
+  "death": 1979,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/71405503/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bishop-john-peale",
+  "name": "John Peale Bishop",
+  "birth": 1892,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/73984000/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bloch-marguerite-herzog",
+  "name": "Marguerite (Herzog) Bloch / Mme Jean Bloch",
+  "birth": 1886,
+  "death": 1975,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/51372866."
+ },
+ {
+  "reader_id": "shakeco:bodington-oliver",
+  "name": "Oliver Bodington",
+  "birth": 1859,
+  "death": 1936,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9402332/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bonner-eugene",
+  "name": "Eugene Bonner",
+  "birth": 1889,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/70507233/."
+ },
+ {
+  "reader_id": "shakeco:bonnerot-louis",
+  "name": "Louis Bonnerot",
+  "birth": 1897,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/220092446."
+ },
+ {
+  "reader_id": "shakeco:bornand-odette",
+  "name": "Odette Bornand",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/256082681/."
+ },
+ {
+  "reader_id": "shakeco:bosschere-jean-de",
+  "name": "Jean de Bossch\u00e8re",
+  "birth": 1878,
+  "death": 1953,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9841229/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bourdet",
+  "name": "Claude Bourdet",
+  "birth": 1909,
+  "death": 1996,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54144822. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bowen-stella",
+  "name": "Stella Bowen / Mrs. Ford M. Ford",
+  "birth": 1893,
+  "death": 1947,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/75359836/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:boyd-james",
+  "name": "James Boyd",
+  "birth": 1888,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/17583797/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:boyd-madeleine",
+  "name": "Madeleine (Reynier) Boyd",
+  "birth": 1886,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/18546711."
+ },
+ {
+  "reader_id": "shakeco:breton-simone",
+  "name": "Simone Breton / Mlle Simone Kahn",
+  "birth": 1897,
+  "death": 1980,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/22364592/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:brewster",
+  "name": "Earl Henry Brewster",
+  "birth": 1878,
+  "death": 1957,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/236087339/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:briffault",
+  "name": "Robert Briffault",
+  "birth": 1876,
+  "death": 1948,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/4973560/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bright",
+  "name": "Robert Bright",
+  "birth": 1902,
+  "death": 1988,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/91273174/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:brinig",
+  "name": "Myron Brinig",
+  "birth": 1897,
+  "death": 1991,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/59446695/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bromfield-louis",
+  "name": "Louis Bromfield / Lewis Bromfield",
+  "birth": 1896,
+  "death": 1956,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/14766865/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:brooks-alden",
+  "name": "Alden Brooks",
+  "birth": 1882,
+  "death": 1964,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/316740138. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:brown-slater",
+  "name": "Slater Brown",
+  "birth": 1896,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79278155/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bruce-patrick-henry",
+  "name": "Patrick Henry Bruce / P. H. Bruce",
+  "birth": 1881,
+  "death": 1936,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/45585485/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bruel-andree",
+  "name": "Andr\u00e9e Bruel",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/17341482/."
+ },
+ {
+  "reader_id": "shakeco:brull-ulmann",
+  "name": "Colette Brull-Ulmann / Mlle Colette Brull",
+  "birth": 1920,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/166152138619610981032/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:bruno-jean",
+  "name": "Jean Bruno",
+  "birth": 1909,
+  "death": 1982,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/227055465."
+ },
+ {
+  "reader_id": "shakeco:bryher",
+  "name": "Bryher",
+  "birth": 1894,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/111923629. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:buffum-imbrie",
+  "name": "Imbrie Buffum",
+  "birth": 1915,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/2221569/."
+ },
+ {
+  "reader_id": "shakeco:bullowa-arthur",
+  "name": "Arthur Bullowa",
+  "birth": 1909,
+  "death": 1993,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56455870/."
+ },
+ {
+  "reader_id": "shakeco:burnet-mary-scott",
+  "name": "Mary Scott Burnet",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/198739245/."
+ },
+ {
+  "reader_id": "shakeco:buss-kate",
+  "name": "Kate Buss",
+  "birth": 1879,
+  "death": 1943,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/64317206/."
+ },
+ {
+  "reader_id": "shakeco:caetani",
+  "name": "Marguerite (Chapin) Caetani / Princess Bassiano",
+  "birth": 1880,
+  "death": 1963,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/227056237. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:cahun",
+  "name": "Claude Cahun / Mlle Lucie Schwob",
+  "birth": 1894,
+  "death": 1954,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/19757660. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:caillois",
+  "name": "Roger Caillois",
+  "birth": 1913,
+  "death": 1978,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/92201126. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:cairns-dorion",
+  "name": "Dorion Cairns",
+  "birth": 1901,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/40484492/."
+ },
+ {
+  "reader_id": "shakeco:callaghan-morley",
+  "name": "Morley Callaghan",
+  "birth": 1903,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/115291182/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:camerlynck-g-h",
+  "name": "Guillaume Hubert Camerlynck / G. H. Camerlynck",
+  "birth": 1870,
+  "death": 1929,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/19675394/."
+ },
+ {
+  "reader_id": "shakeco:camerlynck-guernier",
+  "name": "Gabrielle Camerlynck-Guernier / Mme Camerlynck",
+  "birth": 1870,
+  "death": 1950,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/69915909."
+ },
+ {
+  "reader_id": "shakeco:camfferman",
+  "name": "Margaret Gove Camfferman / Mrs. P. M. Camfferman",
+  "birth": 1881,
+  "death": 1964,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/4837179/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:camille-georgette",
+  "name": "Georgette Camille",
+  "birth": 1900,
+  "death": 1998,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/30662344."
+ },
+ {
+  "reader_id": "shakeco:canavaggia-maria",
+  "name": "Maria Canavaggia",
+  "birth": 1896,
+  "death": 1976,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/51686702/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:canavaggia-renee",
+  "name": "Ren\u00e9e Canavaggia",
+  "birth": 1902,
+  "death": 1996,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7383517/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:caparn",
+  "name": "Rhys Caparn",
+  "birth": 1909,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/285126480/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:carr-philip",
+  "name": "Philip Carr",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/44078967."
+ },
+ {
+  "reader_id": "shakeco:cassaigne",
+  "name": "Ella Cassaigne",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/305226794."
+ },
+ {
+  "reader_id": "shakeco:castet-jean",
+  "name": "Jean Castet",
+  "birth": 1883,
+  "death": 1961,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/316663773/."
+ },
+ {
+  "reader_id": "shakeco:catalogne-gerard-de",
+  "name": "G\u00e9rard de Catalogne",
+  "birth": 1905,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41973512/."
+ },
+ {
+  "reader_id": "shakeco:catel-jean",
+  "name": "Jean Catel",
+  "birth": 1891,
+  "death": 1950,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9624577."
+ },
+ {
+  "reader_id": "shakeco:cayton",
+  "name": "Horace Cayton",
+  "birth": 1903,
+  "death": 1970,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/2560301. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:cesaire",
+  "name": "Aim\u00e9 C\u00e9saire",
+  "birth": 1913,
+  "death": 2008,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/109520593. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:chadourne",
+  "name": "Marc Chadourne",
+  "birth": 1895,
+  "death": 1975,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79022133/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:chalot",
+  "name": "Monique Chalot",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/256438499."
+ },
+ {
+  "reader_id": "shakeco:chambrillac",
+  "name": "Ren\u00e9 Chambrillac",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/232878062/."
+ },
+ {
+  "reader_id": "shakeco:chapelon-jacques",
+  "name": "Jacques Chapelon",
+  "birth": 1884,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/6447782/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:chareau-dollie",
+  "name": "Doroth\u00e9e (Dollie) Chareau / Mme Pierre Chareau",
+  "birth": 1880,
+  "death": 1967,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/292176139."
+ },
+ {
+  "reader_id": "shakeco:chenneviere-andre",
+  "name": "Andr\u00e9 Chenneviere",
+  "birth": 1908,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54285350. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:cheron-jeanne",
+  "name": "Jeanne Ch\u00e9ron",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/3995154441737835460008/."
+ },
+ {
+  "reader_id": "shakeco:chiaromonte-nicola",
+  "name": "Nicola Chiaromonte",
+  "birth": 1905,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/264608918/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:childs-mary",
+  "name": "Mary Arnold Childs / Mrs. Ludwig Lewisohn",
+  "birth": 1871,
+  "death": 1946,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/3447149198368074940008/."
+ },
+ {
+  "reader_id": "shakeco:chonez-claudine",
+  "name": "Claudine Chonez",
+  "birth": 1912,
+  "death": 1995,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/64003593. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:church-henry",
+  "name": "Henry Church",
+  "birth": 1880,
+  "death": 1947,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/71305807/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:ciolkowska",
+  "name": "Muriel Ciolkowska",
+  "birth": 1880,
+  "death": 1932,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/117540068/."
+ },
+ {
+  "reader_id": "shakeco:citkowitz-israel",
+  "name": "Israel Citkowitz",
+  "birth": 1909,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/51958426/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:citron-pierre",
+  "name": "Pierre Citron",
+  "birth": 1919,
+  "death": 2010,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7388452. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:clairin-pierre-eugene",
+  "name": "Pierre-Eug\u00e8ne Clairin",
+  "birth": 1897,
+  "death": 1980,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/118444035. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:clarke-austin",
+  "name": "Austin Clarke",
+  "birth": 1896,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54194438/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:clavier-andre",
+  "name": "Andr\u00e9 Clavier",
+  "birth": 1894,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/139153953219205560170/."
+ },
+ {
+  "reader_id": "shakeco:coche-de-la-ferte",
+  "name": "\u00c9tienne Coche de la Fert\u00e9",
+  "birth": 1909,
+  "death": 1989,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95173245/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:cochran-joseph",
+  "name": "Joseph Wilson Cochran / Rev. J. Cochran",
+  "birth": 1867,
+  "death": 1961,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/26610360/."
+ },
+ {
+  "reader_id": "shakeco:cody-morrill",
+  "name": "Morrill Cody",
+  "birth": 1901,
+  "death": 1987,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/21245121/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:colum-padraic",
+  "name": "Padraic Colum",
+  "birth": 1881,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/49223588/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:connolly-cyril",
+  "name": "Cyril Connolly",
+  "birth": 1903,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/22140262. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:conolly-violet",
+  "name": "Violet Conolly",
+  "birth": 1899,
+  "death": 1988,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/52995330/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:maurice-constantin-weyer",
+  "name": "Maurice Constantin-Weyer",
+  "birth": 1881,
+  "death": 1964,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95173865. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:cooper-lettice",
+  "name": "Lettice Cooper",
+  "birth": 1897,
+  "death": 1994,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79096528/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:copeau-jacques",
+  "name": "Jacques Copeau",
+  "birth": 1879,
+  "death": 1949,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/24599907/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:copland-aaron",
+  "name": "Aaron Copland",
+  "birth": 1900,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/51874819/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:cowley-malcolm",
+  "name": "Malcolm Cowley",
+  "birth": 1898,
+  "death": 1989,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/91308069/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:cowley-peggy",
+  "name": "Peggy (Baird) Cowley / Mrs. Cowley",
+  "birth": 1890,
+  "death": 1970,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/305130177/."
+ },
+ {
+  "reader_id": "shakeco:coyle-kathleen",
+  "name": "Kathleen Coyle / Mrs. K. Coyle",
+  "birth": 1883,
+  "death": 1952,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/49273089/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:crane",
+  "name": "Clarkson Crane",
+  "birth": 1894,
+  "death": 1971,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/60498310/."
+ },
+ {
+  "reader_id": "shakeco:crane-louise",
+  "name": "Louise Crane",
+  "birth": 1913,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/13147121641626391216/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:crawford-knox",
+  "name": "John Crawford-Knox",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/73177394/."
+ },
+ {
+  "reader_id": "shakeco:cressman",
+  "name": "Luther Cressman",
+  "birth": 1897,
+  "death": 1994,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/64284042/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:crosby-caresse",
+  "name": "Caresse Crosby",
+  "birth": 1892,
+  "death": 1970,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/71541658. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:crozier-eric",
+  "name": "Eric Crozier",
+  "birth": 1914,
+  "death": 1994,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39463875/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:dandieu-arnaud",
+  "name": "Arnaud Dandieu",
+  "birth": 1897,
+  "death": 1933,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/68967957/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:darrow-whitney",
+  "name": "Whitney Darrow",
+  "birth": 1909,
+  "death": 1999,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/91315172/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:daumal",
+  "name": "Ren\u00e9 Daumal",
+  "birth": 1908,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/24600269. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:avenel-marguerite-d",
+  "name": "Marguerite d'Avenel",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/214200550/."
+ },
+ {
+  "reader_id": "shakeco:davenport-russell",
+  "name": "Russell Davenport",
+  "birth": 1899,
+  "death": 1954,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/23012219/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:davet-yvonne",
+  "name": "Yvonne Davet",
+  "birth": 1906,
+  "death": 2007,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39375653."
+ },
+ {
+  "reader_id": "shakeco:david-gwenda",
+  "name": "Gwenda David",
+  "birth": 1905,
+  "death": 2002,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/47147445/."
+ },
+ {
+  "reader_id": "shakeco:alvear",
+  "name": "Elvira de Alvear",
+  "birth": 1907,
+  "death": 1959,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/40867070."
+ },
+ {
+  "reader_id": "shakeco:beauvoir-henriette-de",
+  "name": "Henriette de Beauvoir / Henriette-H\u00e9l\u00e8ne de Beauvoir",
+  "birth": 1910,
+  "death": 2001,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/99911017/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:beauvoir-simone-de",
+  "name": "Simone de Beauvoir",
+  "birth": 1908,
+  "death": 1986,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/2466221. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:boer-josephine-de",
+  "name": "Josephine de Boer",
+  "birth": 1886,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/282360732/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:decamp-charles",
+  "name": "Charles B. DeCamp",
+  "birth": 1874,
+  "death": 1934,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/24162544433143311937/."
+ },
+ {
+  "reader_id": "shakeco:cayeux",
+  "name": "Jean de Cayeux",
+  "birth": 1913,
+  "death": 2008,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/44317216."
+ },
+ {
+  "reader_id": "shakeco:fels",
+  "name": "Marthe de Fels",
+  "birth": 1898,
+  "death": 1988,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/58115651. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:deknatel-frederick-b",
+  "name": "Frederick B. Deknatel / Frederic Deknatel",
+  "birth": 1905,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/115997808/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:deknatel-william",
+  "name": "William Deknatel",
+  "birth": 1907,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95805828/."
+ },
+ {
+  "reader_id": "shakeco:de-laguna",
+  "name": "Theodore de Laguna",
+  "birth": 1876,
+  "death": 1930,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54028804/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lallemand-pauline-de",
+  "name": "Pauline de Lallemand",
+  "birth": 1891,
+  "death": 1993,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/89160484/."
+ },
+ {
+  "reader_id": "shakeco:delano-agnes",
+  "name": "Agnes DeLano",
+  "birth": 1889,
+  "death": 1963,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/119731379/."
+ },
+ {
+  "reader_id": "shakeco:lanux-eyre-de",
+  "name": "Eyre de Lanux / Mrs. Pierre de Lanux",
+  "birth": 1894,
+  "death": 1996,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/96028690. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lanux-pierre-de",
+  "name": "Pierre de Lanux",
+  "birth": 1887,
+  "death": 1955,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/66460179."
+ },
+ {
+  "reader_id": "shakeco:de-lappe-w-r",
+  "name": "W. R. de Lappe",
+  "birth": 1887,
+  "death": 1952,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9627278/."
+ },
+ {
+  "reader_id": "shakeco:manziarly",
+  "name": "Marcelle de Manziarly",
+  "birth": 1899,
+  "death": 1989,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54330806. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:marcilly",
+  "name": "Fran\u00e7oise de Marcilly",
+  "birth": 1905,
+  "death": 2000,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/19901517."
+ },
+ {
+  "reader_id": "shakeco:denby-edwin",
+  "name": "Edwin Denby",
+  "birth": 1903,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/5018505/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:denis-graterolle",
+  "name": "Elisabeth Denis-Graterolle / Mme Maurice Denis",
+  "birth": 1880,
+  "death": 1957,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/170533993."
+ },
+ {
+  "reader_id": "shakeco:dennis-mary-cable",
+  "name": "Mary Cable Dennis / Mrs. A. L. P. Dennis",
+  "birth": 1872,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/273310243."
+ },
+ {
+  "reader_id": "shakeco:pourtales-guy-de",
+  "name": "Guy de Pourtales",
+  "birth": 1881,
+  "death": 1941,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95156378. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:de-roos-elisabeth",
+  "name": "Elisabeth de Roos / Mrs. du Perron",
+  "birth": 1903,
+  "death": 1981,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/16980588. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:roussy-de-sales",
+  "name": "Raoul de Roussy de Sales",
+  "birth": 1896,
+  "death": 1942,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/34829919/."
+ },
+ {
+  "reader_id": "shakeco:desclos-anne",
+  "name": "Anne Desclos / Pauline R\u00e9age (pseudonym)",
+  "birth": 1907,
+  "death": 1998,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/1900525. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:desclos-auguste",
+  "name": "Auguste Desclos",
+  "birth": 1876,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/88810008."
+ },
+ {
+  "reader_id": "shakeco:vigan",
+  "name": "Monique de Vigan",
+  "birth": 1914,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/223426596."
+ },
+ {
+  "reader_id": "shakeco:devlin-denis",
+  "name": "Denis Devlin",
+  "birth": 1908,
+  "death": 1959,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/64049202/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:exideuil",
+  "name": "Pierre d'Exideuil",
+  "birth": null,
+  "death": 1935,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46511918."
+ },
+ {
+  "reader_id": "shakeco:dieterlin-germaine",
+  "name": "Germaine Dieterlin",
+  "birth": 1903,
+  "death": 1999,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/22140994/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:dillon",
+  "name": "George Dillon",
+  "birth": 1906,
+  "death": 1968,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/29112877. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:beach-3",
+  "name": "Dagmar Doneghy / Mrs. Joseph Warren Beach",
+  "birth": 1888,
+  "death": 1966,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/43879028/."
+ },
+ {
+  "reader_id": "shakeco:drieu-la-rochelle-pierre",
+  "name": "Pierre Drieu la Rochelle",
+  "birth": 1893,
+  "death": 1945,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/27063717/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:du-bos",
+  "name": "Charles Du Bos",
+  "birth": 1882,
+  "death": 1939,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/4929230. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:dudley-katherine",
+  "name": "Katherine Dudley",
+  "birth": 1884,
+  "death": 1984,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/96439971."
+ },
+ {
+  "reader_id": "shakeco:labeyrie",
+  "name": "Francis Dufau-Labeyrie / Dylan Labeyrie",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/196001613/."
+ },
+ {
+  "reader_id": "shakeco:duhamel-marcel",
+  "name": "Marcel Duhamel",
+  "birth": 1900,
+  "death": 1977,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/76315023. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:dullin",
+  "name": "Charles Dullin",
+  "birth": 1885,
+  "death": 1949,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/68928404/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:dumezil",
+  "name": "Georges Dumezil",
+  "birth": 1898,
+  "death": 1986,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/68928415/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:perron-eddy",
+  "name": "E. du Perron / Eddy du Perron",
+  "birth": 1899,
+  "death": 1940,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/64004800/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:durtain-luc",
+  "name": "Luc Durtain",
+  "birth": 1881,
+  "death": 1959,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7453684/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:duthie",
+  "name": "Enid Duthie",
+  "birth": 1904,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/10383."
+ },
+ {
+  "reader_id": "shakeco:dyer-louise",
+  "name": "Louise Dyer / Mrs. James Dyer",
+  "birth": 1884,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/279381. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:dyett-edmund-g",
+  "name": "Edmund G. Dyett",
+  "birth": 1902,
+  "death": 1991,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/279836491/."
+ },
+ {
+  "reader_id": "shakeco:eastman",
+  "name": "Max Eastman",
+  "birth": 1883,
+  "death": 1969,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/67259736. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:eaton-jeanette",
+  "name": "Jeanette Eaton",
+  "birth": 1886,
+  "death": 1968,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/5388936/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:edel-leon",
+  "name": "Leon Edel",
+  "birth": 1907,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/108589496. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:eloff-fanie",
+  "name": "Fanie Eloff / Mr. S. J. P. Eloff",
+  "birth": 1885,
+  "death": 1947,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56425159. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:engelman",
+  "name": "Martin Engelman",
+  "birth": 1924,
+  "death": 1992,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/2740914."
+ },
+ {
+  "reader_id": "shakeco:erickson-carl",
+  "name": "Carl Erickson",
+  "birth": 1891,
+  "death": 1958,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95694059/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:este-florence",
+  "name": "Florence Est\u00e9",
+  "birth": 1860,
+  "death": 1926,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95806789/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:ewing-max",
+  "name": "Max Ewing",
+  "birth": 1903,
+  "death": 1934,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/33926763/."
+ },
+ {
+  "reader_id": "shakeco:fabre-luce-alfred",
+  "name": "Alfred Fabre-Luce",
+  "birth": 1899,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/14764619/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:facteau-bernard",
+  "name": "Bernard Facteau",
+  "birth": 1900,
+  "death": 1975,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/285640316/."
+ },
+ {
+  "reader_id": "shakeco:faguer-marguerite",
+  "name": "Marguerite Faguer",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46828193/."
+ },
+ {
+  "reader_id": "shakeco:felkin-arthur-elliott",
+  "name": "Arthur Elliott Felkin",
+  "birth": 1892,
+  "death": 1968,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/207149863/."
+ },
+ {
+  "reader_id": "shakeco:felshin-simon",
+  "name": "Simon Felshin",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/297407889/."
+ },
+ {
+  "reader_id": "shakeco:fernandez-yva",
+  "name": "Yva Fernandez",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/309155044852672520002/."
+ },
+ {
+  "reader_id": "shakeco:ferrater",
+  "name": "Gabriel Ferrater",
+  "birth": 1922,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41852359. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:finney-ross-lee",
+  "name": "Ross Lee Finney",
+  "birth": 1906,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/49199821/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:firbank-ronald",
+  "name": "Ronald Firbank",
+  "birth": 1886,
+  "death": 1926,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41860695/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:fischer-marjorie",
+  "name": "Marjorie Fischer",
+  "birth": 1903,
+  "death": 1961,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/78372862."
+ },
+ {
+  "reader_id": "shakeco:fitzgerald-f-scott",
+  "name": "F. Scott Fitzgerald",
+  "birth": 1896,
+  "death": 1940,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/100254195/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:flandrau",
+  "name": "Grace Flandrau",
+  "birth": 1889,
+  "death": 1971,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/60503543. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:flanner-janet",
+  "name": "Janet Flanner",
+  "birth": 1892,
+  "death": 1978,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/2470219. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:fleming-ronald",
+  "name": "Ronald Fleming",
+  "birth": 1896,
+  "death": 1968,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/172101382/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:focillon-marguerite",
+  "name": "Marguerite Focillon",
+  "birth": 1850,
+  "death": 1950,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/74154402."
+ },
+ {
+  "reader_id": "shakeco:foltz",
+  "name": "Charles-Robert Foltz",
+  "birth": 1910,
+  "death": 2005,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/306164202."
+ },
+ {
+  "reader_id": "shakeco:fombeure",
+  "name": "Maurice Fombeure",
+  "birth": 1906,
+  "death": 1981,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54147676. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:fonseka-lionel-de",
+  "name": "Lionel de Fonseka",
+  "birth": 1889,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/214984465/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:ford-ford-madox",
+  "name": "Ford Madox Ford",
+  "birth": 1873,
+  "death": 1939,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/59077275. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:fosca-francois",
+  "name": "Fran\u00e7ois Fosca",
+  "birth": 1881,
+  "death": 1980,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/108544476/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:franchot",
+  "name": "Stanislas Pascal Franchot",
+  "birth": 1905,
+  "death": 1968,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/42041747/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:francillon-robert",
+  "name": "Robert Francillon",
+  "birth": 1889,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/285910393."
+ },
+ {
+  "reader_id": "shakeco:freedley-durr",
+  "name": "Durr Freedley",
+  "birth": 1888,
+  "death": 1938,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/399144782719716981030/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:frieseke-frederick-carl",
+  "name": "Frederick Carl Frieseke",
+  "birth": 1874,
+  "death": 1939,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39651129/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:frohock-w-m",
+  "name": "W. M. Frohock",
+  "birth": 1908,
+  "death": 1984,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/29674727/."
+ },
+ {
+  "reader_id": "shakeco:fuerst-walter-rene",
+  "name": "Walter Ren\u00e9 Fuerst / W. R. Fuerst",
+  "birth": 1885,
+  "death": 1948,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/11848366/."
+ },
+ {
+  "reader_id": "shakeco:fulop-miller",
+  "name": "Ren\u00e9 F\u00fcl\u00f6p-Miller",
+  "birth": 1891,
+  "death": 1963,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54195416/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:galantiere-lewis",
+  "name": "Lewis Galanti\u00e8re",
+  "birth": 1895,
+  "death": 1977,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/21252414/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gans-jacques",
+  "name": "Jacques Gans",
+  "birth": 1907,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/18024384/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:garman-douglas",
+  "name": "Douglas Garman",
+  "birth": 1903,
+  "death": 1969,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/92859850/."
+ },
+ {
+  "reader_id": "shakeco:gascoyne",
+  "name": "David Gascoyne",
+  "birth": 1916,
+  "death": 2001,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/36918646. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gauss",
+  "name": "Christian Gauss",
+  "birth": 1878,
+  "death": 1951,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7760539/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gay-francisque",
+  "name": "Francisque Gay",
+  "birth": 1885,
+  "death": 1963,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9857613. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:geisel-theodore",
+  "name": "Theodore Geisel / Dr. Seuss",
+  "birth": 1904,
+  "death": 1991,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/20959831/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gerbault-paul",
+  "name": "Paul Gerbault",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/5161272185447442374/."
+ },
+ {
+  "reader_id": "shakeco:gibb",
+  "name": "Phelan Gibb / William Phelan \"Harry\" Gibb",
+  "birth": 1870,
+  "death": 1948,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/230031226/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gide-andre",
+  "name": "Andr\u00e9 Gide",
+  "birth": 1869,
+  "death": 1951,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/96973963. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gide-catherine",
+  "name": "Catherine Gide",
+  "birth": 1923,
+  "death": 2013,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/66632748. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:giedion-welcker",
+  "name": "Carola Giedion-Welcker",
+  "birth": 1893,
+  "death": 1979,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/59192946. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gilbert-marion",
+  "name": "Marion Gilbert",
+  "birth": 1876,
+  "death": 1951,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/208499655/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gilbert-stuart",
+  "name": "Stuart Gilbert",
+  "birth": 1883,
+  "death": 1969,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/24832693. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gill-austin",
+  "name": "Austin Gill",
+  "birth": 1906,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46835990/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gillet-louis",
+  "name": "Louis Gillet",
+  "birth": 1876,
+  "death": 1943,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/66467917/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gillie-darsie-rutherford",
+  "name": "Darsie Rutherford Gillie / D. R. Gillie Esq.",
+  "birth": 1903,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/166953014."
+ },
+ {
+  "reader_id": "shakeco:gilman-dorothy-foster",
+  "name": "Dorothy Foster Gilman",
+  "birth": 1891,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/168147118206226341311/."
+ },
+ {
+  "reader_id": "shakeco:gischia-gerry",
+  "name": "Gerry Gischia / Mme L\u00e9on Gischia",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7147093727625002047/."
+ },
+ {
+  "reader_id": "shakeco:gischia-leon",
+  "name": "L\u00e9on Gischia",
+  "birth": 1903,
+  "death": 1991,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95313558/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:glackens-ira",
+  "name": "Ira Glackens / I. D. Glackens",
+  "birth": 1907,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/93150106/."
+ },
+ {
+  "reader_id": "shakeco:goldman-emma",
+  "name": "Emma Goldman / Mrs. Colton",
+  "birth": 1869,
+  "death": 1940,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39377930. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:goldring-douglas",
+  "name": "Douglas Goldring",
+  "birth": 1887,
+  "death": 1960,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/113744071/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:goll-claire",
+  "name": "Claire Goll / Clara Aischmann",
+  "birth": 1890,
+  "death": 1977,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56610521/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:goll-yvan",
+  "name": "Yvan Goll",
+  "birth": 1891,
+  "death": 1950,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39390718/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:goodland-roger",
+  "name": "Roger Goodland",
+  "birth": 1880,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/112101571/."
+ },
+ {
+  "reader_id": "shakeco:gordon-jan",
+  "name": "Jan Gordon",
+  "birth": 1882,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/37294238/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gorman",
+  "name": "Herbert Sherman Gorman",
+  "birth": 1893,
+  "death": 1954,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/37071397/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:goyert",
+  "name": "Georg Goyert",
+  "birth": 1884,
+  "death": 1966,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/3231566/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:clermont-tonnerre",
+  "name": "\u00c9lisabeth de Gramont, Duchesse de Clermont-Tonnerre",
+  "birth": 1875,
+  "death": 1954,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/71420943/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:grosser-maurice",
+  "name": "Maurice Grosser",
+  "birth": 1903,
+  "death": 1986,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/40899804/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:gruenberg-louis",
+  "name": "Louis Gruenberg",
+  "birth": 1884,
+  "death": 1964,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7576511/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:guillemin-annie",
+  "name": "Annie Guillemin",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/12424472/."
+ },
+ {
+  "reader_id": "shakeco:guilloux-louis",
+  "name": "Louis Guilloux",
+  "birth": 1899,
+  "death": 1980,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/110249815. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:hambourg-jan",
+  "name": "Jan Hambourg",
+  "birth": 1882,
+  "death": 1947,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/37768948/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:hamer-douglas",
+  "name": "Douglas Hamer",
+  "birth": 1897,
+  "death": 1981,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/240189823/."
+ },
+ {
+  "reader_id": "shakeco:hamilton-helen",
+  "name": "Helen Hamilton",
+  "birth": 1853,
+  "death": 1925,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/43309050/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:harmsworth-desmond",
+  "name": "Desmond Harmsworth",
+  "birth": 1903,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/96654498."
+ },
+ {
+  "reader_id": "shakeco:harper",
+  "name": "Allanah Harper",
+  "birth": 1904,
+  "death": 1992,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/93079137. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:harris-frank",
+  "name": "Frank Harris",
+  "birth": 1856,
+  "death": 1931,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/120702927/."
+ },
+ {
+  "reader_id": "shakeco:harrison-jane",
+  "name": "Jane Ellen Harrison",
+  "birth": 1850,
+  "death": 1928,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/61663489/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:hartley-marsden",
+  "name": "Marsden Hartley",
+  "birth": 1877,
+  "death": 1943,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9997024/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:harvey-dorothy",
+  "name": "Dorothy (Dudley) Harvey",
+  "birth": 1884,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/30836734."
+ },
+ {
+  "reader_id": "shakeco:hastings-morris",
+  "name": "Morris C. Hastings",
+  "birth": 1907,
+  "death": 1961,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/19163208104007230310/."
+ },
+ {
+  "reader_id": "shakeco:hawes-elizabeth",
+  "name": "Elizabeth Hawes",
+  "birth": 1903,
+  "death": 1971,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/5729380/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:heap-jane",
+  "name": "Jane Heap",
+  "birth": 1883,
+  "death": 1964,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/8303119/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:helstein-nadia",
+  "name": "Nadia Helstein",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/170711858/."
+ },
+ {
+  "reader_id": "shakeco:hemingway-ernest",
+  "name": "Ernest Hemingway",
+  "birth": 1899,
+  "death": 1961,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/97006051. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:henry-georgette",
+  "name": "Georgette Henry",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/193949551/."
+ },
+ {
+  "reader_id": "shakeco:heurgon-jacques",
+  "name": "Jacques Heurgon",
+  "birth": 1903,
+  "death": 1995,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/89671575. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:hewitt-helen",
+  "name": "Helen Hewitt",
+  "birth": 1900,
+  "death": 1977,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41903079/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:heywood-florence",
+  "name": "Florence Heywood",
+  "birth": 1877,
+  "death": 1955,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/117539740/."
+ },
+ {
+  "reader_id": "shakeco:hiler",
+  "name": "Hilaire Hiler",
+  "birth": 1898,
+  "death": 1966,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39557607. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:hilton-roger",
+  "name": "Roger Hilton",
+  "birth": 1911,
+  "death": 1975,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/52496774/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:hollard-mireille",
+  "name": "Mireille Hollard",
+  "birth": 1901,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/507159234272903371262/."
+ },
+ {
+  "reader_id": "shakeco:hoppenot-henri",
+  "name": "Henri Hoppenot",
+  "birth": 1891,
+  "death": 1977,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/22281109/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:horschitz-horst",
+  "name": "Annemarie (Rosenthal) Horschitz-Horst",
+  "birth": 1899,
+  "death": 1970,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/10245426/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:huchon",
+  "name": "Ren\u00e9 Huchon",
+  "birth": 1872,
+  "death": 1940,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41921792/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:huddleston-sisley",
+  "name": "Sisley Huddleston",
+  "birth": 1883,
+  "death": 1952,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/61926666/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:imbs-bravig",
+  "name": "Bravig Imbs",
+  "birth": 1904,
+  "death": 1946,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/24975009. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:jabotinsky",
+  "name": "Vladimir Jabotinsky / Ze'ev Jabotinsky / Mr. Jabotinsky",
+  "birth": 1880,
+  "death": 1940,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/90637373/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:jacobsen-norman",
+  "name": "Norman Jacobsen",
+  "birth": 1884,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/4760286/."
+ },
+ {
+  "reader_id": "shakeco:jewell-edward-alden",
+  "name": "Edward Alden Jewell",
+  "birth": 1888,
+  "death": 1947,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/74305485/."
+ },
+ {
+  "reader_id": "shakeco:jolas-eugene",
+  "name": "Eugene Jolas",
+  "birth": 1894,
+  "death": 1952,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9863425/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:jolas-maria",
+  "name": "Maria McDonald Jolas / Miss Maria McDonald / Mrs. Eugene Jolas",
+  "birth": 1893,
+  "death": 1987,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/19798760. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:josephson-matthew",
+  "name": "Matthew Josephson",
+  "birth": 1899,
+  "death": 1978,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41833206/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:jouvet-louis",
+  "name": "Louis Jouvet",
+  "birth": 1887,
+  "death": 1951,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41841996/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:joyce-james",
+  "name": "James Joyce",
+  "birth": 1882,
+  "death": 1941,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/44300643. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:joyce-lucia",
+  "name": "Lucia Joyce",
+  "birth": 1907,
+  "death": 1982,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/50302755/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:joyce-stanislaus",
+  "name": "Stanislaus Joyce",
+  "birth": 1884,
+  "death": 1955,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/59319731. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:juta-henry",
+  "name": "Henry Juta",
+  "birth": 1857,
+  "death": 1930,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/19400961/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:kadar",
+  "name": "L\u00edvia K\u00e1d\u00e1r",
+  "birth": 1894,
+  "death": 1985,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/3457149844950902960001/."
+ },
+ {
+  "reader_id": "shakeco:consuela",
+  "name": "Consuelo Kanaga",
+  "birth": 1894,
+  "death": 1978,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/91876784/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:kardiner-abram",
+  "name": "Abram Kardiner",
+  "birth": 1891,
+  "death": 1981,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/44373313/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:karwoski-theodore",
+  "name": "Theodore Karwoski",
+  "birth": 1896,
+  "death": 1957,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/17161451464164101443/."
+ },
+ {
+  "reader_id": "shakeco:keun-odette",
+  "name": "Odette Keun",
+  "birth": 1888,
+  "death": 1978,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/47786618/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:kidder-margaret",
+  "name": "Margaret Kidder",
+  "birth": 1900,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/206296571."
+ },
+ {
+  "reader_id": "shakeco:kirstein-lincoln",
+  "name": "Lincoln Kirstein",
+  "birth": 1907,
+  "death": 1996,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/4931772/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:klossowski-pierre",
+  "name": "Pierre Klossowski",
+  "birth": 1905,
+  "death": 2001,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/27066848/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:kori-torahiko",
+  "name": "Torahiko Kori",
+  "birth": 1890,
+  "death": 1924,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/71447222/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:kroll-leon",
+  "name": "Leon Kroll",
+  "birth": 1884,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/8444070/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lacan-jacques",
+  "name": "Jacques Lacan",
+  "birth": 1901,
+  "death": 1981,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/36920510. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:la-gorce-agnes-de",
+  "name": "Agn\u00e8s de La Gorce",
+  "birth": 1895,
+  "death": 1976,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/61538217. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lamblin-bianca",
+  "name": "Bianca (Bienenfeld) Lamblin / Mlle Bianca Bienenfeld",
+  "birth": 1921,
+  "death": 2011,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/97984961/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lamont",
+  "name": "Frances Kent Lamont",
+  "birth": 1899,
+  "death": 1975,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46595163."
+ },
+ {
+  "reader_id": "shakeco:lamy-marthe",
+  "name": "Marthe Lamy",
+  "birth": 1893,
+  "death": 1979,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/188750."
+ },
+ {
+  "reader_id": "shakeco:larbaud-valery",
+  "name": "Valery Larbaud",
+  "birth": 1881,
+  "death": 1957,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/13334. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lasselin-georges",
+  "name": "Georges Lasselin",
+  "birth": null,
+  "death": 1935,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/201971180/."
+ },
+ {
+  "reader_id": "shakeco:laughlin-james",
+  "name": "James Laughlin",
+  "birth": 1914,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/97990150. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lebois",
+  "name": "Andr\u00e9 Lebois",
+  "birth": 1915,
+  "death": 1978,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/61548469."
+ },
+ {
+  "reader_id": "shakeco:le-gallienne-richard",
+  "name": "Richard Le Gallienne",
+  "birth": 1866,
+  "death": 1947,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/27148613. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:leibowitz",
+  "name": "Ren\u00e9 Leibowitz",
+  "birth": 1913,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/64192416. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:leland-marine",
+  "name": "Marine Leland",
+  "birth": 1899,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/34154986/."
+ },
+ {
+  "reader_id": "shakeco:lemonnier-leon",
+  "name": "L\u00e9on Lemonnier",
+  "birth": 1890,
+  "death": 1953,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/111110242. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:leon-paul",
+  "name": "Paul L\u00e9on",
+  "birth": 1893,
+  "death": 1942,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54204906. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lerolle",
+  "name": "Guillaume Lerolle",
+  "birth": 1884,
+  "death": 1954,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/313567067."
+ },
+ {
+  "reader_id": "shakeco:levy-julien",
+  "name": "Julien Levy / Julian Levy",
+  "birth": 1906,
+  "death": 1981,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/207501217/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lewisohn",
+  "name": "Ludwig Lewisohn",
+  "birth": 1882,
+  "death": 1955,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/44380209. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:leyris-betty",
+  "name": "Betty Leyris / Mme Pierre Leyris",
+  "birth": 1908,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/91179611."
+ },
+ {
+  "reader_id": "shakeco:leyris-pierre",
+  "name": "Pierre Leyris",
+  "birth": 1907,
+  "death": 2001,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/2473547. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:linossier-raymonde",
+  "name": "Raymonde Linossier",
+  "birth": 1897,
+  "death": 1930,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56662244."
+ },
+ {
+  "reader_id": "shakeco:littlefield-walter",
+  "name": "Walter Littlefield / Mr. W. H. Littlefield",
+  "birth": 1867,
+  "death": 1948,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/43677525/."
+ },
+ {
+  "reader_id": "shakeco:livesay-dorothy",
+  "name": "Dorothy Livesay",
+  "birth": 1909,
+  "death": 1996,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/116854541/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:llona-victor",
+  "name": "Victor Llona",
+  "birth": 1886,
+  "death": 1953,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9732175/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lockwood-helen",
+  "name": "Helen Drusilla Lockwood / Helen Lockwood",
+  "birth": 1891,
+  "death": 1971,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/1673127/."
+ },
+ {
+  "reader_id": "shakeco:loeb-harold",
+  "name": "Harold Loeb",
+  "birth": 1891,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/278935970/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:loomis-payson",
+  "name": "Payson Walker Loomis",
+  "birth": 1904,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/31291273/."
+ },
+ {
+  "reader_id": "shakeco:lord-eda",
+  "name": "Eda Lord",
+  "birth": 1907,
+  "death": 1976,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9131259. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:loving-pierre",
+  "name": "Pierre Loving",
+  "birth": 1893,
+  "death": 1950,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/16801712/."
+ },
+ {
+  "reader_id": "shakeco:lowenfels-walter",
+  "name": "Walter Lowenfels",
+  "birth": 1897,
+  "death": 1976,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54289328/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:loy-mina",
+  "name": "Mina Loy",
+  "birth": 1882,
+  "death": 1966,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/37055642/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lozowick-louis",
+  "name": "Louis Lozowick",
+  "birth": 1892,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/42658549/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:lucas-caroline-byng",
+  "name": "Caroline Byng Lucas",
+  "birth": 1886,
+  "death": 1967,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95849548/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:luciani-georges",
+  "name": "Georges Luciani",
+  "birth": 1903,
+  "death": 1981,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/98663283/."
+ },
+ {
+  "reader_id": "shakeco:lunn-jean",
+  "name": "Jean Lunn",
+  "birth": 1910,
+  "death": 1998,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/262431619/."
+ },
+ {
+  "reader_id": "shakeco:maccormack-gilson",
+  "name": "Gilson MacCormack",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/58380004/."
+ },
+ {
+  "reader_id": "shakeco:macgreevy-thomas",
+  "name": "Thomas MacGreevy",
+  "birth": 1893,
+  "death": 1967,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/60105945/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:macleish-ada",
+  "name": "Ada (Hitchcock) MacLeish",
+  "birth": 1892,
+  "death": 1984,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/28916240/."
+ },
+ {
+  "reader_id": "shakeco:macleish-archibald",
+  "name": "Archibald MacLeish",
+  "birth": 1892,
+  "death": 1982,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/85172667. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mandiargues",
+  "name": "Andr\u00e9 Pieyre de Mandiargues",
+  "birth": 1909,
+  "death": 1991,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/108228000/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:manion-james-p",
+  "name": "James P. Manion",
+  "birth": 1907,
+  "death": 1959,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/30642087/."
+ },
+ {
+  "reader_id": "shakeco:mansfield-katherine",
+  "name": "Katherine Mansfield",
+  "birth": 1888,
+  "death": 1923,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41843502. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:marcel-gabriel",
+  "name": "Gabriel Marcel",
+  "birth": 1889,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/14773302. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:martin-du-gard",
+  "name": "Christiane Martin du Gard",
+  "birth": 1907,
+  "death": 1973,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39458138/."
+ },
+ {
+  "reader_id": "shakeco:martin-marietta",
+  "name": "Marietta Martin",
+  "birth": 1902,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7393919/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:masoliver",
+  "name": "Juan Ram\u00f3n Masoliver",
+  "birth": 1910,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/60665573. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:maspero-clerc",
+  "name": "H\u00e9l\u00e8ne Maspero-Clerc",
+  "birth": 1899,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/239539650."
+ },
+ {
+  "reader_id": "shakeco:maspero-henri",
+  "name": "Henri Maspero",
+  "birth": 1883,
+  "death": 1945,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/66470857/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mathews",
+  "name": "Jackson Mathews",
+  "birth": 1907,
+  "death": 1978,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/255922427."
+ },
+ {
+  "reader_id": "shakeco:maurois",
+  "name": "Andr\u00e9 Maurois",
+  "birth": 1885,
+  "death": 1967,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/64009119. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mayran",
+  "name": "Camille Mayran / Henriette Saint-Ren\u00e9 Taillandier / Mme Pierre Hepp",
+  "birth": 1889,
+  "death": 1989,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/37627060. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:may-sybil",
+  "name": "Sybil H. May",
+  "birth": 1893,
+  "death": 1978,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/197912692/."
+ },
+ {
+  "reader_id": "shakeco:mcadoo-eleanor",
+  "name": "Eleanor Wilson McAdoo / Mrs. W. McAdoo",
+  "birth": 1889,
+  "death": 1967,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/35852515/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mcalmon-robert",
+  "name": "Robert McAlmon",
+  "birth": 1895,
+  "death": 1956,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/27073703. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mccann-grace",
+  "name": "Grace McCann / Grace McCann Morley",
+  "birth": 1900,
+  "death": 1985,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95342215/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mccown-eugene",
+  "name": "Eugene McCown",
+  "birth": 1898,
+  "death": 1966,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/7082920/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mcfell-henry-lee",
+  "name": "Henry Lee McFell",
+  "birth": 1886,
+  "death": 1953,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/60024092/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mckeon",
+  "name": "Richard McKeon",
+  "birth": 1900,
+  "death": 1985,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/89111087/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mcnickle-darcy",
+  "name": "D\u2019Arcy McNickle / D'Arcy Dahlberg",
+  "birth": 1904,
+  "death": 1977,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/17297815/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mcphee-colin",
+  "name": "Colin McPhee",
+  "birth": 1900,
+  "death": 1964,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/27258723/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mcwilliam-frederick",
+  "name": "Frederick McWilliam",
+  "birth": 1909,
+  "death": 1992,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/18639004/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mercanton-jacques",
+  "name": "Jacques Mercanton",
+  "birth": 1910,
+  "death": 1996,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/10173740. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:merleau-ponty",
+  "name": "Maurice Merleau-Ponty",
+  "birth": 1908,
+  "death": 1961,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/31991436. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:merrick-leonard",
+  "name": "Leonard Merrick",
+  "birth": 1864,
+  "death": 1939,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/55288124. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:meyer-florence",
+  "name": "Florence Meyer",
+  "birth": 1911,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/62314228. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mian",
+  "name": "Mary Mian / Mrs. Aristide Mian",
+  "birth": 1902,
+  "death": 2001,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/38920586."
+ },
+ {
+  "reader_id": "shakeco:michaud-regis",
+  "name": "R\u00e9gis Michaud",
+  "birth": 1880,
+  "death": 1939,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46917655/."
+ },
+ {
+  "reader_id": "shakeco:michaux-henri",
+  "name": "Henri Michaux",
+  "birth": 1899,
+  "death": 1984,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54151507. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:micks-wilson",
+  "name": "Wilson Micks",
+  "birth": 1898,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/19332477/."
+ },
+ {
+  "reader_id": "shakeco:milanova-vera",
+  "name": "V\u00e9ra Daumal / V\u00e9ra Milanova",
+  "birth": 1892,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/166466712/."
+ },
+ {
+  "reader_id": "shakeco:milhaud",
+  "name": "Madeleine Milhaud",
+  "birth": 1902,
+  "death": 2008,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9970997. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mims-edwin",
+  "name": "Edwin Mims",
+  "birth": 1872,
+  "death": 1959,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/77558138/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:moderwell-hiram",
+  "name": "Hiram Moderwell / H. K. Moderwell",
+  "birth": 1888,
+  "death": 1945,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/269822794/."
+ },
+ {
+  "reader_id": "shakeco:moore-marcel",
+  "name": "Marcel Moore / Suzanne Malherbe",
+  "birth": 1892,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/22248051/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:moorhead-ethel",
+  "name": "Ethel Moorhead",
+  "birth": 1869,
+  "death": 1955,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/49071668/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:morison-theodore",
+  "name": "Theodore Morison",
+  "birth": 1863,
+  "death": 1936,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/76700506. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:morrow",
+  "name": "Christine Morrow",
+  "birth": 1902,
+  "death": 1971,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/73846341."
+ },
+ {
+  "reader_id": "shakeco:mortimer-chapman",
+  "name": "William Charles Chapman Mortimer / Chapman Mortimer (pseudonym)",
+  "birth": 1907,
+  "death": 1988,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/14071136/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:moss-arthur",
+  "name": "Arthur Moss",
+  "birth": 1889,
+  "death": 1969,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/52704906/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mourey-gabriel",
+  "name": "Gabriel Mourey",
+  "birth": 1865,
+  "death": 1943,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/14918657/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:mozley-loren",
+  "name": "Loren Mozley",
+  "birth": 1905,
+  "death": 1989,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/2088300/."
+ },
+ {
+  "reader_id": "shakeco:munson-gorham",
+  "name": "Gorham Munson",
+  "birth": 1896,
+  "death": 1969,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/5305985/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:murphy-dudley",
+  "name": "Dudley Murphy",
+  "birth": 1897,
+  "death": 1968,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/51933718. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:myers-rollo",
+  "name": "Rollo Myers",
+  "birth": 1892,
+  "death": 1985,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/5016836/."
+ },
+ {
+  "reader_id": "shakeco:nathan",
+  "name": "Adele Gutman Nathan",
+  "birth": 1889,
+  "death": 1986,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79289800/."
+ },
+ {
+  "reader_id": "shakeco:naumburg-margaret",
+  "name": "Margaret Naumburg",
+  "birth": 1890,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/111803638/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:neagoe-peter",
+  "name": "Peter Neagoe",
+  "birth": 1881,
+  "death": 1960,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/47559063/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:neveu-charlotte",
+  "name": "Charlotte Neveu",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/4936965/."
+ },
+ {
+  "reader_id": "shakeco:noguchi-isamu",
+  "name": "Isamu Noguchi",
+  "birth": 1904,
+  "death": 1988,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56659032/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:oakes-maud",
+  "name": "Maud Oakes",
+  "birth": 1903,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79093817/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:oconor",
+  "name": "Roderic O'Conor",
+  "birth": 1860,
+  "death": 1940,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/54156401. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:ogden",
+  "name": "C. K. Ogden",
+  "birth": 1889,
+  "death": 1957,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/68938630. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:oppen",
+  "name": "George Oppen / To Publishers",
+  "birth": 1908,
+  "death": 1984,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/98097764/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:page-russell",
+  "name": "Russell Page",
+  "birth": 1906,
+  "death": 1985,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/74722831/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:parmee",
+  "name": "Douglas Parm\u00e9e",
+  "birth": 1914,
+  "death": 2008,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/30821093."
+ },
+ {
+  "reader_id": "shakeco:patmore-brigit",
+  "name": "Brigit Patmore",
+  "birth": 1882,
+  "death": 1965,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/203274999. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:paul-dubois",
+  "name": "Louis Paul-Dubois",
+  "birth": 1868,
+  "death": 1938,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/24967570."
+ },
+ {
+  "reader_id": "shakeco:paul-elliot-2",
+  "name": "Elliot Paul",
+  "birth": 1891,
+  "death": 1958,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/27746996. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:petitjean",
+  "name": "Armand Petitjean",
+  "birth": 1913,
+  "death": 2003,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/90714553. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:pfeiffer-pauline",
+  "name": "Pauline Pfeiffer",
+  "birth": 1885,
+  "death": 1951,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/263393123. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:phelps-ruth",
+  "name": "Ruth Shepard Phelps / Mrs. Paul Morand",
+  "birth": 1876,
+  "death": 1949,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/53711496/."
+ },
+ {
+  "reader_id": "shakeco:ponsonby-david",
+  "name": "David Ponsonby",
+  "birth": 1901,
+  "death": 1986,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/304199777."
+ },
+ {
+  "reader_id": "shakeco:porel",
+  "name": "Jacques Porel",
+  "birth": 1893,
+  "death": 1932,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/300652824. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:porter-katherine-anne",
+  "name": "Katherine Anne Porter / Mrs. Katherine Anne Pressly",
+  "birth": 1890,
+  "death": 1980,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56620604. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:potocki-de-montalk",
+  "name": "Geoffrey Potocki de Montalk",
+  "birth": 1903,
+  "death": 1997,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/51938310. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:pottecher-therese",
+  "name": "Ther\u00e8se Pottecher",
+  "birth": 1879,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/74851815."
+ },
+ {
+  "reader_id": "shakeco:pound",
+  "name": "Ezra Pound",
+  "birth": 1885,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/24606774. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:pressly",
+  "name": "Eugene Pressly",
+  "birth": 1904,
+  "death": 1979,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/61366797."
+ },
+ {
+  "reader_id": "shakeco:prevost-jean",
+  "name": "Jean Pr\u00e9vost",
+  "birth": 1901,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9852191. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:prorok",
+  "name": "Byron Khun de Prorok / Byron Kuhn",
+  "birth": 1896,
+  "death": 1954,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/42091456/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:ralli",
+  "name": "Georges Ralli",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/27445980."
+ },
+ {
+  "reader_id": "shakeco:raphael-france",
+  "name": "France Emma Rapha\u00ebl",
+  "birth": 1877,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/89805143/."
+ },
+ {
+  "reader_id": "shakeco:recht-charles",
+  "name": "Charles Recht / Rect",
+  "birth": 1887,
+  "death": 1965,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/251108611/."
+ },
+ {
+  "reader_id": "shakeco:reeves",
+  "name": "Joyce Reeves",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/209089599."
+ },
+ {
+  "reader_id": "shakeco:renoir",
+  "name": "Edmond Renoir",
+  "birth": 1849,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/24593542. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:reverchon",
+  "name": "Blanche Reverchon",
+  "birth": 1879,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/77328819. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:rey",
+  "name": "Jean-Dominique Rey",
+  "birth": 1926,
+  "death": 2016,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/61551396. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:reynal-jeanne",
+  "name": "Jeanne Reynal",
+  "birth": 1903,
+  "death": 1983,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/17158236. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:richardson-arthur-w-2",
+  "name": "Arthur W. Richardson",
+  "birth": 1899,
+  "death": 1963,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/275812935/."
+ },
+ {
+  "reader_id": "shakeco:richardson-hadley",
+  "name": "Hadley Richardson / Mrs. Hemingway",
+  "birth": 1891,
+  "death": 1979,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/315943268/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:richer-jean",
+  "name": "Jean Richer",
+  "birth": 1915,
+  "death": 1992,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/109333033. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:rivoallan-anatole",
+  "name": "Anatole Rivoallan",
+  "birth": 1885,
+  "death": 1976,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/32103225."
+ },
+ {
+  "reader_id": "shakeco:robin",
+  "name": "Armand Robin",
+  "birth": 1912,
+  "death": 1961,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/14776043. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:rocatallada",
+  "name": "Carmen Mu\u00f1oz Rocatallada / Comtesse de Yebes",
+  "birth": 1901,
+  "death": 1988,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/86986232/."
+ },
+ {
+  "reader_id": "shakeco:roditi-edouard",
+  "name": "\u00c9douard Roditi",
+  "birth": 1910,
+  "death": 1992,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/44304583. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:roditi-georges",
+  "name": "Georges Roditi",
+  "birth": 1906,
+  "death": 1999,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/99803704. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:roditi-marcel-d",
+  "name": "Marcel D. Roditi",
+  "birth": 1912,
+  "death": 1998,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/224466658/."
+ },
+ {
+  "reader_id": "shakeco:rodker",
+  "name": "John Rodker",
+  "birth": 1894,
+  "death": 1955,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/117308892. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:rodman",
+  "name": "Selden Rodman",
+  "birth": 1909,
+  "death": 2002,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/98155436. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:roger-cornaz-frederic",
+  "name": "Fr\u00e9d\u00e9ric Roger-Cornaz",
+  "birth": 1883,
+  "death": 1970,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41845825/."
+ },
+ {
+  "reader_id": "shakeco:rogers-samuel",
+  "name": "Samuel Rogers",
+  "birth": 1894,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46340201."
+ },
+ {
+  "reader_id": "shakeco:rolland-madeleine",
+  "name": "Madeleine Rolland",
+  "birth": 1872,
+  "death": 1960,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/100269226. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:romains",
+  "name": "Jules Romains",
+  "birth": 1885,
+  "death": 1972,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/37053052. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:rooker",
+  "name": "John Kingsley Rooker",
+  "birth": 1887,
+  "death": 1951,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/64380241."
+ },
+ {
+  "reader_id": "shakeco:saby",
+  "name": "Bernard Saby",
+  "birth": 1925,
+  "death": 1975,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/42105899. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:sachs",
+  "name": "Maurice Sachs",
+  "birth": 1906,
+  "death": 1945,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/59220531. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:sage-robert",
+  "name": "Robert D. Sage",
+  "birth": 1899,
+  "death": 1962,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/14824992. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:saillet",
+  "name": "Maurice Saillet",
+  "birth": 1914,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/59088929. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:sarraute",
+  "name": "Nathalie Sarraute",
+  "birth": 1900,
+  "death": 1999,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/100261678. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:satie",
+  "name": "Erik Satie",
+  "birth": 1866,
+  "death": 1925,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/88805508. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:savage-steele",
+  "name": "Steele Savage",
+  "birth": 1898,
+  "death": 1970,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/13552692. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:savitzky",
+  "name": "Ludmila Savitzky / Mme Ludmila Bloch",
+  "birth": 1881,
+  "death": 1957,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46767000. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:sayre",
+  "name": "Jessie Woodrow Wilson Sayre / Mrs. Francis B. Sayre",
+  "birth": 1887,
+  "death": 1933,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41077484. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:scarfe-francis",
+  "name": "Francis Scarfe",
+  "birth": 1911,
+  "death": 1986,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/25938579/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:schiebelhuth-hans",
+  "name": "Hans Schiebelhuth",
+  "birth": 1895,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/5726523/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:schirmer",
+  "name": "Mabel Schirmer / Mrs. Robert Schirmer",
+  "birth": 1897,
+  "death": 1994,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/121790572."
+ },
+ {
+  "reader_id": "shakeco:schlumberger-jean",
+  "name": "Jean Schlumberger",
+  "birth": 1877,
+  "death": 1968,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/73859954. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:scudder-janet",
+  "name": "Janet Scudder",
+  "birth": 1873,
+  "death": 1940,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/248145857882323020500. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:hoboken",
+  "name": "Annemarie Seidel / Mme van Hoboken",
+  "birth": 1895,
+  "death": 1959,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/10098582. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:service",
+  "name": "Robert W. Service / Mr. R. W. Service",
+  "birth": 1874,
+  "death": 1958,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/69290. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:sessions-barbara",
+  "name": "Barbara F. Sessions / Mrs. Roger Sessions",
+  "birth": 1899,
+  "death": 1980,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/212182413."
+ },
+ {
+  "reader_id": "shakeco:shaw-m-r-b",
+  "name": "Margaret Ren\u00e9e Bryers Shaw / Miss M. R. B. Shaw",
+  "birth": 1890,
+  "death": 1963,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/15156315."
+ },
+ {
+  "reader_id": "shakeco:sibon-marcelle",
+  "name": "Marcelle Sibon",
+  "birth": null,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/59089297."
+ },
+ {
+  "reader_id": "shakeco:solano",
+  "name": "Solita Solano",
+  "birth": 1888,
+  "death": 1975,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9173206. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:soupault",
+  "name": "Philippe Soupault",
+  "birth": 1897,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/109453511. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:spackman-w-m",
+  "name": "W. M. Spackman",
+  "birth": 1905,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79059446/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:spender-stephen",
+  "name": "Stephen Spender",
+  "birth": 1909,
+  "death": 1995,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39398656. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:stavis-barrie",
+  "name": "Barrie Stavis",
+  "birth": 1916,
+  "death": 2007,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79407255/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:steegmuller-francis",
+  "name": "Francis Steegmuller",
+  "birth": 1906,
+  "death": 1994,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79045713. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:stephan",
+  "name": "Lincoln Steffens / Mr. Lincoln Stephan",
+  "birth": 1866,
+  "death": 1936,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39422885/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:stein-gertrude",
+  "name": "Gertrude Stein",
+  "birth": 1874,
+  "death": 1946,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/22149082. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:stein-leo",
+  "name": "Leo Stein",
+  "birth": 1872,
+  "death": 1947,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/32115894. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:stern-james",
+  "name": "James Stern",
+  "birth": 1904,
+  "death": 1993,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/88049337. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:stevens-george",
+  "name": "George Stevens",
+  "birth": 1904,
+  "death": 1975,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/113665136. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:stirling-monica",
+  "name": "Monica Stirling",
+  "birth": 1916,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/109762549."
+ },
+ {
+  "reader_id": "shakeco:swasey",
+  "name": "Horatio Robert Swasey",
+  "birth": 1885,
+  "death": 1955,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/1862449."
+ },
+ {
+  "reader_id": "shakeco:sykes-christopher",
+  "name": "Christopher Sykes",
+  "birth": 1907,
+  "death": 1986,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/110249154. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:syrett",
+  "name": "Netta Syrett",
+  "birth": 1865,
+  "death": 1943,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/93322398. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:sze",
+  "name": "Mai-mai Sze / Miss Maimie Sze",
+  "birth": 1909,
+  "death": 1992,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/112060924. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:tabouis",
+  "name": "Genevi\u00e8ve Tabouis",
+  "birth": 1892,
+  "death": 1985,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/17966. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:tate",
+  "name": "Allen Tate",
+  "birth": 1899,
+  "death": 1979,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/44325423. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:teissier-jeanine-delpech",
+  "name": "Jeanine (Delpech) Teissier",
+  "birth": 1905,
+  "death": 1992,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/59081252. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:tery",
+  "name": "Simone T\u00e9ry",
+  "birth": 1897,
+  "death": 1967,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79301825. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:thiebaut",
+  "name": "Marcel Thi\u00e9baut",
+  "birth": 1897,
+  "death": 1961,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/34575729. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:thomas-henri",
+  "name": "Henri Thomas",
+  "birth": 1912,
+  "death": 1993,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/56145895. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:tintner-adeline",
+  "name": "Adeline Tintner",
+  "birth": 1912,
+  "death": 2003,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/109257200/."
+ },
+ {
+  "reader_id": "shakeco:tolstoya-tatiana",
+  "name": "Tatiana Sukhotina-Tolstaya / Countess Tolstoi / \u0422\u0430\u0442\u044c\u044f\u043d\u0430 \u041b\u044c\u0432\u043e\u0432\u043d\u0430 \u0422\u043e\u043b\u0441\u0442\u0430\u044f",
+  "birth": 1864,
+  "death": 1950,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/79036002/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:torrence",
+  "name": "Ridgely Torrence",
+  "birth": 1875,
+  "death": 1950,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/64154440. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:tree",
+  "name": "Iris Tree",
+  "birth": 1897,
+  "death": 1968,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/15620469. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:trevelyan-julian",
+  "name": "Julian Trevelyan",
+  "birth": 1910,
+  "death": 1988,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95782637. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:tuttle-stephen-d",
+  "name": "Stephen D. Tuttle",
+  "birth": 1907,
+  "death": 1954,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9400198. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:ullmann-lisette",
+  "name": "Lisette Ullmann / Mme Claude Ullmann",
+  "birth": 1896,
+  "death": 1981,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/52799333. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:valery-francois",
+  "name": "Fran\u00e7ois Val\u00e9ry",
+  "birth": 1916,
+  "death": 2002,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/95336445."
+ },
+ {
+  "reader_id": "shakeco:wyck",
+  "name": "William van Wyck",
+  "birth": 1883,
+  "death": 1956,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/38198636."
+ },
+ {
+  "reader_id": "shakeco:varney",
+  "name": "John Varney",
+  "birth": 1888,
+  "death": 1967,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/301272715."
+ },
+ {
+  "reader_id": "shakeco:venturi-franco",
+  "name": "Franco Venturi",
+  "birth": 1914,
+  "death": 1994,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/41847586/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:vernet-francois",
+  "name": "Fran\u00e7ois Vernet",
+  "birth": 1918,
+  "death": 1945,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/71525072. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:vidor",
+  "name": "King Vidor",
+  "birth": 1894,
+  "death": 1982,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/32004778. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:vieillard",
+  "name": "Gilbert Vieillard",
+  "birth": 1899,
+  "death": 1940,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/120519825. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:vieillot",
+  "name": "Marie-Th\u00e9r\u00e8se Vieillot",
+  "birth": 1888,
+  "death": 1985,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/39304475."
+ },
+ {
+  "reader_id": "shakeco:viele-mary-wharton",
+  "name": "Mary (Wharton) Viel\u00e9 / Mrs. H. K. Viel\u00e9 / Mrs. Viel\u00e9 Griffin",
+  "birth": 1861,
+  "death": 1946,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/63734691."
+ },
+ {
+  "reader_id": "shakeco:vox-maximilien",
+  "name": "Maximilien Vox / Samuel William Th\u00e9odore Monod / Mr. Monod-Vox",
+  "birth": 1894,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/76349088. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:waller-robert",
+  "name": "Robert Waller",
+  "birth": 1913,
+  "death": 2005,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/9374334. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:walsh",
+  "name": "Ernest Walsh",
+  "birth": 1895,
+  "death": 1926,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/46605865/."
+ },
+ {
+  "reader_id": "shakeco:arthun",
+  "name": "Amber (Arthun) Warburton / Miss Arthun",
+  "birth": 1898,
+  "death": 1976,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/28521398/."
+ },
+ {
+  "reader_id": "shakeco:waterfield-gordon",
+  "name": "Gordon Waterfield",
+  "birth": 1903,
+  "death": 1987,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/77555784. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:watson-sarah-pressly",
+  "name": "Sarah Pressly Watson / Miss S. P. Watson",
+  "birth": 1885,
+  "death": 1959,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/65579722."
+ },
+ {
+  "reader_id": "shakeco:wegner",
+  "name": "Max Christian Wegner",
+  "birth": 1893,
+  "death": 1965,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/315678019. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:wescott",
+  "name": "Glenway Wescott",
+  "birth": 1901,
+  "death": 1987,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/12405830/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:wheeler-monroe",
+  "name": "Monroe Wheeler",
+  "birth": 1899,
+  "death": 1988,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/40395988. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:wickham",
+  "name": "Anna Wickham",
+  "birth": 1883,
+  "death": 1947,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/29587665/. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:wigram",
+  "name": "Ava (Bodley) Wigram, Viscountess Waverley / Mrs. Wigram",
+  "birth": 1896,
+  "death": 1974,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/265658032. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:wilde-dorothy",
+  "name": "Dolly Wilde / Miss Dorothy Wilde",
+  "birth": 1895,
+  "death": 1941,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/11004152. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:wilder-charlotte",
+  "name": "Charlotte Wilder",
+  "birth": 1898,
+  "death": 1980,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/77091982. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:wilder-thornton",
+  "name": "Thornton Wilder",
+  "birth": 1897,
+  "death": 1975,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/100167035. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:marian-willard",
+  "name": "Marian Willard",
+  "birth": 1904,
+  "death": 1985,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/26078789. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:williamson-scott-graham",
+  "name": "Scott Graham Williamson",
+  "birth": 1909,
+  "death": 1948,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/21912438."
+ },
+ {
+  "reader_id": "shakeco:wilson-margaret",
+  "name": "Margaret Wilson",
+  "birth": 1886,
+  "death": 1944,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/16702853. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:wilson-romer",
+  "name": "Romer Wilson",
+  "birth": 1891,
+  "death": 1930,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/35347214. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:woodward-daphne",
+  "name": "Daphne Woodward",
+  "birth": 1906,
+  "death": 1965,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/20997369. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:wright-cuthbert",
+  "name": "Cuthbert Wright",
+  "birth": 1893,
+  "death": 1948,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/49084556/."
+ },
+ {
+  "reader_id": "shakeco:wright-ellen",
+  "name": "Ellen Wright / Mrs. Richard Wright",
+  "birth": 1912,
+  "death": 2004,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/280501729."
+ },
+ {
+  "reader_id": "shakeco:wright-julia",
+  "name": "Julia Wright",
+  "birth": 1942,
+  "death": null,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/88105289."
+ },
+ {
+  "reader_id": "shakeco:wright-richard",
+  "name": "Richard Wright",
+  "birth": 1908,
+  "death": 1960,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/34464524. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:yarrow-catherine",
+  "name": "Catherine Yarrow",
+  "birth": 1904,
+  "death": 1990,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/314926572. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:yeats-anne",
+  "name": "Anne Yeats",
+  "birth": 1919,
+  "death": 2001,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/26671978. Wikipedia: yes."
+ },
+ {
+  "reader_id": "shakeco:zacks-abramov",
+  "name": "Ayala Zacks-Abramov / Mlle Ayala Ben Tovim",
+  "birth": 1912,
+  "death": 2011,
+  "wikidata": null,
+  "note": "Shakespeare and Company member. VIAF http://viaf.org/viaf/53177609. Wikipedia: yes."
  }
 ]
