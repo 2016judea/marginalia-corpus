@@ -233,7 +233,9 @@ def ingest():
     # marginalia is a mark without words: T2. Underlinings, dog-ears, marks.
     for bid, b in books.items():
         v = None
-        for pg in b["trace_pages"]:
+        # The browse index lists a page twice now and then (DAN-DIV-6 p.296);
+        # one page is one trace, so walk the pages once each.
+        for pg in dict.fromkeys(b["trace_pages"]):
             if (bid, pg) in seen_pages:
                 continue
             v = v or volume(bid)

@@ -136,6 +136,11 @@ def ingest():
             if rid is None:
                 continue          # 'Unknown', 'Other', modern readers: not an author
             page = (pg.get("pagination") or pg.get("signature") or fn).strip()
+            # @pagination/@signature is NOT unique per file: 582 keys are shared by
+            # two page files of one book (Castiglione_Newberry [Ai[v]] is both
+            # _008.xml and _032.xml), which gave 7,235 marks a twin's id. The
+            # file name is the page's identity; `page` stays the printed label.
+            pid = fn[:-4]
             vol_id = f"{SOURCE}:{book}:{rid}"
             per_reader.setdefault(rid, 0)
 
@@ -179,7 +184,7 @@ def ingest():
                 lang = marg.find(".//language")
                 tier = TIER_AUTOGRAPH if note else TIER_MARK
                 marks.append(Mark(
-                    mark_id=f"{vol_id}:{page}:m{i}",
+                    mark_id=f"{vol_id}:{pid}:m{i}",
                     volume_id=vol_id, reader_id=rid, tier=tier,
                     mark_type="marginalia", page=page,
                     marked_text=(marg.get("anchor_text") or "") if emit_text else "",
@@ -195,7 +200,7 @@ def ingest():
             for tag in ("underline", "symbol", "mark", "numeral", "drawing", "emphasis"):
                 for i, e in enumerate(root.iter(tag)):
                     marks.append(Mark(
-                        mark_id=f"{vol_id}:{page}:{tag}{i}",
+                        mark_id=f"{vol_id}:{pid}:{tag}{i}",
                         volume_id=vol_id, reader_id=rid, tier=TIER_MARK,
                         mark_type=f'{tag}:{e.get("type") or e.get("name") or ""}'.rstrip(":"),
                         page=page,

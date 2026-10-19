@@ -78,22 +78,35 @@ def _fetch(did):
 
 def _words(div):
     '''
-        Flatten <line><w> to a string. <choice><orig>/<reg> is the project's
+        Flatten <w> to a string, in page order. <choice><orig>/<reg> is the project's
         normalization of 19c orthography and contractions -- keep `orig`,
         which is what is physically on the page. Taking `reg` would silently
         modernize a transcription whose whole value is fidelity, and a <w>
         can carry SEVERAL <reg> children for one <orig> ("Here's" -> "Here
         is" + "Here" + "is"), so a naive itertext() triples words.
+
+        Two shapes that read as nothing with a direct-children walk (2026-10-18):
+          - a <line> nested INSIDE a <line>, where a mark runs into the margin
+            (doc101 p.247_2_136: "Perugino" sat in the inner line); 235 marks
+            lost words that way. iter("w") takes every word in document order.
+          - a word broken over a line: <choice><hyph>mas-</hyph><reg>massiveness,</reg>
+            </choice> with NO <orig>; 1,618 of those read as "" and the next
+            line's "siveness," stood alone. The <hyph> half IS what the page
+            shows; <missp> likewise; a bare <choice> carries its own text.
     '''
     out = []
-    for line in div.findall("line"):
-        for w in line.findall("w"):
-            ch = w.find("choice")
-            if ch is not None:
-                orig = ch.find("orig")
-                out.append((orig.text or "").strip() if orig is not None else "")
+    for w in div.iter("w"):
+        ch = w.find("choice")
+        if ch is not None:
+            for tag in ("orig", "hyph", "missp"):
+                e = ch.find(tag)
+                if e is not None:
+                    out.append((e.text or "").strip())
+                    break
             else:
-                out.append("".join(w.itertext()).strip())
+                out.append((ch.text or "").strip())
+        else:
+            out.append("".join(w.itertext()).strip())
     return re.sub(r"\s+", " ", " ".join(x for x in out if x)).strip()
 
 
@@ -136,14 +149,20 @@ def ingest(did_range=DID_RANGE, workers=6):
         vol_id = f"{SOURCE}:{did}"
         divs = [d for d in root.iter("div") if d.get("page")]
 
+        seen_ids = {}
         for d in divs:
             mtype = (d.get("type") or "unknown").strip()
             text = _words(d)
             tier = tier_for(mtype, bool(text))
             page = d.get("page") or ""
             printed_page = page.rsplit(".", 1)[-1] if "." in page else ""
+            # MMO's @id restarts per page and is reused within one (two id="2"
+            # divs on doc32 p.465_127, in different groups); a repeat takes an
+            # ordinal so two marks never share an id.
+            base_id = f'{vol_id}:{page}:{d.get("id")}'
+            seen_ids[base_id] = seen_ids.get(base_id, 0) + 1
             m = Mark(
-                mark_id=f'{vol_id}:{page}:{d.get("id")}',
+                mark_id=base_id if seen_ids[base_id] == 1 else f"{base_id}#{seen_ids[base_id]}",
                 volume_id=vol_id,
                 reader_id=READER,
                 tier=tier,

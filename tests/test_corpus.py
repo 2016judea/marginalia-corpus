@@ -435,3 +435,93 @@ def test_beckett_sweep_is_complete(manifest):
     reported, parsed = b["marginalia_rows_reported"], b["marginalia_rows_parsed"]
     assert parsed >= reported * 0.95, f"parsed {parsed} of {reported} marginalia rows"
     assert b["library_items"] > 800, f'only {b["library_items"]} library items swept'
+
+
+# ---------------------------------------------------------------------------
+# Adapter-level guards (2026-10-18). These run the ingests on the committed
+# cache only: every network call is stubbed to raise, so a missing cache file
+# fails the test instead of fetching from a live site.
+# ---------------------------------------------------------------------------
+
+import xml.etree.ElementTree as ET  # noqa: E402
+from collections import Counter  # noqa: E402
+
+
+def _no_network(monkeypatch, *modules):
+    def boom(*a, **k):
+        raise AssertionError("test tried to reach the network")
+    for m in modules:
+        monkeypatch.setattr(m.urllib.request, "urlopen", boom, raising=True)
+
+
+def _dupes(marks):
+    return [k for k, n in Counter(m.mark_id for m in marks).items() if n > 1]
+
+
+def test_melville_words_keep_nested_lines_and_hyphenated_words():
+    '''
+        MMO nests a <line> inside a <line> when a mark runs into the margin
+        (doc101 p.247_2_136: "Perugino" sat in an inner line and was dropped,
+        235 marks lost words that way), and a word broken over a line is a
+        <choice><hyph>mas-</hyph><reg>massiveness,</reg></choice> with no
+        <orig> at all -- 1,618 of those read as "" and vanished, leaving the
+        next line's "siveness," orphaned. The marked passage is the point of
+        the corpus; it must be the whole passage, in page order.
+    '''
+    from ingest.melville_monline import _words
+    div = ET.fromstring('''
+      <div page="x" type="xmark">
+        <line n="1"><line n="21"><blank x="1"/><w>Perugino</w></line>
+          <w>was</w><w>evidently</w><w>a</w><w>devout</w><w>man;</w></line>
+        <line n="2"><w>its</w><w><choice><hyph>mas-</hyph><reg>massiveness,</reg></choice></w></line>
+        <line n="3"><w endhyph="true">siveness,</w><w><choice><orig>neighbour</orig><reg>neighbor</reg></choice></w>
+          <w><choice><missp>devel</missp><reg>devil</reg></choice></w><w><choice>burd'nous</choice></w></line>
+      </div>''')
+    assert _words(div) == ("Perugino was evidently a devout man; its mas- siveness, "
+                           "neighbour devel burd'nous")
+
+
+def test_melville_mark_ids_are_unique(monkeypatch):
+    '''
+        MMO's div @id restarts per page AND is reused within a page (doc32
+        p.465_127 carries two id="2" divs in different groups), so
+        volume:page:id named two different marks. The shipped 2026-08-27 data
+        had 7 such collisions. Cached volumes only.
+    '''
+    from ingest import melville_monline as mm
+    _no_network(monkeypatch, mm)
+    _, marks, _ = mm.ingest(did_range=[32, 65, 67, 101, 114])
+    assert marks, "no cached Melville volumes to test against"
+    assert _dupes(marks) == []
+
+
+def test_aor_mark_ids_are_unique(monkeypatch):
+    '''
+        AOR's @pagination/@signature is not unique per page file: 582 keys are
+        shared by two files of the same book (Castiglione_Newberry
+        [Ai[v]] is both _008.xml and _032.xml), so volume:page:m0 collided
+        7,235 times in the shipped data. The file is the page's identity.
+    '''
+    from ingest import aor
+    assert os.path.isdir(os.path.join(aor.CACHE, ".git")), "AOR cache not cloned"
+    monkeypatch.setattr(aor.subprocess, "run", lambda *a, **k: (_ for _ in ()).throw(AssertionError("clone attempted")))
+    _, marks, _ = aor.ingest()
+    assert _dupes(marks) == []
+
+
+def test_beckett_trace_pages_are_counted_once(monkeypatch):
+    '''
+        A reading-trace page listed twice for one volume (DAN-DIV-6 p.296)
+        became two T2 marks with one id. One page, one trace.
+    '''
+    from ingest import beckett
+    _no_network(monkeypatch, beckett)
+    out = beckett.ingest()
+    vols, marks = out[0], out[1]
+    traces = [m for m in marks if m.mark_type == "reading_trace"]
+    assert traces
+    assert _dupes(marks) == []
+    per_vol = Counter(m.volume_id for m in traces)
+    n_marks = {v.volume_id: v.n_marks for v in vols}
+    for vid, n in per_vol.items():
+        assert n <= n_marks[vid]
