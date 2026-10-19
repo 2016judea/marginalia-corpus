@@ -152,10 +152,10 @@
    "source_author": "Dante Alighieri",
    "n_volumes": 7,
    "n_T1": 941,
-   "n_T2": 33,
+   "n_T2": 32,
    "n_T3": 5,
-   "n_own_hand": 974,
-   "n_marks": 979,
+   "n_own_hand": 973,
+   "n_marks": 978,
    "passage_anchored": true,
    "datasets": [
     "beckett"
@@ -189324,7 +189324,7 @@
      "references": 1
     },
     "Samuel Beckett": {
-     "marks": 979
+     "marks": 978
     },
     "Walt Whitman": {
      "marks": 2
