@@ -47,7 +47,7 @@ const p = ex.passages[0];
 const example = `<figure class="mark">
 <p class="ask">“What did Melville write in his Shakespeare?”</p>
 <blockquote>${esc(p.reader_wrote)}</blockquote>
-<figcaption>${esc(p.reader)}, in his own hand, ${esc(p.book.replace(/^The Dramatic Works of William Shakespeare /, "The Dramatic Works of William Shakespeare, "))}, p. ${esc(p.page)}, beside <i>The Tempest</i>. One of ${fmt(ex.counts.own_words)} notes and ${fmt(ex.counts.bare_marks)} bare marks he left in ${ex.volumes_total} volumes of Shakespeare.</figcaption>
+<figcaption>${esc(p.reader)}, in his own hand, beside <i>The Tempest</i>: ${esc(p.book.replace(/ \[Vol\. (\d+) of (\d+)\]$/, ", vol. $1 of $2"))}, p. ${esc(p.page)}. One of ${fmt(ex.counts.own_words)} notes and ${fmt(ex.counts.bare_marks)} bare marks in his ${ex.volumes_total} volumes of Shakespeare.</figcaption>
 <p class="cite">${esc(p.cite)}</p>
 </figure>`;
 
