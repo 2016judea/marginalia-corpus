@@ -1,0 +1,9 @@
+_data
+cache
+ingest
+docs
+tests
+test
+scripts
+__pycache__
+.pytest_cache

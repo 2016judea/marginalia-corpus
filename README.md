@@ -1,5 +1,7 @@
 # marginalia-corpus
 
+**Live:** https://marginalia-corpus.vercel.app
+
 **A mark in a book is not an opinion about influence. It is a physical fact.**
 
 Every influence graph in digital humanities is validated against attribution —
@@ -424,6 +426,37 @@ is money plus OCR rather than access:**
   offers 2014 and 2015 only, `type=sources` returns nothing, and the ~12 articles
   that exist are thematic essays.
 
+
+## Ask it from Claude (MCP server)
+
+Added 2026-11-20. The corpus is served as a read-only MCP server at
+**`https://marginalia-corpus.vercel.app/mcp`** (Streamable HTTP, no auth). In Claude:
+Settings → Connectors → Add custom connector → paste that URL. Setup page:
+[/connect/](https://marginalia-corpus.vercel.app/connect/).
+
+| tool | answers |
+|---|---|
+| `reader_marks` | what did Melville mark in Shakespeare; what did Derrida write beside Rousseau |
+| `who_read_author` | who read Homer: marked, held or borrowed, named, kept apart |
+| `reader_profile` | one reader's volumes, most-marked authors, date span |
+| `authors_read_by_many` | authors reached by more than one reader, or by both Melville and Beckett |
+| `search_marginalia` | full text over the quotable passages and notes |
+| `about_the_corpus` | sources, counts, terms, citations |
+
+**It serves a static file, not the archives.** `python mcp/build_index.py` compiles `_data/`
+into `mcp/index.json.gz` (1.3 MB) and applies `rights.py` there: passage and note text is
+written only for sources with `emit_text=True`, and no image URL is written at all. The server
+checks `emit_text` again before any text leaves. So AOR, Whitman and Beckett come back as
+counts, pages and metadata, and `test/mcp.test.mjs` fails if a text field ever appears for
+them. Every quoted passage carries the citation its source asks for.
+
+```bash
+python mcp/build_index.py        # after build_corpus.py / build_edges.py
+node scripts/build_pages.mjs     # public/ pages from the tools and the index
+npm test                         # MCP suite (node --test)
+```
+
+Data model: [`DATA_MODEL.md`](DATA_MODEL.md). Listing kit: [`SUBMISSION.md`](SUBMISSION.md).
 
 ## Citing the sources
 

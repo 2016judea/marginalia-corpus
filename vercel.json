@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "echo build",
+  "outputDirectory": "public",
+  "functions": {
+    "api/mcp.js": { "includeFiles": "{mcp/index.json.gz,lib/**}", "maxDuration": 30 }
+  },
+  "rewrites": [
+    { "source": "/mcp", "destination": "/api/mcp" }
+  ],
+  "headers": [
+    { "source": "/(.*)", "headers": [ { "key": "x-content-type-options", "value": "nosniff" }, { "key": "referrer-policy", "value": "strict-origin-when-cross-origin" } ] }
+  ]
+}
