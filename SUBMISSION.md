@@ -138,3 +138,27 @@ Education; Research (or Reference / Arts & Literature, whichever the form offers
 ## What needs Aidan
 1. **Claude directory:** the coordinator is filing this in his Chrome. Not filed from here.
 2. **Optional, costs money:** a domain the LLC owns, if a reviewer objects to `.vercel.app`.
+
+## Submitted 2026-11-20
+
+Filed by Claude in Aidan's own Chrome (JavaScript run by process id into a background tab; `browser-as-aidan`).
+Nothing was paid and nothing was sent to a person.
+
+| Where | Status | UTC | Listing |
+|---|---|---|---|
+| Claude Connectors Directory | **IN REVIEW** (read back 17:16) | 17:15 | claude.ai/directory/manage/marginalia-corpus · slug `marginalia-corpus` (permanent) |
+
+**What was filed.** Custom connector "Marginalia Corpus" added to his Claude (6 tools, 0 resources, auth none
+detected). Name and one-liner verbatim from this kit; the description is the kit's with "Free, read-only, no
+account." shortened to "Read-only, no account." Categories: Education, Media & Entertainment, Data & Analytics.
+Author Brick and Mortar AI LLC (https://marginalia-corpus.vercel.app/). Docs `/connect/`, support the GitHub
+issues URL, privacy `/privacy/`, custom icon `/icon.png` (loaded at 512). Use cases = starter prompts 1-3.
+Prerequisites: none. Read only. Company Brick and Mortar AI LLC, https://brickandmortar.dev, Aidan Jude, Founder.
+Auth none. Data handling "We own the API" (a static corpus we built; it calls no archive at answer time), no
+health data, no sponsored content. Self-tested: all six tools run through the MCP Inspector CLI against the live
+endpoint. All seven compliance boxes ticked; the additional note is the reviewer note above (eight archives, built
+once, rights.py gating text, no images).
+
+**What needs doing next:** when it reads "Ready to publish", press Publish (approval does not publish it). A
+`pending.json` check is set. Classic Literature, filed minutes earlier, was approved within minutes; this one has
+the rights question for a reviewer to read, so it may take longer.
