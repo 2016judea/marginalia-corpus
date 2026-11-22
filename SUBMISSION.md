@@ -146,7 +146,7 @@ Nothing was paid and nothing was sent to a person.
 
 | Where | Status | UTC | Listing |
 |---|---|---|---|
-| Claude Connectors Directory | **IN REVIEW** (read back 17:16) | 17:15 | claude.ai/directory/manage/marginalia-corpus · slug `marginalia-corpus` (permanent) |
+| Claude Connectors Directory | **PUBLISHED**, live at claude.ai/directory/marginalia-corpus (read off claude.ai/directory/manage 2026-11-22 14:55 UTC; approved 2026-11-20 17:19 by automated review) | 17:15 filed | claude.ai/directory/manage/marginalia-corpus · slug `marginalia-corpus` (permanent) |
 
 **What was filed.** Custom connector "Marginalia Corpus" added to his Claude (6 tools, 0 resources, auth none
 detected). Name and one-liner verbatim from this kit; the description is the kit's with "Free, read-only, no
@@ -159,6 +159,8 @@ health data, no sponsored content. Self-tested: all six tools run through the MC
 endpoint. All seven compliance boxes ticked; the additional note is the reviewer note above (eight archives, built
 once, rights.py gating text, no images).
 
-**What needs doing next:** when it reads "Ready to publish", press Publish (approval does not publish it). A
+**Done 2026-11-22:** the portal reads Published (Submitted, Approved, Published all ticked). Nothing left to press.
+
+**What needed doing next (2026-11-20):** when it reads "Ready to publish", press Publish (approval does not publish it). A
 `pending.json` check is set. Classic Literature, filed minutes earlier, was approved within minutes; this one has
 the rights question for a reviewer to read, so it may take longer.
