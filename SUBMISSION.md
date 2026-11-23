@@ -186,3 +186,20 @@ ZIP: `chatgpt-plugin.zip`, built by `python3 scripts/build_chatgpt_plugin.py --l
 | `what_readers_both_read` | True | False | False | Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request. |
 | `shakespeare_and_company_borrowing` | True | False | False | Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request. |
 <!-- /chatgpt-hints -->
+
+## xAI marketplace (Grok Bot, Cursor, Grok) — SUBMITTED 2026-11-23
+
+Filed 2026-11-23T02:25:18Z at x.ai/bot/marketplace/submit-a-plugin; the page answered "Thanks for submitting your plugin!".
+Status: pending review (xAI replies by email to the work address). Destinations ticked: Grok (coming soon), Grok Bot,
+Cursor. Org Brick and Mortar AI LLC, handle `brickandmortar`. Name Marginalia Corpus. Website https://marginalia-corpus.vercel.app/.
+Logo https://marginalia-corpus.vercel.app/icon-solid.png (solid plate, 1:1). MCP URL https://marginalia-corpus.vercel.app/mcp (the URL, never a repo). Cursor's Publisher Terms §3.1
+bar charging users "directly or indirectly" through the plugin; the connector itself is free.
+
+Description (592 chars):
+
+> The marks famous readers left in their own books, counted and quoted from eight scholarly archives: Melville's scores in Shakespeare, Gabriel Harvey's and John Dee's notes, Whitman, Derrida, Beckett, Luther, Erasmus, Nietzsche naming authors in his prose, and Sylvia Beach's Shakespeare and Company lending cards. Ask what a reader marked in an author, who read an author, what two readers both read, or what someone wrote in the margins about a subject. Own words, bare marks, attested copies and borrowings are kept apart, and every quoted passage carries the citation its archive asks for.
+
+Testing (466 chars):
+
+> No account or credentials needed. Add the MCP URL as a remote server, then try: 1) "What did Herman Melville mark in his copies of Shakespeare?" -> reader_marks: 761 marks across 8 volumes, 48 in his own words kept apart from 713 bare marks. 2) "Did Samuel Beckett read Proust?" -> yes: 192 notes in his own words and 458 bare marks across 15 volumes. 3) "Find marginal notes that mention a whale." -> search_marginalia: 64 matching passages, quoted with cite lines.
+
