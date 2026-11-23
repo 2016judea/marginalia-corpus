@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.2016judea/marginalia-corpus",
+  "title": "Marginalia Corpus",
+  "description": "What famous readers marked in their books: Melville, Harvey, Dee, Whitman, Derrida, Beckett",
+  "version": "1.0.0",
+  "websiteUrl": "https://marginalia-corpus.vercel.app/",
+  "repository": {
+    "url": "https://github.com/2016judea/marginalia-corpus",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://marginalia-corpus.vercel.app/mcp"
+    }
+  ]
+}

@@ -164,3 +164,5 @@ once, rights.py gating text, no images).
 **What needed doing next (2026-11-20):** when it reads "Ready to publish", press Publish (approval does not publish it). A
 `pending.json` check is set. Classic Literature, filed minutes earlier, was approved within minutes; this one has
 the rights question for a reviewer to read, so it may take longer.
+
+**Official MCP Registry (2026-11-22):** `io.github.2016judea/marginalia-corpus` 1.0.0, remote `https://marginalia-corpus.vercel.app/mcp`; `.github/workflows/mcp-registry.yml` republishes on every `server.json` version bump. Check: `curl "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.2016judea/marginalia-corpus"`.
