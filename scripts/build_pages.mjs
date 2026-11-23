@@ -75,7 +75,7 @@ ${example}
 <h2>Add it to Claude</h2>
 ${urlBox}
 <p class="small">Settings → Connectors → Add custom connector → paste the URL. No account, no key. <a href="/connect/">Full setup</a>.</p>
-<h2>Six tools</h2>
+<h2>${TOOLS.length} tools</h2>
 ${toolList}
 <h2>Three kinds of evidence, never added together</h2>
 <p><b>Own words</b>: the reader wrote in the margin. <b>Bare marks</b>: a score, underline or checkmark beside a passage. <b>Attested copies</b>: the reader owned or borrowed the book and no mark survives. A reader naming an author in their own prose is a fourth thing, a reference, and is counted apart.</p>

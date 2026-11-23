@@ -27,10 +27,10 @@ test("initialize names the server and carries the instructions", async () => {
   assert.match(r.result.instructions, /never add them together/);
 });
 
-test("tools/list: six tools, each with a title and every annotation an explicit boolean, all read-only", async () => {
+test("tools/list: eleven tools, each with a title and every annotation an explicit boolean, all read-only", async () => {
   const r = await rpc("tools/list");
   const tools = r.result.tools;
-  assert.deepEqual(tools.map((t) => t.name).sort(), ["about_the_corpus", "authors_read_by_many", "reader_marks", "reader_profile", "search_marginalia", "who_read_author"]);
+  assert.deepEqual(tools.map((t) => t.name).sort(), ["about_the_corpus", "authors_read_by_many", "did_reader_read_author", "reader_marks", "reader_profile", "search_marginalia", "shakespeare_and_company_borrowing", "what_reader_said_about", "what_reader_wrote_in_margins", "what_readers_both_read", "who_read_author"]);
   for (const t of tools) {
     assert.ok(t.title && t.description && t.inputSchema, t.name);
     for (const k of ["readOnlyHint", "destructiveHint", "openWorldHint", "idempotentHint"]) assert.equal(typeof t.annotations[k], "boolean", `${t.name}.${k}`);
@@ -230,4 +230,24 @@ test("the pages carry the analytics tag, every tool, and the corpus's own totals
   for (const s of Object.values(d.sources)) assert.ok(pages.connect.includes(s.citation.replace(/&/g, "&amp;").replace(/'/g, "'")), s.name);
   assert.match(pages.privacy, /which tool ran, whether it worked, and how long it took/);
   assert.match(fs.readFileSync(new URL("../public/icon-composer.svg", import.meta.url), "utf8"), /stroke="currentColor"/);
+});
+
+test("theme doors answer in the user's words", () => {
+  const yes = callTool("did_reader_read_author", { reader: "Melville", author: "Shakespeare" }).out;
+  assert.ok(yes.read === true && yes.answer.startsWith("Yes.") && yes.evidence.marked.own_words > 0);
+  const no = callTool("did_reader_read_author", { reader: "Melville", author: "Proust" }).out;
+  assert.ok(no.found === true && no.read === false && /not proof/.test(no.answer));
+  const notes = callTool("what_reader_wrote_in_margins", { reader: "Melville", author: "Milton", limit: 5 }).out;
+  assert.ok(notes.passages.length && notes.passages.every((p) => p.kind === "own words"));
+  const said = callTool("what_reader_said_about", { reader: "Nietzsche", subject: "Wagner", limit: 3 }).out;
+  assert.ok(said.hits.length === 3 && said.hits.every((h) => h.their_words));
+  const both = callTool("what_readers_both_read", { readers: ["Gabriel Harvey", "John Dee"] }).out;
+  assert.ok(both.authors.length > 0);
+  const joyce = callTool("shakespeare_and_company_borrowing", { author: "James Joyce" }).out;
+  assert.ok(joyce.borrowers_total > 10 && joyce.borrows_total >= joyce.borrowers_total && joyce.most_borrowed_titles.length);
+  const hem = callTool("shakespeare_and_company_borrowing", { reader: "Ernest Hemingway" }).out;
+  assert.ok(hem.found && hem.borrows_total > 50 && hem.by_author.every((a) => a.author));
+  const none = callTool("shakespeare_and_company_borrowing", { reader: "Herman Melville" }).out;
+  assert.equal(none.found, false);
+  assert.ok(callTool("shakespeare_and_company_borrowing", {}).isError);
 });

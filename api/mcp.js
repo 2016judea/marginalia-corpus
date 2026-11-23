@@ -4,11 +4,11 @@
 // The corpus is static: mcp/index.json.gz, built once by mcp/build_index.py from _data/, with
 // rights.py's emit_text gate applied at build time. Nothing here calls a source archive.
 import crypto from "node:crypto";
-import { SITE, readerMarks, whoReadAuthor, readerProfile, authorsReadByMany, searchMarginalia, aboutTheCorpus } from "../lib/marginalia.js";
+import { SITE, readerMarks, whoReadAuthor, readerProfile, authorsReadByMany, searchMarginalia, aboutTheCorpus, didReaderReadAuthor, shakespeareAndCompanyBorrowing } from "../lib/marginalia.js";
 
 const VERSION = "0.1.0";
 const PH_KEY = "phc_yFgRGppL6H7DvhgZTQKbHdrY5oqnpLT482rrNYtLqnAx"; // public project key, same block as the pages
-// All six tools read one static file bundled with the function: nothing is written, nothing
+// Every tool reads one static file bundled with the function: nothing is written, nothing
 // outside is reached, the same arguments give the same answer.
 const ANN = { readOnlyHint: true, destructiveHint: false, openWorldHint: false, idempotentHint: true };
 
@@ -83,11 +83,75 @@ export const TOOLS = [
     inputSchema: { type: "object", properties: {}, additionalProperties: false },
     annotations: { title: "About the corpus", ...ANN },
   },
+  // ---- theme doors (QUESTIONS.md, 2026-11-22): one named tool per kind of question ----
+  {
+    name: "did_reader_read_author",
+    title: "Did this reader read that author?",
+    description: "A yes or no, with the evidence, for whether one reader in the Marginalia Corpus read one author: marks they left in a copy (own words and bare marks), copies they held or borrowed with no surviving mark (including Shakespeare and Company lending-card borrows), references to the author in their own writing, and mentions of the author as a person in their notes. Each kind is reported on its own and never added together. A no means the surviving record holds no evidence, not that the reading never happened.\n\nExample questions:\n- \"Did Melville read Shakespeare?\"\n- \"Did Beckett read Proust?\"\n- \"Did Nietzsche ever mention Schopenhauer?\"",
+    inputSchema: { type: "object", properties: {
+      reader: { type: "string", description: "The reader, e.g. 'Melville', 'Samuel Beckett', 'Nietzsche'." },
+      author: { type: "string", description: "The author, e.g. 'Shakespeare', 'Proust', 'Emerson'." },
+    }, required: ["reader", "author"], additionalProperties: false },
+    annotations: { title: "Did a reader read an author", ...ANN },
+  },
+  {
+    name: "what_reader_wrote_in_margins",
+    title: "What a reader wrote in the margins",
+    description: "Only the notes one reader wrote in their own words in the margins of their books (not bare underlines or scores), from the Marginalia Corpus, optionally narrowed to one author, one title or a word. Each note comes with the printed passage it sits beside, the page, whether the source attributes the hand to the reader with certainty, and its cite line. Text a source withholds under its terms is counted, not quoted.\n\nExample questions:\n- \"What did Melville write in the margins of his Milton?\"\n- \"What notes did John Dee leave in his books?\"\n- \"Derrida's handwritten notes on Rousseau\"",
+    inputSchema: { type: "object", properties: {
+      reader: { type: "string", description: "The reader, e.g. 'Melville', 'John Dee', 'Derrida'." },
+      author: { type: "string", description: "Optional: the author whose books carry the notes, e.g. 'Milton'." },
+      title: { type: "string", description: "Optional: words from the book's title." },
+      contains: { type: "string", description: "Optional: only notes or passages containing these words." },
+      own_hand_only: { type: "boolean", description: "Optional: true keeps only notes the source attributes to the reader's own hand with certainty." },
+      limit: { type: "integer", minimum: 1, maximum: 30, description: "How many notes (default 10)." },
+    }, required: ["reader"], additionalProperties: false },
+    annotations: { title: "What a reader wrote in the margins", ...ANN },
+  },
+  {
+    name: "what_reader_said_about",
+    title: "What a reader said about a subject",
+    description: "Search one reader's own words in the Marginalia Corpus for a subject: their marginal notes, translations they wrote in, and (for Nietzsche and Derrida) their own published prose. The book author's printed lines are left out, so every hit is the reader speaking. Each hit carries the book, the page and its cite line.\n\nExample questions:\n- \"What did Melville say about God in his margins?\"\n- \"What did Nietzsche write about Wagner?\"\n- \"What did Luther write about Christ in his books?\"",
+    inputSchema: { type: "object", properties: {
+      reader: { type: "string", description: "The reader, e.g. 'Melville', 'Nietzsche', 'John Dee'." },
+      subject: { type: "string", description: "Words or a phrase to find in what they wrote, e.g. 'God', 'Wagner', 'whale'." },
+      limit: { type: "integer", minimum: 1, maximum: 30, description: "How many hits (default 10)." },
+    }, required: ["reader", "subject"], additionalProperties: false },
+    annotations: { title: "What a reader said about a subject", ...ANN },
+  },
+  {
+    name: "what_readers_both_read",
+    title: "Authors two or more readers both read",
+    description: "The authors that every one of two to six named readers has evidence of reading in the Marginalia Corpus, most readers first, with each reader's evidence kept by kind (marks, attested copies or borrows, references in their writing). Narrow to one kind of evidence with evidence.\n\nExample questions:\n- \"What did Melville and Beckett both read?\"\n- \"Which authors did John Dee and Gabriel Harvey both read?\"\n- \"Authors Gertrude Stein and Hemingway both borrowed\"",
+    inputSchema: { type: "object", properties: {
+      readers: { type: "array", items: { type: "string" }, minItems: 2, maxItems: 6, description: "Two to six readers, e.g. ['Melville', 'Beckett']." },
+      evidence: { type: "string", enum: ["any", "marked", "held_or_borrowed", "named"], description: "Which kind of evidence counts. Default any." },
+      limit: { type: "integer", minimum: 1, maximum: 200, description: "How many authors (default 20)." },
+    }, required: ["readers"], additionalProperties: false },
+    annotations: { title: "Authors readers both read", ...ANN },
+  },
+  {
+    name: "shakespeare_and_company_borrowing",
+    title: "Shakespeare and Company lending library: who borrowed what",
+    description: "Sylvia Beach's Shakespeare and Company lending cards (Paris, 1919-1941): who borrowed an author, with the most-borrowed titles and each member's dates; or, for one member, every author and title on their card. A borrow is attested contact with a copy, dated on the card, not proof of reading.\n\nExample questions:\n- \"What did Hemingway borrow from Shakespeare and Company?\"\n- \"Who borrowed Joyce from Sylvia Beach's library?\"\n- \"What did Gertrude Stein borrow from Sylvia Beach?\"",
+    inputSchema: { type: "object", properties: {
+      author: { type: "string", description: "The author borrowed, e.g. 'Joyce', 'D. H. Lawrence'. With reader, narrows that member's card to this author." },
+      reader: { type: "string", description: "A lending-library member, e.g. 'Hemingway', 'Gertrude Stein', 'Walter Benjamin'." },
+      limit: { type: "integer", minimum: 1, maximum: 200, description: "How many borrowers or authors to list (default 25)." },
+    }, additionalProperties: false },
+    annotations: { title: "Shakespeare and Company borrowing", ...ANN },
+  },
 ];
 
-export const INSTRUCTIONS = "The Marginalia Corpus is the physical evidence of reading: the marks famous readers left in their own books (Melville's scores in Shakespeare, Gabriel Harvey's and John Dee's notes, Whitman, Derrida, Beckett, Luther, Erasmus), Nietzsche naming authors in his prose, and Sylvia Beach's Shakespeare and Company lending cards. reader_marks answers what one reader marked in one author or book; who_read_author answers who read an author; reader_profile summarises one reader; authors_read_by_many finds authors several readers reached; search_marginalia searches the quotable text; about_the_corpus describes the sources and their terms. Quote counts exactly as returned. Own words, bare marks, attested copies and references are different kinds of evidence: report them separately and never add them together. marked_passage is the book author's printed words and reader_wrote is the reader's own words; never attribute one to the other. Where a source's text is withheld (Archaeology of Reading, Walt Whitman Archive, Beckett Digital Library), say it is withheld under that source's terms and do not reconstruct or paraphrase it. When quoting a passage, give its cite line, which carries the attribution the source requires. hand_is_reader false means the source does not attribute the mark to the reader with certainty; say so before crediting it to them.";
+export const INSTRUCTIONS = "The Marginalia Corpus is the physical evidence of reading: the marks famous readers left in their own books (Melville's scores in Shakespeare, Gabriel Harvey's and John Dee's notes, Whitman, Derrida, Beckett, Luther, Erasmus), Nietzsche naming authors in his prose, and Sylvia Beach's Shakespeare and Company lending cards. reader_marks answers what one reader marked in one author or book; who_read_author answers who read an author; reader_profile summarises one reader; authors_read_by_many finds authors several readers reached; search_marginalia searches the quotable text; about_the_corpus describes the sources and their terms. Shortcuts for common questions: did_reader_read_author (a yes or no with the evidence), what_reader_wrote_in_margins, what_reader_said_about, what_readers_both_read, shakespeare_and_company_borrowing. Quote counts exactly as returned. Own words, bare marks, attested copies and references are different kinds of evidence: report them separately and never add them together. marked_passage is the book author's printed words and reader_wrote is the reader's own words; never attribute one to the other. Where a source's text is withheld (Archaeology of Reading, Walt Whitman Archive, Beckett Digital Library), say it is withheld under that source's terms and do not reconstruct or paraphrase it. When quoting a passage, give its cite line, which carries the attribution the source requires. hand_is_reader false means the source does not attribute the mark to the reader with certainty; say so before crediting it to them.";
 
-const HANDLERS = { reader_marks: readerMarks, who_read_author: whoReadAuthor, reader_profile: readerProfile, authors_read_by_many: authorsReadByMany, search_marginalia: searchMarginalia, about_the_corpus: aboutTheCorpus };
+const HANDLERS = { reader_marks: readerMarks, who_read_author: whoReadAuthor, reader_profile: readerProfile, authors_read_by_many: authorsReadByMany, search_marginalia: searchMarginalia, about_the_corpus: aboutTheCorpus,
+  did_reader_read_author: didReaderReadAuthor,
+  what_reader_wrote_in_margins: (a) => readerMarks({ ...a, kind: "own_words" }),
+  what_reader_said_about: (a) => searchMarginalia({ query: a.subject, reader: a.reader, where: "reader_words", limit: a.limit }),
+  what_readers_both_read: (a) => authorsReadByMany({ readers: a.readers, evidence: a.evidence, limit: a.limit, min_readers: 2 }),
+  shakespeare_and_company_borrowing: shakespeareAndCompanyBorrowing,
+};
 
 export function callTool(name, args = {}) {
   const h = HANDLERS[name];
@@ -97,12 +161,13 @@ export function callTool(name, args = {}) {
 
 // One event per call: tool, ok, duration. distinct_id is random per call, so no person is
 // profiled and nothing about the caller (address, agent, words) reaches PostHog.
-async function logCall(tool, ok, ms, meta) {
+// attempted: a tool name a caller reached for that does not exist (letters, digits, _.- only, 60 chars).
+async function logCall(tool, ok, ms, meta, attempted) {
   if (process.env.MARGINALIA_NO_ANALYTICS || meta.test) return;
   try {
     await fetch("https://us.i.posthog.com/capture/", { method: "POST", headers: { "content-type": "application/json" }, signal: AbortSignal.timeout(1500),
       body: JSON.stringify({ api_key: PH_KEY, event: "mcp_tool_call", distinct_id: "mcp_" + crypto.randomUUID(),
-        properties: { tool, ok, ms, site: "marginalia-corpus", $process_person_profile: false, $lib: "marginalia-corpus-mcp" } }) });
+        properties: { tool, ok, ms, ...(attempted ? { attempted } : {}), site: "marginalia-corpus", $process_person_profile: false, $lib: "marginalia-corpus-mcp" } }) });
   } catch {}
 }
 
@@ -119,7 +184,7 @@ export async function handleOne(msg, meta = {}) {
     let r;
     try { r = callTool(tool, (params && params.arguments) || {}); }
     catch (e) { r = { out: { ok: false, error: "Error: " + e.message }, isError: true }; }
-    await logCall(HANDLERS[tool] ? tool : "unknown", !r.isError, Date.now() - t0, meta);
+    await logCall(HANDLERS[tool] ? tool : "unknown", !r.isError, Date.now() - t0, meta, HANDLERS[tool] ? undefined : tool.replace(/[^A-Za-z0-9_.-]/g, "").slice(0, 60));
     return ok({ ...text(r.out), ...(r.isError ? { isError: true } : {}) });
   }
   if (method === "resources/list") return ok({ resources: [] });
