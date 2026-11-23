@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "marginalia-corpus": {
+      "type": "streamable-http",
+      "url": "https://marginalia-corpus.vercel.app/mcp"
+    }
+  }
+}

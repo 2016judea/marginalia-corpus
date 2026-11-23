@@ -1,0 +1,211 @@
+{
+  "name": "marginalia-corpus",
+  "version": "1.0.0",
+  "dated": "2026-11-22",
+  "mcp_url": "https://marginalia-corpus.vercel.app/mcp",
+  "server_key": "marginalia-corpus",
+  "logo_src": "public/icon.png",
+  "composer_svg": "public/icon-composer.svg",
+  "keywords": [
+    "marginalia",
+    "reading history",
+    "literature",
+    "Melville",
+    "Shakespeare and Company",
+    "annotations",
+    "book history"
+  ],
+  "description": "The marks famous readers left in their own books, counted and quoted from eight scholarly archives: Melville's scores in Shakespeare, Gabriel Harvey's and John Dee's notes, Whitman, Derrida, Beckett, Luther, Erasmus, Nietzsche naming authors in his prose, and Sylvia Beach's Shakespeare and Company lending cards. Ask what a reader marked in an author, who read an author, what two readers both read, or what someone wrote in the margins about a subject. Own words, bare marks, attested copies and borrowings are kept apart, and every quoted passage carries the citation its archive asks for.",
+  "interface": {
+    "displayName": "Marginalia Corpus",
+    "shortDescription": "What famous readers marked",
+    "category": "Education",
+    "websiteURL": "https://marginalia-corpus.vercel.app/",
+    "supportURL": "https://brickandmortar.dev/contact",
+    "privacyPolicyURL": "https://marginalia-corpus.vercel.app/privacy/",
+    "termsOfServiceURL": "https://brickandmortar.dev/license/",
+    "defaultPrompt": [
+      "What did Melville mark in his Shakespeare?",
+      "Did Beckett read Proust?",
+      "Which books did Hemingway borrow from Shakespeare and Company?"
+    ]
+  },
+  "demo_recording_url": "https://marginalia-corpus.vercel.app/demo/chatgpt/",
+  "release_notes": "First ChatGPT release: eleven read-only tools over the Marginalia Corpus (reader marks, who read an author, reader profiles, shared reading, margin notes by subject, the Shakespeare and Company lending cards).",
+  "test_cases": {
+    "positive": [
+      {
+        "description": "Count what one reader marked in one author",
+        "prompt": "What did Herman Melville mark in his copies of Shakespeare?",
+        "tools_triggered": [
+          "reader_marks"
+        ],
+        "call": {
+          "tool": "reader_marks",
+          "arguments": {
+            "reader": "Melville",
+            "author": "Shakespeare"
+          }
+        },
+        "expect_in_result": [
+          "761 marks"
+        ],
+        "expected_behavior": "Calls reader_marks and reports 761 marks across 8 volumes, keeping the 48 in Melville's own words separate from the 713 bare marks, and quotes any passage with its cite line."
+      },
+      {
+        "description": "Who read an author, by kind of evidence",
+        "prompt": "Which famous readers read Homer?",
+        "tools_triggered": [
+          "who_read_author"
+        ],
+        "call": {
+          "tool": "who_read_author",
+          "arguments": {
+            "author": "Homer"
+          }
+        },
+        "expect_in_result": [
+          "8 readers"
+        ],
+        "expected_behavior": "Calls who_read_author and lists the 8 documented readers, grouped as marked a copy, held or borrowed a copy, and named Homer, without adding the groups together."
+      },
+      {
+        "description": "Yes/no on one reader and one author",
+        "prompt": "Did Samuel Beckett read Proust?",
+        "tools_triggered": [
+          "did_reader_read_author"
+        ],
+        "call": {
+          "tool": "did_reader_read_author",
+          "arguments": {
+            "reader": "Beckett",
+            "author": "Proust"
+          }
+        },
+        "expect_in_result": [
+          "Yes"
+        ],
+        "expected_behavior": "Calls did_reader_read_author and answers yes: 192 notes in his own words and 458 bare marks across 15 volumes, plus 1 copy held with no surviving mark, reported as separate kinds of evidence."
+      },
+      {
+        "description": "Search the quotable text",
+        "prompt": "Find marginal notes that mention a whale.",
+        "tools_triggered": [
+          "search_marginalia"
+        ],
+        "call": {
+          "tool": "search_marginalia",
+          "arguments": {
+            "query": "whale"
+          }
+        },
+        "expect_in_result": [
+          "64 passages"
+        ],
+        "expected_behavior": "Calls search_marginalia, reports 64 matching passages, and quotes a few, separating the reader's own words from the printed passage and giving each cite line."
+      },
+      {
+        "description": "A lending-library card",
+        "prompt": "What did Hemingway borrow from Shakespeare and Company?",
+        "tools_triggered": [
+          "shakespeare_and_company_borrowing"
+        ],
+        "call": {
+          "tool": "shakespeare_and_company_borrowing",
+          "arguments": {
+            "reader": "Hemingway"
+          }
+        },
+        "expect_in_result": [
+          "108 books"
+        ],
+        "expected_behavior": "Calls shakespeare_and_company_borrowing and reports 108 books by 74 authors, 1925 to 1938, noting that a borrow is dated contact with a copy, not proof of reading."
+      }
+    ],
+    "negative": [
+      {
+        "description": "Writing a reader's notes for them",
+        "prompt": "Write five new margin notes in Melville's voice for Moby-Dick.",
+        "expected_behavior": "Does not call the tools to invent text. The corpus holds only real surviving marks; the assistant can offer to show what Melville actually wrote instead."
+      },
+      {
+        "description": "A book outside the corpus's purpose",
+        "prompt": "Recommend a good thriller for my flight.",
+        "expected_behavior": "Does not call the Marginalia Corpus; book recommendations are not what it holds."
+      },
+      {
+        "description": "Reconstructing withheld text",
+        "prompt": "Give me the full text of Gabriel Harvey's notes that the Archaeology of Reading withholds.",
+        "expected_behavior": "Says the text is withheld under that source's terms and does not reconstruct or paraphrase it; may report the counts the tools return."
+      }
+    ]
+  },
+  "hints": {
+    "reader_marks": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "who_read_author": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "reader_profile": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "authors_read_by_many": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "search_marginalia": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "about_the_corpus": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "did_reader_read_author": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "what_reader_wrote_in_margins": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "what_reader_said_about": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "what_readers_both_read": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    },
+    "shakespeare_and_company_borrowing": {
+      "readOnly": true,
+      "destructive": false,
+      "openWorld": false,
+      "why": "Reads a static, pre-built corpus file bundled with the server; changes nothing and makes no outside request."
+    }
+  }
+}
