@@ -160,14 +160,18 @@ export function callTool(name, args = {}) {
 }
 
 // One event per call: tool, ok, duration. distinct_id is random per call, so no person is
-// profiled and nothing about the caller (address, agent, words) reaches PostHog.
+// profiled. The calling app's name (its user-agent) is logged; the caller's address and words are not.
 // attempted: a tool name a caller reached for that does not exist (letters, digits, _.- only, 60 chars).
+// The calling app, from its user-agent (Claude-User, openai-mcp, a crawler's name): no person, only the app.
+const clientOf = (ua) => (/claude/i.test(ua) ? "claude" : /openai|chatgpt/i.test(ua) ? "chatgpt" : /grok|xai/i.test(ua) ? "grok" : /cursor/i.test(ua) ? "cursor" : /node|undici|python|curl/i.test(ua) ? "script" : "other");
+const clientProps = (ua = "") => ({ client: clientOf(ua), client_ua: ua.split(/[\/\s]/)[0].slice(0, 40), client_ua_full: ua.slice(0, 120) });
+
 async function logCall(tool, ok, ms, meta, attempted) {
   if (process.env.MARGINALIA_NO_ANALYTICS || meta.test) return;
   try {
     await fetch("https://us.i.posthog.com/capture/", { method: "POST", headers: { "content-type": "application/json" }, signal: AbortSignal.timeout(1500),
       body: JSON.stringify({ api_key: PH_KEY, event: "mcp_tool_call", distinct_id: "mcp_" + crypto.randomUUID(),
-        properties: { tool, ok, ms, ...(attempted ? { attempted } : {}), site: "marginalia-corpus", $process_person_profile: false, $lib: "marginalia-corpus-mcp" } }) });
+        properties: { tool, ok, ms, ...(attempted ? { attempted } : {}), ...clientProps(meta.ua), site: "marginalia-corpus", $process_person_profile: false, $lib: "marginalia-corpus-mcp" } }) });
   } catch {}
 }
 
@@ -210,7 +214,8 @@ export default async function handler(req, res) {
   if (req.method === "DELETE") { res.statusCode = 204; return res.end(); }
   let body;
   try { body = await readBody(req); } catch { res.statusCode = 400; res.setHeader("content-type", "application/json"); return res.end(JSON.stringify({ jsonrpc: "2.0", id: null, error: { code: -32700, message: "Parse error" } })); }
-  const meta = { test: !!req.headers["x-marginalia-test"] };
+  const ua = String(req.headers["user-agent"] || "");
+  const meta = { test: !!req.headers["x-marginalia-test"], ua };
   const batch = Array.isArray(body);
   const out = (await Promise.all((batch ? body : [body]).map((m) => handleOne(m, meta)))).filter(Boolean);
   if (!out.length) { res.statusCode = 202; return res.end(); }

@@ -101,13 +101,13 @@ ${toolList}
 ${credits}
 </main>` + foot,
 
-  "privacy/index.html": head("Privacy | Marginalia Corpus", "The Marginalia Corpus connector logs which tool ran, whether it worked and how long it took. Nothing identifying, and never what was asked.", SITE + "/privacy/") + `
+  "privacy/index.html": head("Privacy | Marginalia Corpus", "The Marginalia Corpus connector logs which tool ran, whether it worked, how long it took and which app called it. Nothing identifying, and never what was asked.", SITE + "/privacy/") + `
 <main class="wrap">
 <h1>Privacy</h1>
 <p class="lede">Last updated November 22, 2026. The Marginalia Corpus is run by Brick and Mortar AI LLC, Saint Paul, Minnesota, which is responsible for the connector and this site. It needs nothing about you: there is no account and nothing to sign in to.</p>
 <p><b>What the connector receives.</b> Only what your assistant (Claude, ChatGPT or another app) sends with a tool call: a reader's name, an author or book title, or a few search words. It does not receive your conversation, your name, your email or your account with that app.</p>
 <p><b>What it does with it.</b> Those words are matched against a static file and then dropped when the call ends. They are not stored, logged, used to train any model, sold or shared. No model runs on our side.</p>
-<p><b>What is counted.</b> For each call we send one event to PostHog with three things: which tool ran, whether it worked, and how long it took. No IP address, no user agent, no account, nothing that identifies you or your words. These events are kept while the connector runs, to see which tools are used and which fail.</p>
+<p><b>What is counted.</b> For each call we send one event to PostHog with four things: which tool ran, whether it worked, how long it took, and the name of the app that called it (its user agent, such as Claude or ChatGPT). No IP address, no account, nothing that identifies you or your words. These events are kept while the connector runs, to see which tools are used and which fail.</p>
 <p><b>This website.</b> We count visits with Vercel Web Analytics (no cookies) and PostHog: pages viewed, the copy button, and whether a visit came from the connector (<code>src=mcp</code> in the link).</p>
 <p><b>Who else handles it.</b> Vercel hosts the connector and this site and keeps short-lived request logs (time, path, IP address) under its own privacy policy. PostHog stores the counts above. Nothing is shared with anyone else, and nothing is sold.</p>
 <p><b>The data.</b> The corpus is a static file built from public scholarly archives (credited on the <a href="/connect/">connect page</a>). The connector does not call those archives and sends them nothing.</p>
